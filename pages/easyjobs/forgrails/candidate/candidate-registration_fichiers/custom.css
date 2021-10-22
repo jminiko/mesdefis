@@ -1,0 +1,30 @@
+#sp-top2 a {
+    color: white !important;
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+#sp-top2{
+  padding-right: 0px !important;
+}
+
+.sp-megamenu-parent>li{
+    border-right: 1px solid #efefefe7;
+}
+
+.sp-megamenu-parent>li:nth-child(1){
+  	border-left: 1px solid #efefefe7;
+}
+
+#sp-header .logo a {
+    font-size: 20px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+#sp-main-body {
+    padding: 50px 0;
+}

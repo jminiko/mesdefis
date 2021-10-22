@@ -1,0 +1,5899 @@
+/*!
+* Font Awesome Free 5.11.2 by @fontawesome - https://fontawesome.com
+* License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+*/
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+
+#jb_template .fa,
+#jb_template .fas,
+#jb_template .far,
+#jb_template .fal,
+#jb_template .fad,
+#jb_template .fab, .jb_template .fa,
+.jb_template .fas,
+.jb_template .far,
+.jb_template .fal,
+.jb_template .fad,
+.jb_template .fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+#jb_template .fa-lg, .jb_template .fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em;
+}
+
+#jb_template .fa-xs, .jb_template .fa-xs {
+  font-size: .75em;
+}
+
+#jb_template .fa-sm, .jb_template .fa-sm {
+  font-size: .875em;
+}
+
+#jb_template .fa-1x, .jb_template .fa-1x {
+  font-size: 1em;
+}
+
+#jb_template .fa-2x, .jb_template .fa-2x {
+  font-size: 2em;
+}
+
+#jb_template .fa-3x, .jb_template .fa-3x {
+  font-size: 3em;
+}
+
+#jb_template .fa-4x, .jb_template .fa-4x {
+  font-size: 4em;
+}
+
+#jb_template .fa-5x, .jb_template .fa-5x {
+  font-size: 5em;
+}
+
+#jb_template .fa-6x, .jb_template .fa-6x {
+  font-size: 6em;
+}
+
+#jb_template .fa-7x, .jb_template .fa-7x {
+  font-size: 7em;
+}
+
+#jb_template .fa-8x, .jb_template .fa-8x {
+  font-size: 8em;
+}
+
+#jb_template .fa-9x, .jb_template .fa-9x {
+  font-size: 9em;
+}
+
+#jb_template .fa-10x, .jb_template .fa-10x {
+  font-size: 10em;
+}
+
+#jb_template .fa-fw, .jb_template .fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+#jb_template .fa-ul, .jb_template .fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+
+#jb_template .fa-ul > li, .jb_template .fa-ul > li {
+  position: relative;
+}
+
+#jb_template .fa-li, .jb_template .fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+#jb_template .fa-border, .jb_template .fa-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+
+#jb_template .fa-pull-left, .jb_template .fa-pull-left {
+  float: left;
+}
+
+#jb_template .fa-pull-right, .jb_template .fa-pull-right {
+  float: right;
+}
+
+#jb_template .fa.fa-pull-left,
+#jb_template .fas.fa-pull-left,
+#jb_template .far.fa-pull-left,
+#jb_template .fal.fa-pull-left,
+#jb_template .fab.fa-pull-left, .jb_template .fa.fa-pull-left,
+.jb_template .fas.fa-pull-left,
+.jb_template .far.fa-pull-left,
+.jb_template .fal.fa-pull-left,
+.jb_template .fab.fa-pull-left {
+  margin-right: .3em;
+}
+
+#jb_template .fa.fa-pull-right,
+#jb_template .fas.fa-pull-right,
+#jb_template .far.fa-pull-right,
+#jb_template .fal.fa-pull-right,
+#jb_template .fab.fa-pull-right, .jb_template .fa.fa-pull-right,
+.jb_template .fas.fa-pull-right,
+.jb_template .far.fa-pull-right,
+.jb_template .fal.fa-pull-right,
+.jb_template .fab.fa-pull-right {
+  margin-left: .3em;
+}
+
+#jb_template .fa-spin, .jb_template .fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+#jb_template .fa-pulse, .jb_template .fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+#jb_template .fa-rotate-90, .jb_template .fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+#jb_template .fa-rotate-180, .jb_template .fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+#jb_template .fa-rotate-270, .jb_template .fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+#jb_template .fa-flip-horizontal, .jb_template .fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+#jb_template .fa-flip-vertical, .jb_template .fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+#jb_template .fa-flip-both, #jb_template .fa-flip-horizontal.fa-flip-vertical, .jb_template .fa-flip-both, .jb_template .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+#jb_template :root .fa-rotate-90,
+#jb_template :root .fa-rotate-180,
+#jb_template :root .fa-rotate-270,
+#jb_template :root .fa-flip-horizontal,
+#jb_template :root .fa-flip-vertical,
+#jb_template :root .fa-flip-both, .jb_template :root .fa-rotate-90,
+.jb_template :root .fa-rotate-180,
+.jb_template :root .fa-rotate-270,
+.jb_template :root .fa-flip-horizontal,
+.jb_template :root .fa-flip-vertical,
+.jb_template :root .fa-flip-both {
+  -webkit-filter: none;
+  filter: none;
+}
+
+#jb_template .fa-stack, .jb_template .fa-stack {
+  display: inline-block;
+  height: 2em;
+  line-height: 2em;
+  position: relative;
+  vertical-align: middle;
+  width: 2.5em;
+}
+
+#jb_template .fa-stack-1x,
+#jb_template .fa-stack-2x, .jb_template .fa-stack-1x,
+.jb_template .fa-stack-2x {
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+#jb_template .fa-stack-1x, .jb_template .fa-stack-1x {
+  line-height: inherit;
+}
+
+#jb_template .fa-stack-2x, .jb_template .fa-stack-2x {
+  font-size: 2em;
+}
+
+#jb_template .fa-inverse, .jb_template .fa-inverse {
+  color: #fff;
+}
+
+#jb_template .fa-500px:before, .jb_template .fa-500px:before {
+  content: "\f26e";
+}
+
+#jb_template .fa-accessible-icon:before, .jb_template .fa-accessible-icon:before {
+  content: "\f368";
+}
+
+#jb_template .fa-accusoft:before, .jb_template .fa-accusoft:before {
+  content: "\f369";
+}
+
+#jb_template .fa-acquisitions-incorporated:before, .jb_template .fa-acquisitions-incorporated:before {
+  content: "\f6af";
+}
+
+#jb_template .fa-ad:before, .jb_template .fa-ad:before {
+  content: "\f641";
+}
+
+#jb_template .fa-address-book:before, .jb_template .fa-address-book:before {
+  content: "\f2b9";
+}
+
+#jb_template .fa-address-card:before, .jb_template .fa-address-card:before {
+  content: "\f2bb";
+}
+
+#jb_template .fa-adjust:before, .jb_template .fa-adjust:before {
+  content: "\f042";
+}
+
+#jb_template .fa-adn:before, .jb_template .fa-adn:before {
+  content: "\f170";
+}
+
+#jb_template .fa-adobe:before, .jb_template .fa-adobe:before {
+  content: "\f778";
+}
+
+#jb_template .fa-adversal:before, .jb_template .fa-adversal:before {
+  content: "\f36a";
+}
+
+#jb_template .fa-affiliatetheme:before, .jb_template .fa-affiliatetheme:before {
+  content: "\f36b";
+}
+
+#jb_template .fa-air-freshener:before, .jb_template .fa-air-freshener:before {
+  content: "\f5d0";
+}
+
+#jb_template .fa-airbnb:before, .jb_template .fa-airbnb:before {
+  content: "\f834";
+}
+
+#jb_template .fa-algolia:before, .jb_template .fa-algolia:before {
+  content: "\f36c";
+}
+
+#jb_template .fa-align-center:before, .jb_template .fa-align-center:before {
+  content: "\f037";
+}
+
+#jb_template .fa-align-justify:before, .jb_template .fa-align-justify:before {
+  content: "\f039";
+}
+
+#jb_template .fa-align-left:before, .jb_template .fa-align-left:before {
+  content: "\f036";
+}
+
+#jb_template .fa-align-right:before, .jb_template .fa-align-right:before {
+  content: "\f038";
+}
+
+#jb_template .fa-alipay:before, .jb_template .fa-alipay:before {
+  content: "\f642";
+}
+
+#jb_template .fa-allergies:before, .jb_template .fa-allergies:before {
+  content: "\f461";
+}
+
+#jb_template .fa-amazon:before, .jb_template .fa-amazon:before {
+  content: "\f270";
+}
+
+#jb_template .fa-amazon-pay:before, .jb_template .fa-amazon-pay:before {
+  content: "\f42c";
+}
+
+#jb_template .fa-ambulance:before, .jb_template .fa-ambulance:before {
+  content: "\f0f9";
+}
+
+#jb_template .fa-american-sign-language-interpreting:before, .jb_template .fa-american-sign-language-interpreting:before {
+  content: "\f2a3";
+}
+
+#jb_template .fa-amilia:before, .jb_template .fa-amilia:before {
+  content: "\f36d";
+}
+
+#jb_template .fa-anchor:before, .jb_template .fa-anchor:before {
+  content: "\f13d";
+}
+
+#jb_template .fa-android:before, .jb_template .fa-android:before {
+  content: "\f17b";
+}
+
+#jb_template .fa-angellist:before, .jb_template .fa-angellist:before {
+  content: "\f209";
+}
+
+#jb_template .fa-angle-double-down:before, .jb_template .fa-angle-double-down:before {
+  content: "\f103";
+}
+
+#jb_template .fa-angle-double-left:before, .jb_template .fa-angle-double-left:before {
+  content: "\f100";
+}
+
+#jb_template .fa-angle-double-right:before, .jb_template .fa-angle-double-right:before {
+  content: "\f101";
+}
+
+#jb_template .fa-angle-double-up:before, .jb_template .fa-angle-double-up:before {
+  content: "\f102";
+}
+
+#jb_template .fa-angle-down:before, .jb_template .fa-angle-down:before {
+  content: "\f107";
+}
+
+#jb_template .fa-angle-left:before, .jb_template .fa-angle-left:before {
+  content: "\f104";
+}
+
+#jb_template .fa-angle-right:before, .jb_template .fa-angle-right:before {
+  content: "\f105";
+}
+
+#jb_template .fa-angle-up:before, .jb_template .fa-angle-up:before {
+  content: "\f106";
+}
+
+#jb_template .fa-angry:before, .jb_template .fa-angry:before {
+  content: "\f556";
+}
+
+#jb_template .fa-angrycreative:before, .jb_template .fa-angrycreative:before {
+  content: "\f36e";
+}
+
+#jb_template .fa-angular:before, .jb_template .fa-angular:before {
+  content: "\f420";
+}
+
+#jb_template .fa-ankh:before, .jb_template .fa-ankh:before {
+  content: "\f644";
+}
+
+#jb_template .fa-app-store:before, .jb_template .fa-app-store:before {
+  content: "\f36f";
+}
+
+#jb_template .fa-app-store-ios:before, .jb_template .fa-app-store-ios:before {
+  content: "\f370";
+}
+
+#jb_template .fa-apper:before, .jb_template .fa-apper:before {
+  content: "\f371";
+}
+
+#jb_template .fa-apple:before, .jb_template .fa-apple:before {
+  content: "\f179";
+}
+
+#jb_template .fa-apple-alt:before, .jb_template .fa-apple-alt:before {
+  content: "\f5d1";
+}
+
+#jb_template .fa-apple-pay:before, .jb_template .fa-apple-pay:before {
+  content: "\f415";
+}
+
+#jb_template .fa-archive:before, .jb_template .fa-archive:before {
+  content: "\f187";
+}
+
+#jb_template .fa-archway:before, .jb_template .fa-archway:before {
+  content: "\f557";
+}
+
+#jb_template .fa-arrow-alt-circle-down:before, .jb_template .fa-arrow-alt-circle-down:before {
+  content: "\f358";
+}
+
+#jb_template .fa-arrow-alt-circle-left:before, .jb_template .fa-arrow-alt-circle-left:before {
+  content: "\f359";
+}
+
+#jb_template .fa-arrow-alt-circle-right:before, .jb_template .fa-arrow-alt-circle-right:before {
+  content: "\f35a";
+}
+
+#jb_template .fa-arrow-alt-circle-up:before, .jb_template .fa-arrow-alt-circle-up:before {
+  content: "\f35b";
+}
+
+#jb_template .fa-arrow-circle-down:before, .jb_template .fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+#jb_template .fa-arrow-circle-left:before, .jb_template .fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+#jb_template .fa-arrow-circle-right:before, .jb_template .fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+#jb_template .fa-arrow-circle-up:before, .jb_template .fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+#jb_template .fa-arrow-down:before, .jb_template .fa-arrow-down:before {
+  content: "\f063";
+}
+
+#jb_template .fa-arrow-left:before, .jb_template .fa-arrow-left:before {
+  content: "\f060";
+}
+
+#jb_template .fa-arrow-right:before, .jb_template .fa-arrow-right:before {
+  content: "\f061";
+}
+
+#jb_template .fa-arrow-up:before, .jb_template .fa-arrow-up:before {
+  content: "\f062";
+}
+
+#jb_template .fa-arrows-alt:before, .jb_template .fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+#jb_template .fa-arrows-alt-h:before, .jb_template .fa-arrows-alt-h:before {
+  content: "\f337";
+}
+
+#jb_template .fa-arrows-alt-v:before, .jb_template .fa-arrows-alt-v:before {
+  content: "\f338";
+}
+
+#jb_template .fa-artstation:before, .jb_template .fa-artstation:before {
+  content: "\f77a";
+}
+
+#jb_template .fa-assistive-listening-systems:before, .jb_template .fa-assistive-listening-systems:before {
+  content: "\f2a2";
+}
+
+#jb_template .fa-asterisk:before, .jb_template .fa-asterisk:before {
+  content: "\f069";
+}
+
+#jb_template .fa-asymmetrik:before, .jb_template .fa-asymmetrik:before {
+  content: "\f372";
+}
+
+#jb_template .fa-at:before, .jb_template .fa-at:before {
+  content: "\f1fa";
+}
+
+#jb_template .fa-atlas:before, .jb_template .fa-atlas:before {
+  content: "\f558";
+}
+
+#jb_template .fa-atlassian:before, .jb_template .fa-atlassian:before {
+  content: "\f77b";
+}
+
+#jb_template .fa-atom:before, .jb_template .fa-atom:before {
+  content: "\f5d2";
+}
+
+#jb_template .fa-audible:before, .jb_template .fa-audible:before {
+  content: "\f373";
+}
+
+#jb_template .fa-audio-description:before, .jb_template .fa-audio-description:before {
+  content: "\f29e";
+}
+
+#jb_template .fa-autoprefixer:before, .jb_template .fa-autoprefixer:before {
+  content: "\f41c";
+}
+
+#jb_template .fa-avianex:before, .jb_template .fa-avianex:before {
+  content: "\f374";
+}
+
+#jb_template .fa-aviato:before, .jb_template .fa-aviato:before {
+  content: "\f421";
+}
+
+#jb_template .fa-award:before, .jb_template .fa-award:before {
+  content: "\f559";
+}
+
+#jb_template .fa-aws:before, .jb_template .fa-aws:before {
+  content: "\f375";
+}
+
+#jb_template .fa-baby:before, .jb_template .fa-baby:before {
+  content: "\f77c";
+}
+
+#jb_template .fa-baby-carriage:before, .jb_template .fa-baby-carriage:before {
+  content: "\f77d";
+}
+
+#jb_template .fa-backspace:before, .jb_template .fa-backspace:before {
+  content: "\f55a";
+}
+
+#jb_template .fa-backward:before, .jb_template .fa-backward:before {
+  content: "\f04a";
+}
+
+#jb_template .fa-bacon:before, .jb_template .fa-bacon:before {
+  content: "\f7e5";
+}
+
+#jb_template .fa-balance-scale:before, .jb_template .fa-balance-scale:before {
+  content: "\f24e";
+}
+
+#jb_template .fa-balance-scale-left:before, .jb_template .fa-balance-scale-left:before {
+  content: "\f515";
+}
+
+#jb_template .fa-balance-scale-right:before, .jb_template .fa-balance-scale-right:before {
+  content: "\f516";
+}
+
+#jb_template .fa-ban:before, .jb_template .fa-ban:before {
+  content: "\f05e";
+}
+
+#jb_template .fa-band-aid:before, .jb_template .fa-band-aid:before {
+  content: "\f462";
+}
+
+#jb_template .fa-bandcamp:before, .jb_template .fa-bandcamp:before {
+  content: "\f2d5";
+}
+
+#jb_template .fa-barcode:before, .jb_template .fa-barcode:before {
+  content: "\f02a";
+}
+
+#jb_template .fa-bars:before, .jb_template .fa-bars:before {
+  content: "\f0c9";
+}
+
+#jb_template .fa-baseball-ball:before, .jb_template .fa-baseball-ball:before {
+  content: "\f433";
+}
+
+#jb_template .fa-basketball-ball:before, .jb_template .fa-basketball-ball:before {
+  content: "\f434";
+}
+
+#jb_template .fa-bath:before, .jb_template .fa-bath:before {
+  content: "\f2cd";
+}
+
+#jb_template .fa-battery-empty:before, .jb_template .fa-battery-empty:before {
+  content: "\f244";
+}
+
+#jb_template .fa-battery-full:before, .jb_template .fa-battery-full:before {
+  content: "\f240";
+}
+
+#jb_template .fa-battery-half:before, .jb_template .fa-battery-half:before {
+  content: "\f242";
+}
+
+#jb_template .fa-battery-quarter:before, .jb_template .fa-battery-quarter:before {
+  content: "\f243";
+}
+
+#jb_template .fa-battery-three-quarters:before, .jb_template .fa-battery-three-quarters:before {
+  content: "\f241";
+}
+
+#jb_template .fa-battle-net:before, .jb_template .fa-battle-net:before {
+  content: "\f835";
+}
+
+#jb_template .fa-bed:before, .jb_template .fa-bed:before {
+  content: "\f236";
+}
+
+#jb_template .fa-beer:before, .jb_template .fa-beer:before {
+  content: "\f0fc";
+}
+
+#jb_template .fa-behance:before, .jb_template .fa-behance:before {
+  content: "\f1b4";
+}
+
+#jb_template .fa-behance-square:before, .jb_template .fa-behance-square:before {
+  content: "\f1b5";
+}
+
+#jb_template .fa-bell:before, .jb_template .fa-bell:before {
+  content: "\f0f3";
+}
+
+#jb_template .fa-bell-slash:before, .jb_template .fa-bell-slash:before {
+  content: "\f1f6";
+}
+
+#jb_template .fa-bezier-curve:before, .jb_template .fa-bezier-curve:before {
+  content: "\f55b";
+}
+
+#jb_template .fa-bible:before, .jb_template .fa-bible:before {
+  content: "\f647";
+}
+
+#jb_template .fa-bicycle:before, .jb_template .fa-bicycle:before {
+  content: "\f206";
+}
+
+#jb_template .fa-biking:before, .jb_template .fa-biking:before {
+  content: "\f84a";
+}
+
+#jb_template .fa-bimobject:before, .jb_template .fa-bimobject:before {
+  content: "\f378";
+}
+
+#jb_template .fa-binoculars:before, .jb_template .fa-binoculars:before {
+  content: "\f1e5";
+}
+
+#jb_template .fa-biohazard:before, .jb_template .fa-biohazard:before {
+  content: "\f780";
+}
+
+#jb_template .fa-birthday-cake:before, .jb_template .fa-birthday-cake:before {
+  content: "\f1fd";
+}
+
+#jb_template .fa-bitbucket:before, .jb_template .fa-bitbucket:before {
+  content: "\f171";
+}
+
+#jb_template .fa-bitcoin:before, .jb_template .fa-bitcoin:before {
+  content: "\f379";
+}
+
+#jb_template .fa-bity:before, .jb_template .fa-bity:before {
+  content: "\f37a";
+}
+
+#jb_template .fa-black-tie:before, .jb_template .fa-black-tie:before {
+  content: "\f27e";
+}
+
+#jb_template .fa-blackberry:before, .jb_template .fa-blackberry:before {
+  content: "\f37b";
+}
+
+#jb_template .fa-blender:before, .jb_template .fa-blender:before {
+  content: "\f517";
+}
+
+#jb_template .fa-blender-phone:before, .jb_template .fa-blender-phone:before {
+  content: "\f6b6";
+}
+
+#jb_template .fa-blind:before, .jb_template .fa-blind:before {
+  content: "\f29d";
+}
+
+#jb_template .fa-blog:before, .jb_template .fa-blog:before {
+  content: "\f781";
+}
+
+#jb_template .fa-blogger:before, .jb_template .fa-blogger:before {
+  content: "\f37c";
+}
+
+#jb_template .fa-blogger-b:before, .jb_template .fa-blogger-b:before {
+  content: "\f37d";
+}
+
+#jb_template .fa-bluetooth:before, .jb_template .fa-bluetooth:before {
+  content: "\f293";
+}
+
+#jb_template .fa-bluetooth-b:before, .jb_template .fa-bluetooth-b:before {
+  content: "\f294";
+}
+
+#jb_template .fa-bold:before, .jb_template .fa-bold:before {
+  content: "\f032";
+}
+
+#jb_template .fa-bolt:before, .jb_template .fa-bolt:before {
+  content: "\f0e7";
+}
+
+#jb_template .fa-bomb:before, .jb_template .fa-bomb:before {
+  content: "\f1e2";
+}
+
+#jb_template .fa-bone:before, .jb_template .fa-bone:before {
+  content: "\f5d7";
+}
+
+#jb_template .fa-bong:before, .jb_template .fa-bong:before {
+  content: "\f55c";
+}
+
+#jb_template .fa-book:before, .jb_template .fa-book:before {
+  content: "\f02d";
+}
+
+#jb_template .fa-book-dead:before, .jb_template .fa-book-dead:before {
+  content: "\f6b7";
+}
+
+#jb_template .fa-book-medical:before, .jb_template .fa-book-medical:before {
+  content: "\f7e6";
+}
+
+#jb_template .fa-book-open:before, .jb_template .fa-book-open:before {
+  content: "\f518";
+}
+
+#jb_template .fa-book-reader:before, .jb_template .fa-book-reader:before {
+  content: "\f5da";
+}
+
+#jb_template .fa-bookmark:before, .jb_template .fa-bookmark:before {
+  content: "\f02e";
+}
+
+#jb_template .fa-bootstrap:before, .jb_template .fa-bootstrap:before {
+  content: "\f836";
+}
+
+#jb_template .fa-border-all:before, .jb_template .fa-border-all:before {
+  content: "\f84c";
+}
+
+#jb_template .fa-border-none:before, .jb_template .fa-border-none:before {
+  content: "\f850";
+}
+
+#jb_template .fa-border-style:before, .jb_template .fa-border-style:before {
+  content: "\f853";
+}
+
+#jb_template .fa-bowling-ball:before, .jb_template .fa-bowling-ball:before {
+  content: "\f436";
+}
+
+#jb_template .fa-box:before, .jb_template .fa-box:before {
+  content: "\f466";
+}
+
+#jb_template .fa-box-open:before, .jb_template .fa-box-open:before {
+  content: "\f49e";
+}
+
+#jb_template .fa-boxes:before, .jb_template .fa-boxes:before {
+  content: "\f468";
+}
+
+#jb_template .fa-braille:before, .jb_template .fa-braille:before {
+  content: "\f2a1";
+}
+
+#jb_template .fa-brain:before, .jb_template .fa-brain:before {
+  content: "\f5dc";
+}
+
+#jb_template .fa-bread-slice:before, .jb_template .fa-bread-slice:before {
+  content: "\f7ec";
+}
+
+#jb_template .fa-briefcase:before, .jb_template .fa-briefcase:before {
+  content: "\f0b1";
+}
+
+#jb_template .fa-briefcase-medical:before, .jb_template .fa-briefcase-medical:before {
+  content: "\f469";
+}
+
+#jb_template .fa-broadcast-tower:before, .jb_template .fa-broadcast-tower:before {
+  content: "\f519";
+}
+
+#jb_template .fa-broom:before, .jb_template .fa-broom:before {
+  content: "\f51a";
+}
+
+#jb_template .fa-brush:before, .jb_template .fa-brush:before {
+  content: "\f55d";
+}
+
+#jb_template .fa-btc:before, .jb_template .fa-btc:before {
+  content: "\f15a";
+}
+
+#jb_template .fa-buffer:before, .jb_template .fa-buffer:before {
+  content: "\f837";
+}
+
+#jb_template .fa-bug:before, .jb_template .fa-bug:before {
+  content: "\f188";
+}
+
+#jb_template .fa-building:before, .jb_template .fa-building:before {
+  content: "\f1ad";
+}
+
+#jb_template .fa-bullhorn:before, .jb_template .fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+#jb_template .fa-bullseye:before, .jb_template .fa-bullseye:before {
+  content: "\f140";
+}
+
+#jb_template .fa-burn:before, .jb_template .fa-burn:before {
+  content: "\f46a";
+}
+
+#jb_template .fa-buromobelexperte:before, .jb_template .fa-buromobelexperte:before {
+  content: "\f37f";
+}
+
+#jb_template .fa-bus:before, .jb_template .fa-bus:before {
+  content: "\f207";
+}
+
+#jb_template .fa-bus-alt:before, .jb_template .fa-bus-alt:before {
+  content: "\f55e";
+}
+
+#jb_template .fa-business-time:before, .jb_template .fa-business-time:before {
+  content: "\f64a";
+}
+
+#jb_template .fa-buy-n-large:before, .jb_template .fa-buy-n-large:before {
+  content: "\f8a6";
+}
+
+#jb_template .fa-buysellads:before, .jb_template .fa-buysellads:before {
+  content: "\f20d";
+}
+
+#jb_template .fa-calculator:before, .jb_template .fa-calculator:before {
+  content: "\f1ec";
+}
+
+#jb_template .fa-calendar:before, .jb_template .fa-calendar:before {
+  content: "\f133";
+}
+
+#jb_template .fa-calendar-alt:before, .jb_template .fa-calendar-alt:before {
+  content: "\f073";
+}
+
+#jb_template .fa-calendar-check:before, .jb_template .fa-calendar-check:before {
+  content: "\f274";
+}
+
+#jb_template .fa-calendar-day:before, .jb_template .fa-calendar-day:before {
+  content: "\f783";
+}
+
+#jb_template .fa-calendar-minus:before, .jb_template .fa-calendar-minus:before {
+  content: "\f272";
+}
+
+#jb_template .fa-calendar-plus:before, .jb_template .fa-calendar-plus:before {
+  content: "\f271";
+}
+
+#jb_template .fa-calendar-times:before, .jb_template .fa-calendar-times:before {
+  content: "\f273";
+}
+
+#jb_template .fa-calendar-week:before, .jb_template .fa-calendar-week:before {
+  content: "\f784";
+}
+
+#jb_template .fa-camera:before, .jb_template .fa-camera:before {
+  content: "\f030";
+}
+
+#jb_template .fa-camera-retro:before, .jb_template .fa-camera-retro:before {
+  content: "\f083";
+}
+
+#jb_template .fa-campground:before, .jb_template .fa-campground:before {
+  content: "\f6bb";
+}
+
+#jb_template .fa-canadian-maple-leaf:before, .jb_template .fa-canadian-maple-leaf:before {
+  content: "\f785";
+}
+
+#jb_template .fa-candy-cane:before, .jb_template .fa-candy-cane:before {
+  content: "\f786";
+}
+
+#jb_template .fa-cannabis:before, .jb_template .fa-cannabis:before {
+  content: "\f55f";
+}
+
+#jb_template .fa-capsules:before, .jb_template .fa-capsules:before {
+  content: "\f46b";
+}
+
+#jb_template .fa-car:before, .jb_template .fa-car:before {
+  content: "\f1b9";
+}
+
+#jb_template .fa-car-alt:before, .jb_template .fa-car-alt:before {
+  content: "\f5de";
+}
+
+#jb_template .fa-car-battery:before, .jb_template .fa-car-battery:before {
+  content: "\f5df";
+}
+
+#jb_template .fa-car-crash:before, .jb_template .fa-car-crash:before {
+  content: "\f5e1";
+}
+
+#jb_template .fa-car-side:before, .jb_template .fa-car-side:before {
+  content: "\f5e4";
+}
+
+#jb_template .fa-caret-down:before, .jb_template .fa-caret-down:before {
+  content: "\f0d7";
+}
+
+#jb_template .fa-caret-left:before, .jb_template .fa-caret-left:before {
+  content: "\f0d9";
+}
+
+#jb_template .fa-caret-right:before, .jb_template .fa-caret-right:before {
+  content: "\f0da";
+}
+
+#jb_template .fa-caret-square-down:before, .jb_template .fa-caret-square-down:before {
+  content: "\f150";
+}
+
+#jb_template .fa-caret-square-left:before, .jb_template .fa-caret-square-left:before {
+  content: "\f191";
+}
+
+#jb_template .fa-caret-square-right:before, .jb_template .fa-caret-square-right:before {
+  content: "\f152";
+}
+
+#jb_template .fa-caret-square-up:before, .jb_template .fa-caret-square-up:before {
+  content: "\f151";
+}
+
+#jb_template .fa-caret-up:before, .jb_template .fa-caret-up:before {
+  content: "\f0d8";
+}
+
+#jb_template .fa-carrot:before, .jb_template .fa-carrot:before {
+  content: "\f787";
+}
+
+#jb_template .fa-cart-arrow-down:before, .jb_template .fa-cart-arrow-down:before {
+  content: "\f218";
+}
+
+#jb_template .fa-cart-plus:before, .jb_template .fa-cart-plus:before {
+  content: "\f217";
+}
+
+#jb_template .fa-cash-register:before, .jb_template .fa-cash-register:before {
+  content: "\f788";
+}
+
+#jb_template .fa-cat:before, .jb_template .fa-cat:before {
+  content: "\f6be";
+}
+
+#jb_template .fa-cc-amazon-pay:before, .jb_template .fa-cc-amazon-pay:before {
+  content: "\f42d";
+}
+
+#jb_template .fa-cc-amex:before, .jb_template .fa-cc-amex:before {
+  content: "\f1f3";
+}
+
+#jb_template .fa-cc-apple-pay:before, .jb_template .fa-cc-apple-pay:before {
+  content: "\f416";
+}
+
+#jb_template .fa-cc-diners-club:before, .jb_template .fa-cc-diners-club:before {
+  content: "\f24c";
+}
+
+#jb_template .fa-cc-discover:before, .jb_template .fa-cc-discover:before {
+  content: "\f1f2";
+}
+
+#jb_template .fa-cc-jcb:before, .jb_template .fa-cc-jcb:before {
+  content: "\f24b";
+}
+
+#jb_template .fa-cc-mastercard:before, .jb_template .fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+#jb_template .fa-cc-paypal:before, .jb_template .fa-cc-paypal:before {
+  content: "\f1f4";
+}
+
+#jb_template .fa-cc-stripe:before, .jb_template .fa-cc-stripe:before {
+  content: "\f1f5";
+}
+
+#jb_template .fa-cc-visa:before, .jb_template .fa-cc-visa:before {
+  content: "\f1f0";
+}
+
+#jb_template .fa-centercode:before, .jb_template .fa-centercode:before {
+  content: "\f380";
+}
+
+#jb_template .fa-centos:before, .jb_template .fa-centos:before {
+  content: "\f789";
+}
+
+#jb_template .fa-certificate:before, .jb_template .fa-certificate:before {
+  content: "\f0a3";
+}
+
+#jb_template .fa-chair:before, .jb_template .fa-chair:before {
+  content: "\f6c0";
+}
+
+#jb_template .fa-chalkboard:before, .jb_template .fa-chalkboard:before {
+  content: "\f51b";
+}
+
+#jb_template .fa-chalkboard-teacher:before, .jb_template .fa-chalkboard-teacher:before {
+  content: "\f51c";
+}
+
+#jb_template .fa-charging-station:before, .jb_template .fa-charging-station:before {
+  content: "\f5e7";
+}
+
+#jb_template .fa-chart-area:before, .jb_template .fa-chart-area:before {
+  content: "\f1fe";
+}
+
+#jb_template .fa-chart-bar:before, .jb_template .fa-chart-bar:before {
+  content: "\f080";
+}
+
+#jb_template .fa-chart-line:before, .jb_template .fa-chart-line:before {
+  content: "\f201";
+}
+
+#jb_template .fa-chart-pie:before, .jb_template .fa-chart-pie:before {
+  content: "\f200";
+}
+
+#jb_template .fa-check:before, .jb_template .fa-check:before {
+  content: "\f00c";
+}
+
+#jb_template .fa-check-circle:before, .jb_template .fa-check-circle:before {
+  content: "\f058";
+}
+
+#jb_template .fa-check-double:before, .jb_template .fa-check-double:before {
+  content: "\f560";
+}
+
+#jb_template .fa-check-square:before, .jb_template .fa-check-square:before {
+  content: "\f14a";
+}
+
+#jb_template .fa-cheese:before, .jb_template .fa-cheese:before {
+  content: "\f7ef";
+}
+
+#jb_template .fa-chess:before, .jb_template .fa-chess:before {
+  content: "\f439";
+}
+
+#jb_template .fa-chess-bishop:before, .jb_template .fa-chess-bishop:before {
+  content: "\f43a";
+}
+
+#jb_template .fa-chess-board:before, .jb_template .fa-chess-board:before {
+  content: "\f43c";
+}
+
+#jb_template .fa-chess-king:before, .jb_template .fa-chess-king:before {
+  content: "\f43f";
+}
+
+#jb_template .fa-chess-knight:before, .jb_template .fa-chess-knight:before {
+  content: "\f441";
+}
+
+#jb_template .fa-chess-pawn:before, .jb_template .fa-chess-pawn:before {
+  content: "\f443";
+}
+
+#jb_template .fa-chess-queen:before, .jb_template .fa-chess-queen:before {
+  content: "\f445";
+}
+
+#jb_template .fa-chess-rook:before, .jb_template .fa-chess-rook:before {
+  content: "\f447";
+}
+
+#jb_template .fa-chevron-circle-down:before, .jb_template .fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+#jb_template .fa-chevron-circle-left:before, .jb_template .fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+#jb_template .fa-chevron-circle-right:before, .jb_template .fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+#jb_template .fa-chevron-circle-up:before, .jb_template .fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+#jb_template .fa-chevron-down:before, .jb_template .fa-chevron-down:before {
+  content: "\f078";
+}
+
+#jb_template .fa-chevron-left:before, .jb_template .fa-chevron-left:before {
+  content: "\f053";
+}
+
+#jb_template .fa-chevron-right:before, .jb_template .fa-chevron-right:before {
+  content: "\f054";
+}
+
+#jb_template .fa-chevron-up:before, .jb_template .fa-chevron-up:before {
+  content: "\f077";
+}
+
+#jb_template .fa-child:before, .jb_template .fa-child:before {
+  content: "\f1ae";
+}
+
+#jb_template .fa-chrome:before, .jb_template .fa-chrome:before {
+  content: "\f268";
+}
+
+#jb_template .fa-chromecast:before, .jb_template .fa-chromecast:before {
+  content: "\f838";
+}
+
+#jb_template .fa-church:before, .jb_template .fa-church:before {
+  content: "\f51d";
+}
+
+#jb_template .fa-circle:before, .jb_template .fa-circle:before {
+  content: "\f111";
+}
+
+#jb_template .fa-circle-notch:before, .jb_template .fa-circle-notch:before {
+  content: "\f1ce";
+}
+
+#jb_template .fa-city:before, .jb_template .fa-city:before {
+  content: "\f64f";
+}
+
+#jb_template .fa-clinic-medical:before, .jb_template .fa-clinic-medical:before {
+  content: "\f7f2";
+}
+
+#jb_template .fa-clipboard:before, .jb_template .fa-clipboard:before {
+  content: "\f328";
+}
+
+#jb_template .fa-clipboard-check:before, .jb_template .fa-clipboard-check:before {
+  content: "\f46c";
+}
+
+#jb_template .fa-clipboard-list:before, .jb_template .fa-clipboard-list:before {
+  content: "\f46d";
+}
+
+#jb_template .fa-clock:before, .jb_template .fa-clock:before {
+  content: "\f017";
+}
+
+#jb_template .fa-clone:before, .jb_template .fa-clone:before {
+  content: "\f24d";
+}
+
+#jb_template .fa-closed-captioning:before, .jb_template .fa-closed-captioning:before {
+  content: "\f20a";
+}
+
+#jb_template .fa-cloud:before, .jb_template .fa-cloud:before {
+  content: "\f0c2";
+}
+
+#jb_template .fa-cloud-download-alt:before, .jb_template .fa-cloud-download-alt:before {
+  content: "\f381";
+}
+
+#jb_template .fa-cloud-meatball:before, .jb_template .fa-cloud-meatball:before {
+  content: "\f73b";
+}
+
+#jb_template .fa-cloud-moon:before, .jb_template .fa-cloud-moon:before {
+  content: "\f6c3";
+}
+
+#jb_template .fa-cloud-moon-rain:before, .jb_template .fa-cloud-moon-rain:before {
+  content: "\f73c";
+}
+
+#jb_template .fa-cloud-rain:before, .jb_template .fa-cloud-rain:before {
+  content: "\f73d";
+}
+
+#jb_template .fa-cloud-showers-heavy:before, .jb_template .fa-cloud-showers-heavy:before {
+  content: "\f740";
+}
+
+#jb_template .fa-cloud-sun:before, .jb_template .fa-cloud-sun:before {
+  content: "\f6c4";
+}
+
+#jb_template .fa-cloud-sun-rain:before, .jb_template .fa-cloud-sun-rain:before {
+  content: "\f743";
+}
+
+#jb_template .fa-cloud-upload-alt:before, .jb_template .fa-cloud-upload-alt:before {
+  content: "\f382";
+}
+
+#jb_template .fa-cloudscale:before, .jb_template .fa-cloudscale:before {
+  content: "\f383";
+}
+
+#jb_template .fa-cloudsmith:before, .jb_template .fa-cloudsmith:before {
+  content: "\f384";
+}
+
+#jb_template .fa-cloudversify:before, .jb_template .fa-cloudversify:before {
+  content: "\f385";
+}
+
+#jb_template .fa-cocktail:before, .jb_template .fa-cocktail:before {
+  content: "\f561";
+}
+
+#jb_template .fa-code:before, .jb_template .fa-code:before {
+  content: "\f121";
+}
+
+#jb_template .fa-code-branch:before, .jb_template .fa-code-branch:before {
+  content: "\f126";
+}
+
+#jb_template .fa-codepen:before, .jb_template .fa-codepen:before {
+  content: "\f1cb";
+}
+
+#jb_template .fa-codiepie:before, .jb_template .fa-codiepie:before {
+  content: "\f284";
+}
+
+#jb_template .fa-coffee:before, .jb_template .fa-coffee:before {
+  content: "\f0f4";
+}
+
+#jb_template .fa-cog:before, .jb_template .fa-cog:before {
+  content: "\f013";
+}
+
+#jb_template .fa-cogs:before, .jb_template .fa-cogs:before {
+  content: "\f085";
+}
+
+#jb_template .fa-coins:before, .jb_template .fa-coins:before {
+  content: "\f51e";
+}
+
+#jb_template .fa-columns:before, .jb_template .fa-columns:before {
+  content: "\f0db";
+}
+
+#jb_template .fa-comment:before, .jb_template .fa-comment:before {
+  content: "\f075";
+}
+
+#jb_template .fa-comment-alt:before, .jb_template .fa-comment-alt:before {
+  content: "\f27a";
+}
+
+#jb_template .fa-comment-dollar:before, .jb_template .fa-comment-dollar:before {
+  content: "\f651";
+}
+
+#jb_template .fa-comment-dots:before, .jb_template .fa-comment-dots:before {
+  content: "\f4ad";
+}
+
+#jb_template .fa-comment-medical:before, .jb_template .fa-comment-medical:before {
+  content: "\f7f5";
+}
+
+#jb_template .fa-comment-slash:before, .jb_template .fa-comment-slash:before {
+  content: "\f4b3";
+}
+
+#jb_template .fa-comments:before, .jb_template .fa-comments:before {
+  content: "\f086";
+}
+
+#jb_template .fa-comments-dollar:before, .jb_template .fa-comments-dollar:before {
+  content: "\f653";
+}
+
+#jb_template .fa-compact-disc:before, .jb_template .fa-compact-disc:before {
+  content: "\f51f";
+}
+
+#jb_template .fa-compass:before, .jb_template .fa-compass:before {
+  content: "\f14e";
+}
+
+#jb_template .fa-compress:before, .jb_template .fa-compress:before {
+  content: "\f066";
+}
+
+#jb_template .fa-compress-arrows-alt:before, .jb_template .fa-compress-arrows-alt:before {
+  content: "\f78c";
+}
+
+#jb_template .fa-concierge-bell:before, .jb_template .fa-concierge-bell:before {
+  content: "\f562";
+}
+
+#jb_template .fa-confluence:before, .jb_template .fa-confluence:before {
+  content: "\f78d";
+}
+
+#jb_template .fa-connectdevelop:before, .jb_template .fa-connectdevelop:before {
+  content: "\f20e";
+}
+
+#jb_template .fa-contao:before, .jb_template .fa-contao:before {
+  content: "\f26d";
+}
+
+#jb_template .fa-cookie:before, .jb_template .fa-cookie:before {
+  content: "\f563";
+}
+
+#jb_template .fa-cookie-bite:before, .jb_template .fa-cookie-bite:before {
+  content: "\f564";
+}
+
+#jb_template .fa-copy:before, .jb_template .fa-copy:before {
+  content: "\f0c5";
+}
+
+#jb_template .fa-copyright:before, .jb_template .fa-copyright:before {
+  content: "\f1f9";
+}
+
+#jb_template .fa-cotton-bureau:before, .jb_template .fa-cotton-bureau:before {
+  content: "\f89e";
+}
+
+#jb_template .fa-couch:before, .jb_template .fa-couch:before {
+  content: "\f4b8";
+}
+
+#jb_template .fa-cpanel:before, .jb_template .fa-cpanel:before {
+  content: "\f388";
+}
+
+#jb_template .fa-creative-commons:before, .jb_template .fa-creative-commons:before {
+  content: "\f25e";
+}
+
+#jb_template .fa-creative-commons-by:before, .jb_template .fa-creative-commons-by:before {
+  content: "\f4e7";
+}
+
+#jb_template .fa-creative-commons-nc:before, .jb_template .fa-creative-commons-nc:before {
+  content: "\f4e8";
+}
+
+#jb_template .fa-creative-commons-nc-eu:before, .jb_template .fa-creative-commons-nc-eu:before {
+  content: "\f4e9";
+}
+
+#jb_template .fa-creative-commons-nc-jp:before, .jb_template .fa-creative-commons-nc-jp:before {
+  content: "\f4ea";
+}
+
+#jb_template .fa-creative-commons-nd:before, .jb_template .fa-creative-commons-nd:before {
+  content: "\f4eb";
+}
+
+#jb_template .fa-creative-commons-pd:before, .jb_template .fa-creative-commons-pd:before {
+  content: "\f4ec";
+}
+
+#jb_template .fa-creative-commons-pd-alt:before, .jb_template .fa-creative-commons-pd-alt:before {
+  content: "\f4ed";
+}
+
+#jb_template .fa-creative-commons-remix:before, .jb_template .fa-creative-commons-remix:before {
+  content: "\f4ee";
+}
+
+#jb_template .fa-creative-commons-sa:before, .jb_template .fa-creative-commons-sa:before {
+  content: "\f4ef";
+}
+
+#jb_template .fa-creative-commons-sampling:before, .jb_template .fa-creative-commons-sampling:before {
+  content: "\f4f0";
+}
+
+#jb_template .fa-creative-commons-sampling-plus:before, .jb_template .fa-creative-commons-sampling-plus:before {
+  content: "\f4f1";
+}
+
+#jb_template .fa-creative-commons-share:before, .jb_template .fa-creative-commons-share:before {
+  content: "\f4f2";
+}
+
+#jb_template .fa-creative-commons-zero:before, .jb_template .fa-creative-commons-zero:before {
+  content: "\f4f3";
+}
+
+#jb_template .fa-credit-card:before, .jb_template .fa-credit-card:before {
+  content: "\f09d";
+}
+
+#jb_template .fa-critical-role:before, .jb_template .fa-critical-role:before {
+  content: "\f6c9";
+}
+
+#jb_template .fa-crop:before, .jb_template .fa-crop:before {
+  content: "\f125";
+}
+
+#jb_template .fa-crop-alt:before, .jb_template .fa-crop-alt:before {
+  content: "\f565";
+}
+
+#jb_template .fa-cross:before, .jb_template .fa-cross:before {
+  content: "\f654";
+}
+
+#jb_template .fa-crosshairs:before, .jb_template .fa-crosshairs:before {
+  content: "\f05b";
+}
+
+#jb_template .fa-crow:before, .jb_template .fa-crow:before {
+  content: "\f520";
+}
+
+#jb_template .fa-crown:before, .jb_template .fa-crown:before {
+  content: "\f521";
+}
+
+#jb_template .fa-crutch:before, .jb_template .fa-crutch:before {
+  content: "\f7f7";
+}
+
+#jb_template .fa-css3:before, .jb_template .fa-css3:before {
+  content: "\f13c";
+}
+
+#jb_template .fa-css3-alt:before, .jb_template .fa-css3-alt:before {
+  content: "\f38b";
+}
+
+#jb_template .fa-cube:before, .jb_template .fa-cube:before {
+  content: "\f1b2";
+}
+
+#jb_template .fa-cubes:before, .jb_template .fa-cubes:before {
+  content: "\f1b3";
+}
+
+#jb_template .fa-cut:before, .jb_template .fa-cut:before {
+  content: "\f0c4";
+}
+
+#jb_template .fa-cuttlefish:before, .jb_template .fa-cuttlefish:before {
+  content: "\f38c";
+}
+
+#jb_template .fa-d-and-d:before, .jb_template .fa-d-and-d:before {
+  content: "\f38d";
+}
+
+#jb_template .fa-d-and-d-beyond:before, .jb_template .fa-d-and-d-beyond:before {
+  content: "\f6ca";
+}
+
+#jb_template .fa-dashcube:before, .jb_template .fa-dashcube:before {
+  content: "\f210";
+}
+
+#jb_template .fa-database:before, .jb_template .fa-database:before {
+  content: "\f1c0";
+}
+
+#jb_template .fa-deaf:before, .jb_template .fa-deaf:before {
+  content: "\f2a4";
+}
+
+#jb_template .fa-delicious:before, .jb_template .fa-delicious:before {
+  content: "\f1a5";
+}
+
+#jb_template .fa-democrat:before, .jb_template .fa-democrat:before {
+  content: "\f747";
+}
+
+#jb_template .fa-deploydog:before, .jb_template .fa-deploydog:before {
+  content: "\f38e";
+}
+
+#jb_template .fa-deskpro:before, .jb_template .fa-deskpro:before {
+  content: "\f38f";
+}
+
+#jb_template .fa-desktop:before, .jb_template .fa-desktop:before {
+  content: "\f108";
+}
+
+#jb_template .fa-dev:before, .jb_template .fa-dev:before {
+  content: "\f6cc";
+}
+
+#jb_template .fa-deviantart:before, .jb_template .fa-deviantart:before {
+  content: "\f1bd";
+}
+
+#jb_template .fa-dharmachakra:before, .jb_template .fa-dharmachakra:before {
+  content: "\f655";
+}
+
+#jb_template .fa-dhl:before, .jb_template .fa-dhl:before {
+  content: "\f790";
+}
+
+#jb_template .fa-diagnoses:before, .jb_template .fa-diagnoses:before {
+  content: "\f470";
+}
+
+#jb_template .fa-diaspora:before, .jb_template .fa-diaspora:before {
+  content: "\f791";
+}
+
+#jb_template .fa-dice:before, .jb_template .fa-dice:before {
+  content: "\f522";
+}
+
+#jb_template .fa-dice-d20:before, .jb_template .fa-dice-d20:before {
+  content: "\f6cf";
+}
+
+#jb_template .fa-dice-d6:before, .jb_template .fa-dice-d6:before {
+  content: "\f6d1";
+}
+
+#jb_template .fa-dice-five:before, .jb_template .fa-dice-five:before {
+  content: "\f523";
+}
+
+#jb_template .fa-dice-four:before, .jb_template .fa-dice-four:before {
+  content: "\f524";
+}
+
+#jb_template .fa-dice-one:before, .jb_template .fa-dice-one:before {
+  content: "\f525";
+}
+
+#jb_template .fa-dice-six:before, .jb_template .fa-dice-six:before {
+  content: "\f526";
+}
+
+#jb_template .fa-dice-three:before, .jb_template .fa-dice-three:before {
+  content: "\f527";
+}
+
+#jb_template .fa-dice-two:before, .jb_template .fa-dice-two:before {
+  content: "\f528";
+}
+
+#jb_template .fa-digg:before, .jb_template .fa-digg:before {
+  content: "\f1a6";
+}
+
+#jb_template .fa-digital-ocean:before, .jb_template .fa-digital-ocean:before {
+  content: "\f391";
+}
+
+#jb_template .fa-digital-tachograph:before, .jb_template .fa-digital-tachograph:before {
+  content: "\f566";
+}
+
+#jb_template .fa-directions:before, .jb_template .fa-directions:before {
+  content: "\f5eb";
+}
+
+#jb_template .fa-discord:before, .jb_template .fa-discord:before {
+  content: "\f392";
+}
+
+#jb_template .fa-discourse:before, .jb_template .fa-discourse:before {
+  content: "\f393";
+}
+
+#jb_template .fa-divide:before, .jb_template .fa-divide:before {
+  content: "\f529";
+}
+
+#jb_template .fa-dizzy:before, .jb_template .fa-dizzy:before {
+  content: "\f567";
+}
+
+#jb_template .fa-dna:before, .jb_template .fa-dna:before {
+  content: "\f471";
+}
+
+#jb_template .fa-dochub:before, .jb_template .fa-dochub:before {
+  content: "\f394";
+}
+
+#jb_template .fa-docker:before, .jb_template .fa-docker:before {
+  content: "\f395";
+}
+
+#jb_template .fa-dog:before, .jb_template .fa-dog:before {
+  content: "\f6d3";
+}
+
+#jb_template .fa-dollar-sign:before, .jb_template .fa-dollar-sign:before {
+  content: "\f155";
+}
+
+#jb_template .fa-dolly:before, .jb_template .fa-dolly:before {
+  content: "\f472";
+}
+
+#jb_template .fa-dolly-flatbed:before, .jb_template .fa-dolly-flatbed:before {
+  content: "\f474";
+}
+
+#jb_template .fa-donate:before, .jb_template .fa-donate:before {
+  content: "\f4b9";
+}
+
+#jb_template .fa-door-closed:before, .jb_template .fa-door-closed:before {
+  content: "\f52a";
+}
+
+#jb_template .fa-door-open:before, .jb_template .fa-door-open:before {
+  content: "\f52b";
+}
+
+#jb_template .fa-dot-circle:before, .jb_template .fa-dot-circle:before {
+  content: "\f192";
+}
+
+#jb_template .fa-dove:before, .jb_template .fa-dove:before {
+  content: "\f4ba";
+}
+
+#jb_template .fa-download:before, .jb_template .fa-download:before {
+  content: "\f019";
+}
+
+#jb_template .fa-draft2digital:before, .jb_template .fa-draft2digital:before {
+  content: "\f396";
+}
+
+#jb_template .fa-drafting-compass:before, .jb_template .fa-drafting-compass:before {
+  content: "\f568";
+}
+
+#jb_template .fa-dragon:before, .jb_template .fa-dragon:before {
+  content: "\f6d5";
+}
+
+#jb_template .fa-draw-polygon:before, .jb_template .fa-draw-polygon:before {
+  content: "\f5ee";
+}
+
+#jb_template .fa-dribbble:before, .jb_template .fa-dribbble:before {
+  content: "\f17d";
+}
+
+#jb_template .fa-dribbble-square:before, .jb_template .fa-dribbble-square:before {
+  content: "\f397";
+}
+
+#jb_template .fa-dropbox:before, .jb_template .fa-dropbox:before {
+  content: "\f16b";
+}
+
+#jb_template .fa-drum:before, .jb_template .fa-drum:before {
+  content: "\f569";
+}
+
+#jb_template .fa-drum-steelpan:before, .jb_template .fa-drum-steelpan:before {
+  content: "\f56a";
+}
+
+#jb_template .fa-drumstick-bite:before, .jb_template .fa-drumstick-bite:before {
+  content: "\f6d7";
+}
+
+#jb_template .fa-drupal:before, .jb_template .fa-drupal:before {
+  content: "\f1a9";
+}
+
+#jb_template .fa-dumbbell:before, .jb_template .fa-dumbbell:before {
+  content: "\f44b";
+}
+
+#jb_template .fa-dumpster:before, .jb_template .fa-dumpster:before {
+  content: "\f793";
+}
+
+#jb_template .fa-dumpster-fire:before, .jb_template .fa-dumpster-fire:before {
+  content: "\f794";
+}
+
+#jb_template .fa-dungeon:before, .jb_template .fa-dungeon:before {
+  content: "\f6d9";
+}
+
+#jb_template .fa-dyalog:before, .jb_template .fa-dyalog:before {
+  content: "\f399";
+}
+
+#jb_template .fa-earlybirds:before, .jb_template .fa-earlybirds:before {
+  content: "\f39a";
+}
+
+#jb_template .fa-ebay:before, .jb_template .fa-ebay:before {
+  content: "\f4f4";
+}
+
+#jb_template .fa-edge:before, .jb_template .fa-edge:before {
+  content: "\f282";
+}
+
+#jb_template .fa-edit:before, .jb_template .fa-edit:before {
+  content: "\f044";
+}
+
+#jb_template .fa-egg:before, .jb_template .fa-egg:before {
+  content: "\f7fb";
+}
+
+#jb_template .fa-eject:before, .jb_template .fa-eject:before {
+  content: "\f052";
+}
+
+#jb_template .fa-elementor:before, .jb_template .fa-elementor:before {
+  content: "\f430";
+}
+
+#jb_template .fa-ellipsis-h:before, .jb_template .fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+#jb_template .fa-ellipsis-v:before, .jb_template .fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+#jb_template .fa-ello:before, .jb_template .fa-ello:before {
+  content: "\f5f1";
+}
+
+#jb_template .fa-ember:before, .jb_template .fa-ember:before {
+  content: "\f423";
+}
+
+#jb_template .fa-empire:before, .jb_template .fa-empire:before {
+  content: "\f1d1";
+}
+
+#jb_template .fa-envelope:before, .jb_template .fa-envelope:before {
+  content: "\f0e0";
+}
+
+#jb_template .fa-envelope-open:before, .jb_template .fa-envelope-open:before {
+  content: "\f2b6";
+}
+
+#jb_template .fa-envelope-open-text:before, .jb_template .fa-envelope-open-text:before {
+  content: "\f658";
+}
+
+#jb_template .fa-envelope-square:before, .jb_template .fa-envelope-square:before {
+  content: "\f199";
+}
+
+#jb_template .fa-envira:before, .jb_template .fa-envira:before {
+  content: "\f299";
+}
+
+#jb_template .fa-equals:before, .jb_template .fa-equals:before {
+  content: "\f52c";
+}
+
+#jb_template .fa-eraser:before, .jb_template .fa-eraser:before {
+  content: "\f12d";
+}
+
+#jb_template .fa-erlang:before, .jb_template .fa-erlang:before {
+  content: "\f39d";
+}
+
+#jb_template .fa-ethereum:before, .jb_template .fa-ethereum:before {
+  content: "\f42e";
+}
+
+#jb_template .fa-ethernet:before, .jb_template .fa-ethernet:before {
+  content: "\f796";
+}
+
+#jb_template .fa-etsy:before, .jb_template .fa-etsy:before {
+  content: "\f2d7";
+}
+
+#jb_template .fa-euro-sign:before, .jb_template .fa-euro-sign:before {
+  content: "\f153";
+}
+
+#jb_template .fa-evernote:before, .jb_template .fa-evernote:before {
+  content: "\f839";
+}
+
+#jb_template .fa-exchange-alt:before, .jb_template .fa-exchange-alt:before {
+  content: "\f362";
+}
+
+#jb_template .fa-exclamation:before, .jb_template .fa-exclamation:before {
+  content: "\f12a";
+}
+
+#jb_template .fa-exclamation-circle:before, .jb_template .fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+#jb_template .fa-exclamation-triangle:before, .jb_template .fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+#jb_template .fa-expand:before, .jb_template .fa-expand:before {
+  content: "\f065";
+}
+
+#jb_template .fa-expand-arrows-alt:before, .jb_template .fa-expand-arrows-alt:before {
+  content: "\f31e";
+}
+
+#jb_template .fa-expeditedssl:before, .jb_template .fa-expeditedssl:before {
+  content: "\f23e";
+}
+
+#jb_template .fa-external-link-alt:before, .jb_template .fa-external-link-alt:before {
+  content: "\f35d";
+}
+
+#jb_template .fa-external-link-square-alt:before, .jb_template .fa-external-link-square-alt:before {
+  content: "\f360";
+}
+
+#jb_template .fa-eye:before, .jb_template .fa-eye:before {
+  content: "\f06e";
+}
+
+#jb_template .fa-eye-dropper:before, .jb_template .fa-eye-dropper:before {
+  content: "\f1fb";
+}
+
+#jb_template .fa-eye-slash:before, .jb_template .fa-eye-slash:before {
+  content: "\f070";
+}
+
+#jb_template .fa-facebook:before, .jb_template .fa-facebook:before {
+  content: "\f09a";
+}
+
+#jb_template .fa-facebook-f:before, .jb_template .fa-facebook-f:before {
+  content: "\f39e";
+}
+
+#jb_template .fa-facebook-messenger:before, .jb_template .fa-facebook-messenger:before {
+  content: "\f39f";
+}
+
+#jb_template .fa-facebook-square:before, .jb_template .fa-facebook-square:before {
+  content: "\f082";
+}
+
+#jb_template .fa-fan:before, .jb_template .fa-fan:before {
+  content: "\f863";
+}
+
+#jb_template .fa-fantasy-flight-games:before, .jb_template .fa-fantasy-flight-games:before {
+  content: "\f6dc";
+}
+
+#jb_template .fa-fast-backward:before, .jb_template .fa-fast-backward:before {
+  content: "\f049";
+}
+
+#jb_template .fa-fast-forward:before, .jb_template .fa-fast-forward:before {
+  content: "\f050";
+}
+
+#jb_template .fa-fax:before, .jb_template .fa-fax:before {
+  content: "\f1ac";
+}
+
+#jb_template .fa-feather:before, .jb_template .fa-feather:before {
+  content: "\f52d";
+}
+
+#jb_template .fa-feather-alt:before, .jb_template .fa-feather-alt:before {
+  content: "\f56b";
+}
+
+#jb_template .fa-fedex:before, .jb_template .fa-fedex:before {
+  content: "\f797";
+}
+
+#jb_template .fa-fedora:before, .jb_template .fa-fedora:before {
+  content: "\f798";
+}
+
+#jb_template .fa-female:before, .jb_template .fa-female:before {
+  content: "\f182";
+}
+
+#jb_template .fa-fighter-jet:before, .jb_template .fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+#jb_template .fa-figma:before, .jb_template .fa-figma:before {
+  content: "\f799";
+}
+
+#jb_template .fa-file:before, .jb_template .fa-file:before {
+  content: "\f15b";
+}
+
+#jb_template .fa-file-alt:before, .jb_template .fa-file-alt:before {
+  content: "\f15c";
+}
+
+#jb_template .fa-file-archive:before, .jb_template .fa-file-archive:before {
+  content: "\f1c6";
+}
+
+#jb_template .fa-file-audio:before, .jb_template .fa-file-audio:before {
+  content: "\f1c7";
+}
+
+#jb_template .fa-file-code:before, .jb_template .fa-file-code:before {
+  content: "\f1c9";
+}
+
+#jb_template .fa-file-contract:before, .jb_template .fa-file-contract:before {
+  content: "\f56c";
+}
+
+#jb_template .fa-file-csv:before, .jb_template .fa-file-csv:before {
+  content: "\f6dd";
+}
+
+#jb_template .fa-file-download:before, .jb_template .fa-file-download:before {
+  content: "\f56d";
+}
+
+#jb_template .fa-file-excel:before, .jb_template .fa-file-excel:before {
+  content: "\f1c3";
+}
+
+#jb_template .fa-file-export:before, .jb_template .fa-file-export:before {
+  content: "\f56e";
+}
+
+#jb_template .fa-file-image:before, .jb_template .fa-file-image:before {
+  content: "\f1c5";
+}
+
+#jb_template .fa-file-import:before, .jb_template .fa-file-import:before {
+  content: "\f56f";
+}
+
+#jb_template .fa-file-invoice:before, .jb_template .fa-file-invoice:before {
+  content: "\f570";
+}
+
+#jb_template .fa-file-invoice-dollar:before, .jb_template .fa-file-invoice-dollar:before {
+  content: "\f571";
+}
+
+#jb_template .fa-file-medical:before, .jb_template .fa-file-medical:before {
+  content: "\f477";
+}
+
+#jb_template .fa-file-medical-alt:before, .jb_template .fa-file-medical-alt:before {
+  content: "\f478";
+}
+
+#jb_template .fa-file-pdf:before, .jb_template .fa-file-pdf:before {
+  content: "\f1c1";
+}
+
+#jb_template .fa-file-powerpoint:before, .jb_template .fa-file-powerpoint:before {
+  content: "\f1c4";
+}
+
+#jb_template .fa-file-prescription:before, .jb_template .fa-file-prescription:before {
+  content: "\f572";
+}
+
+#jb_template .fa-file-signature:before, .jb_template .fa-file-signature:before {
+  content: "\f573";
+}
+
+#jb_template .fa-file-upload:before, .jb_template .fa-file-upload:before {
+  content: "\f574";
+}
+
+#jb_template .fa-file-video:before, .jb_template .fa-file-video:before {
+  content: "\f1c8";
+}
+
+#jb_template .fa-file-word:before, .jb_template .fa-file-word:before {
+  content: "\f1c2";
+}
+
+#jb_template .fa-fill:before, .jb_template .fa-fill:before {
+  content: "\f575";
+}
+
+#jb_template .fa-fill-drip:before, .jb_template .fa-fill-drip:before {
+  content: "\f576";
+}
+
+#jb_template .fa-film:before, .jb_template .fa-film:before {
+  content: "\f008";
+}
+
+#jb_template .fa-filter:before, .jb_template .fa-filter:before {
+  content: "\f0b0";
+}
+
+#jb_template .fa-fingerprint:before, .jb_template .fa-fingerprint:before {
+  content: "\f577";
+}
+
+#jb_template .fa-fire:before, .jb_template .fa-fire:before {
+  content: "\f06d";
+}
+
+#jb_template .fa-fire-alt:before, .jb_template .fa-fire-alt:before {
+  content: "\f7e4";
+}
+
+#jb_template .fa-fire-extinguisher:before, .jb_template .fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+#jb_template .fa-firefox:before, .jb_template .fa-firefox:before {
+  content: "\f269";
+}
+
+#jb_template .fa-first-aid:before, .jb_template .fa-first-aid:before {
+  content: "\f479";
+}
+
+#jb_template .fa-first-order:before, .jb_template .fa-first-order:before {
+  content: "\f2b0";
+}
+
+#jb_template .fa-first-order-alt:before, .jb_template .fa-first-order-alt:before {
+  content: "\f50a";
+}
+
+#jb_template .fa-firstdraft:before, .jb_template .fa-firstdraft:before {
+  content: "\f3a1";
+}
+
+#jb_template .fa-fish:before, .jb_template .fa-fish:before {
+  content: "\f578";
+}
+
+#jb_template .fa-fist-raised:before, .jb_template .fa-fist-raised:before {
+  content: "\f6de";
+}
+
+#jb_template .fa-flag:before, .jb_template .fa-flag:before {
+  content: "\f024";
+}
+
+#jb_template .fa-flag-checkered:before, .jb_template .fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+#jb_template .fa-flag-usa:before, .jb_template .fa-flag-usa:before {
+  content: "\f74d";
+}
+
+#jb_template .fa-flask:before, .jb_template .fa-flask:before {
+  content: "\f0c3";
+}
+
+#jb_template .fa-flickr:before, .jb_template .fa-flickr:before {
+  content: "\f16e";
+}
+
+#jb_template .fa-flipboard:before, .jb_template .fa-flipboard:before {
+  content: "\f44d";
+}
+
+#jb_template .fa-flushed:before, .jb_template .fa-flushed:before {
+  content: "\f579";
+}
+
+#jb_template .fa-fly:before, .jb_template .fa-fly:before {
+  content: "\f417";
+}
+
+#jb_template .fa-folder:before, .jb_template .fa-folder:before {
+  content: "\f07b";
+}
+
+#jb_template .fa-folder-minus:before, .jb_template .fa-folder-minus:before {
+  content: "\f65d";
+}
+
+#jb_template .fa-folder-open:before, .jb_template .fa-folder-open:before {
+  content: "\f07c";
+}
+
+#jb_template .fa-folder-plus:before, .jb_template .fa-folder-plus:before {
+  content: "\f65e";
+}
+
+#jb_template .fa-font:before, .jb_template .fa-font:before {
+  content: "\f031";
+}
+
+#jb_template .fa-font-awesome:before, .jb_template .fa-font-awesome:before {
+  content: "\f2b4";
+}
+
+#jb_template .fa-font-awesome-alt:before, .jb_template .fa-font-awesome-alt:before {
+  content: "\f35c";
+}
+
+#jb_template .fa-font-awesome-flag:before, .jb_template .fa-font-awesome-flag:before {
+  content: "\f425";
+}
+
+#jb_template .fa-font-awesome-logo-full:before, .jb_template .fa-font-awesome-logo-full:before {
+  content: "\f4e6";
+}
+
+#jb_template .fa-fonticons:before, .jb_template .fa-fonticons:before {
+  content: "\f280";
+}
+
+#jb_template .fa-fonticons-fi:before, .jb_template .fa-fonticons-fi:before {
+  content: "\f3a2";
+}
+
+#jb_template .fa-football-ball:before, .jb_template .fa-football-ball:before {
+  content: "\f44e";
+}
+
+#jb_template .fa-fort-awesome:before, .jb_template .fa-fort-awesome:before {
+  content: "\f286";
+}
+
+#jb_template .fa-fort-awesome-alt:before, .jb_template .fa-fort-awesome-alt:before {
+  content: "\f3a3";
+}
+
+#jb_template .fa-forumbee:before, .jb_template .fa-forumbee:before {
+  content: "\f211";
+}
+
+#jb_template .fa-forward:before, .jb_template .fa-forward:before {
+  content: "\f04e";
+}
+
+#jb_template .fa-foursquare:before, .jb_template .fa-foursquare:before {
+  content: "\f180";
+}
+
+#jb_template .fa-free-code-camp:before, .jb_template .fa-free-code-camp:before {
+  content: "\f2c5";
+}
+
+#jb_template .fa-freebsd:before, .jb_template .fa-freebsd:before {
+  content: "\f3a4";
+}
+
+#jb_template .fa-frog:before, .jb_template .fa-frog:before {
+  content: "\f52e";
+}
+
+#jb_template .fa-frown:before, .jb_template .fa-frown:before {
+  content: "\f119";
+}
+
+#jb_template .fa-frown-open:before, .jb_template .fa-frown-open:before {
+  content: "\f57a";
+}
+
+#jb_template .fa-fulcrum:before, .jb_template .fa-fulcrum:before {
+  content: "\f50b";
+}
+
+#jb_template .fa-funnel-dollar:before, .jb_template .fa-funnel-dollar:before {
+  content: "\f662";
+}
+
+#jb_template .fa-futbol:before, .jb_template .fa-futbol:before {
+  content: "\f1e3";
+}
+
+#jb_template .fa-galactic-republic:before, .jb_template .fa-galactic-republic:before {
+  content: "\f50c";
+}
+
+#jb_template .fa-galactic-senate:before, .jb_template .fa-galactic-senate:before {
+  content: "\f50d";
+}
+
+#jb_template .fa-gamepad:before, .jb_template .fa-gamepad:before {
+  content: "\f11b";
+}
+
+#jb_template .fa-gas-pump:before, .jb_template .fa-gas-pump:before {
+  content: "\f52f";
+}
+
+#jb_template .fa-gavel:before, .jb_template .fa-gavel:before {
+  content: "\f0e3";
+}
+
+#jb_template .fa-gem:before, .jb_template .fa-gem:before {
+  content: "\f3a5";
+}
+
+#jb_template .fa-genderless:before, .jb_template .fa-genderless:before {
+  content: "\f22d";
+}
+
+#jb_template .fa-get-pocket:before, .jb_template .fa-get-pocket:before {
+  content: "\f265";
+}
+
+#jb_template .fa-gg:before, .jb_template .fa-gg:before {
+  content: "\f260";
+}
+
+#jb_template .fa-gg-circle:before, .jb_template .fa-gg-circle:before {
+  content: "\f261";
+}
+
+#jb_template .fa-ghost:before, .jb_template .fa-ghost:before {
+  content: "\f6e2";
+}
+
+#jb_template .fa-gift:before, .jb_template .fa-gift:before {
+  content: "\f06b";
+}
+
+#jb_template .fa-gifts:before, .jb_template .fa-gifts:before {
+  content: "\f79c";
+}
+
+#jb_template .fa-git:before, .jb_template .fa-git:before {
+  content: "\f1d3";
+}
+
+#jb_template .fa-git-alt:before, .jb_template .fa-git-alt:before {
+  content: "\f841";
+}
+
+#jb_template .fa-git-square:before, .jb_template .fa-git-square:before {
+  content: "\f1d2";
+}
+
+#jb_template .fa-github:before, .jb_template .fa-github:before {
+  content: "\f09b";
+}
+
+#jb_template .fa-github-alt:before, .jb_template .fa-github-alt:before {
+  content: "\f113";
+}
+
+#jb_template .fa-github-square:before, .jb_template .fa-github-square:before {
+  content: "\f092";
+}
+
+#jb_template .fa-gitkraken:before, .jb_template .fa-gitkraken:before {
+  content: "\f3a6";
+}
+
+#jb_template .fa-gitlab:before, .jb_template .fa-gitlab:before {
+  content: "\f296";
+}
+
+#jb_template .fa-gitter:before, .jb_template .fa-gitter:before {
+  content: "\f426";
+}
+
+#jb_template .fa-glass-cheers:before, .jb_template .fa-glass-cheers:before {
+  content: "\f79f";
+}
+
+#jb_template .fa-glass-martini:before, .jb_template .fa-glass-martini:before {
+  content: "\f000";
+}
+
+#jb_template .fa-glass-martini-alt:before, .jb_template .fa-glass-martini-alt:before {
+  content: "\f57b";
+}
+
+#jb_template .fa-glass-whiskey:before, .jb_template .fa-glass-whiskey:before {
+  content: "\f7a0";
+}
+
+#jb_template .fa-glasses:before, .jb_template .fa-glasses:before {
+  content: "\f530";
+}
+
+#jb_template .fa-glide:before, .jb_template .fa-glide:before {
+  content: "\f2a5";
+}
+
+#jb_template .fa-glide-g:before, .jb_template .fa-glide-g:before {
+  content: "\f2a6";
+}
+
+#jb_template .fa-globe:before, .jb_template .fa-globe:before {
+  content: "\f0ac";
+}
+
+#jb_template .fa-globe-africa:before, .jb_template .fa-globe-africa:before {
+  content: "\f57c";
+}
+
+#jb_template .fa-globe-americas:before, .jb_template .fa-globe-americas:before {
+  content: "\f57d";
+}
+
+#jb_template .fa-globe-asia:before, .jb_template .fa-globe-asia:before {
+  content: "\f57e";
+}
+
+#jb_template .fa-globe-europe:before, .jb_template .fa-globe-europe:before {
+  content: "\f7a2";
+}
+
+#jb_template .fa-gofore:before, .jb_template .fa-gofore:before {
+  content: "\f3a7";
+}
+
+#jb_template .fa-golf-ball:before, .jb_template .fa-golf-ball:before {
+  content: "\f450";
+}
+
+#jb_template .fa-goodreads:before, .jb_template .fa-goodreads:before {
+  content: "\f3a8";
+}
+
+#jb_template .fa-goodreads-g:before, .jb_template .fa-goodreads-g:before {
+  content: "\f3a9";
+}
+
+#jb_template .fa-google:before, .jb_template .fa-google:before {
+  content: "\f1a0";
+}
+
+#jb_template .fa-google-drive:before, .jb_template .fa-google-drive:before {
+  content: "\f3aa";
+}
+
+#jb_template .fa-google-play:before, .jb_template .fa-google-play:before {
+  content: "\f3ab";
+}
+
+#jb_template .fa-google-plus:before, .jb_template .fa-google-plus:before {
+  content: "\f2b3";
+}
+
+#jb_template .fa-google-plus-g:before, .jb_template .fa-google-plus-g:before {
+  content: "\f0d5";
+}
+
+#jb_template .fa-google-plus-square:before, .jb_template .fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+#jb_template .fa-google-wallet:before, .jb_template .fa-google-wallet:before {
+  content: "\f1ee";
+}
+
+#jb_template .fa-gopuram:before, .jb_template .fa-gopuram:before {
+  content: "\f664";
+}
+
+#jb_template .fa-graduation-cap:before, .jb_template .fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+#jb_template .fa-gratipay:before, .jb_template .fa-gratipay:before {
+  content: "\f184";
+}
+
+#jb_template .fa-grav:before, .jb_template .fa-grav:before {
+  content: "\f2d6";
+}
+
+#jb_template .fa-greater-than:before, .jb_template .fa-greater-than:before {
+  content: "\f531";
+}
+
+#jb_template .fa-greater-than-equal:before, .jb_template .fa-greater-than-equal:before {
+  content: "\f532";
+}
+
+#jb_template .fa-grimace:before, .jb_template .fa-grimace:before {
+  content: "\f57f";
+}
+
+#jb_template .fa-grin:before, .jb_template .fa-grin:before {
+  content: "\f580";
+}
+
+#jb_template .fa-grin-alt:before, .jb_template .fa-grin-alt:before {
+  content: "\f581";
+}
+
+#jb_template .fa-grin-beam:before, .jb_template .fa-grin-beam:before {
+  content: "\f582";
+}
+
+#jb_template .fa-grin-beam-sweat:before, .jb_template .fa-grin-beam-sweat:before {
+  content: "\f583";
+}
+
+#jb_template .fa-grin-hearts:before, .jb_template .fa-grin-hearts:before {
+  content: "\f584";
+}
+
+#jb_template .fa-grin-squint:before, .jb_template .fa-grin-squint:before {
+  content: "\f585";
+}
+
+#jb_template .fa-grin-squint-tears:before, .jb_template .fa-grin-squint-tears:before {
+  content: "\f586";
+}
+
+#jb_template .fa-grin-stars:before, .jb_template .fa-grin-stars:before {
+  content: "\f587";
+}
+
+#jb_template .fa-grin-tears:before, .jb_template .fa-grin-tears:before {
+  content: "\f588";
+}
+
+#jb_template .fa-grin-tongue:before, .jb_template .fa-grin-tongue:before {
+  content: "\f589";
+}
+
+#jb_template .fa-grin-tongue-squint:before, .jb_template .fa-grin-tongue-squint:before {
+  content: "\f58a";
+}
+
+#jb_template .fa-grin-tongue-wink:before, .jb_template .fa-grin-tongue-wink:before {
+  content: "\f58b";
+}
+
+#jb_template .fa-grin-wink:before, .jb_template .fa-grin-wink:before {
+  content: "\f58c";
+}
+
+#jb_template .fa-grip-horizontal:before, .jb_template .fa-grip-horizontal:before {
+  content: "\f58d";
+}
+
+#jb_template .fa-grip-lines:before, .jb_template .fa-grip-lines:before {
+  content: "\f7a4";
+}
+
+#jb_template .fa-grip-lines-vertical:before, .jb_template .fa-grip-lines-vertical:before {
+  content: "\f7a5";
+}
+
+#jb_template .fa-grip-vertical:before, .jb_template .fa-grip-vertical:before {
+  content: "\f58e";
+}
+
+#jb_template .fa-gripfire:before, .jb_template .fa-gripfire:before {
+  content: "\f3ac";
+}
+
+#jb_template .fa-grunt:before, .jb_template .fa-grunt:before {
+  content: "\f3ad";
+}
+
+#jb_template .fa-guitar:before, .jb_template .fa-guitar:before {
+  content: "\f7a6";
+}
+
+#jb_template .fa-gulp:before, .jb_template .fa-gulp:before {
+  content: "\f3ae";
+}
+
+#jb_template .fa-h-square:before, .jb_template .fa-h-square:before {
+  content: "\f0fd";
+}
+
+#jb_template .fa-hacker-news:before, .jb_template .fa-hacker-news:before {
+  content: "\f1d4";
+}
+
+#jb_template .fa-hacker-news-square:before, .jb_template .fa-hacker-news-square:before {
+  content: "\f3af";
+}
+
+#jb_template .fa-hackerrank:before, .jb_template .fa-hackerrank:before {
+  content: "\f5f7";
+}
+
+#jb_template .fa-hamburger:before, .jb_template .fa-hamburger:before {
+  content: "\f805";
+}
+
+#jb_template .fa-hammer:before, .jb_template .fa-hammer:before {
+  content: "\f6e3";
+}
+
+#jb_template .fa-hamsa:before, .jb_template .fa-hamsa:before {
+  content: "\f665";
+}
+
+#jb_template .fa-hand-holding:before, .jb_template .fa-hand-holding:before {
+  content: "\f4bd";
+}
+
+#jb_template .fa-hand-holding-heart:before, .jb_template .fa-hand-holding-heart:before {
+  content: "\f4be";
+}
+
+#jb_template .fa-hand-holding-usd:before, .jb_template .fa-hand-holding-usd:before {
+  content: "\f4c0";
+}
+
+#jb_template .fa-hand-lizard:before, .jb_template .fa-hand-lizard:before {
+  content: "\f258";
+}
+
+#jb_template .fa-hand-middle-finger:before, .jb_template .fa-hand-middle-finger:before {
+  content: "\f806";
+}
+
+#jb_template .fa-hand-paper:before, .jb_template .fa-hand-paper:before {
+  content: "\f256";
+}
+
+#jb_template .fa-hand-peace:before, .jb_template .fa-hand-peace:before {
+  content: "\f25b";
+}
+
+#jb_template .fa-hand-point-down:before, .jb_template .fa-hand-point-down:before {
+  content: "\f0a7";
+}
+
+#jb_template .fa-hand-point-left:before, .jb_template .fa-hand-point-left:before {
+  content: "\f0a5";
+}
+
+#jb_template .fa-hand-point-right:before, .jb_template .fa-hand-point-right:before {
+  content: "\f0a4";
+}
+
+#jb_template .fa-hand-point-up:before, .jb_template .fa-hand-point-up:before {
+  content: "\f0a6";
+}
+
+#jb_template .fa-hand-pointer:before, .jb_template .fa-hand-pointer:before {
+  content: "\f25a";
+}
+
+#jb_template .fa-hand-rock:before, .jb_template .fa-hand-rock:before {
+  content: "\f255";
+}
+
+#jb_template .fa-hand-scissors:before, .jb_template .fa-hand-scissors:before {
+  content: "\f257";
+}
+
+#jb_template .fa-hand-spock:before, .jb_template .fa-hand-spock:before {
+  content: "\f259";
+}
+
+#jb_template .fa-hands:before, .jb_template .fa-hands:before {
+  content: "\f4c2";
+}
+
+#jb_template .fa-hands-helping:before, .jb_template .fa-hands-helping:before {
+  content: "\f4c4";
+}
+
+#jb_template .fa-handshake:before, .jb_template .fa-handshake:before {
+  content: "\f2b5";
+}
+
+#jb_template .fa-hanukiah:before, .jb_template .fa-hanukiah:before {
+  content: "\f6e6";
+}
+
+#jb_template .fa-hard-hat:before, .jb_template .fa-hard-hat:before {
+  content: "\f807";
+}
+
+#jb_template .fa-hashtag:before, .jb_template .fa-hashtag:before {
+  content: "\f292";
+}
+
+#jb_template .fa-hat-cowboy:before, .jb_template .fa-hat-cowboy:before {
+  content: "\f8c0";
+}
+
+#jb_template .fa-hat-cowboy-side:before, .jb_template .fa-hat-cowboy-side:before {
+  content: "\f8c1";
+}
+
+#jb_template .fa-hat-wizard:before, .jb_template .fa-hat-wizard:before {
+  content: "\f6e8";
+}
+
+#jb_template .fa-haykal:before, .jb_template .fa-haykal:before {
+  content: "\f666";
+}
+
+#jb_template .fa-hdd:before, .jb_template .fa-hdd:before {
+  content: "\f0a0";
+}
+
+#jb_template .fa-heading:before, .jb_template .fa-heading:before {
+  content: "\f1dc";
+}
+
+#jb_template .fa-headphones:before, .jb_template .fa-headphones:before {
+  content: "\f025";
+}
+
+#jb_template .fa-headphones-alt:before, .jb_template .fa-headphones-alt:before {
+  content: "\f58f";
+}
+
+#jb_template .fa-headset:before, .jb_template .fa-headset:before {
+  content: "\f590";
+}
+
+#jb_template .fa-heart:before, .jb_template .fa-heart:before {
+  content: "\f004";
+}
+
+#jb_template .fa-heart-broken:before, .jb_template .fa-heart-broken:before {
+  content: "\f7a9";
+}
+
+#jb_template .fa-heartbeat:before, .jb_template .fa-heartbeat:before {
+  content: "\f21e";
+}
+
+#jb_template .fa-helicopter:before, .jb_template .fa-helicopter:before {
+  content: "\f533";
+}
+
+#jb_template .fa-highlighter:before, .jb_template .fa-highlighter:before {
+  content: "\f591";
+}
+
+#jb_template .fa-hiking:before, .jb_template .fa-hiking:before {
+  content: "\f6ec";
+}
+
+#jb_template .fa-hippo:before, .jb_template .fa-hippo:before {
+  content: "\f6ed";
+}
+
+#jb_template .fa-hips:before, .jb_template .fa-hips:before {
+  content: "\f452";
+}
+
+#jb_template .fa-hire-a-helper:before, .jb_template .fa-hire-a-helper:before {
+  content: "\f3b0";
+}
+
+#jb_template .fa-history:before, .jb_template .fa-history:before {
+  content: "\f1da";
+}
+
+#jb_template .fa-hockey-puck:before, .jb_template .fa-hockey-puck:before {
+  content: "\f453";
+}
+
+#jb_template .fa-holly-berry:before, .jb_template .fa-holly-berry:before {
+  content: "\f7aa";
+}
+
+#jb_template .fa-home:before, .jb_template .fa-home:before {
+  content: "\f015";
+}
+
+#jb_template .fa-hooli:before, .jb_template .fa-hooli:before {
+  content: "\f427";
+}
+
+#jb_template .fa-hornbill:before, .jb_template .fa-hornbill:before {
+  content: "\f592";
+}
+
+#jb_template .fa-horse:before, .jb_template .fa-horse:before {
+  content: "\f6f0";
+}
+
+#jb_template .fa-horse-head:before, .jb_template .fa-horse-head:before {
+  content: "\f7ab";
+}
+
+#jb_template .fa-hospital:before, .jb_template .fa-hospital:before {
+  content: "\f0f8";
+}
+
+#jb_template .fa-hospital-alt:before, .jb_template .fa-hospital-alt:before {
+  content: "\f47d";
+}
+
+#jb_template .fa-hospital-symbol:before, .jb_template .fa-hospital-symbol:before {
+  content: "\f47e";
+}
+
+#jb_template .fa-hot-tub:before, .jb_template .fa-hot-tub:before {
+  content: "\f593";
+}
+
+#jb_template .fa-hotdog:before, .jb_template .fa-hotdog:before {
+  content: "\f80f";
+}
+
+#jb_template .fa-hotel:before, .jb_template .fa-hotel:before {
+  content: "\f594";
+}
+
+#jb_template .fa-hotjar:before, .jb_template .fa-hotjar:before {
+  content: "\f3b1";
+}
+
+#jb_template .fa-hourglass:before, .jb_template .fa-hourglass:before {
+  content: "\f254";
+}
+
+#jb_template .fa-hourglass-end:before, .jb_template .fa-hourglass-end:before {
+  content: "\f253";
+}
+
+#jb_template .fa-hourglass-half:before, .jb_template .fa-hourglass-half:before {
+  content: "\f252";
+}
+
+#jb_template .fa-hourglass-start:before, .jb_template .fa-hourglass-start:before {
+  content: "\f251";
+}
+
+#jb_template .fa-house-damage:before, .jb_template .fa-house-damage:before {
+  content: "\f6f1";
+}
+
+#jb_template .fa-houzz:before, .jb_template .fa-houzz:before {
+  content: "\f27c";
+}
+
+#jb_template .fa-hryvnia:before, .jb_template .fa-hryvnia:before {
+  content: "\f6f2";
+}
+
+#jb_template .fa-html5:before, .jb_template .fa-html5:before {
+  content: "\f13b";
+}
+
+#jb_template .fa-hubspot:before, .jb_template .fa-hubspot:before {
+  content: "\f3b2";
+}
+
+#jb_template .fa-i-cursor:before, .jb_template .fa-i-cursor:before {
+  content: "\f246";
+}
+
+#jb_template .fa-ice-cream:before, .jb_template .fa-ice-cream:before {
+  content: "\f810";
+}
+
+#jb_template .fa-icicles:before, .jb_template .fa-icicles:before {
+  content: "\f7ad";
+}
+
+#jb_template .fa-icons:before, .jb_template .fa-icons:before {
+  content: "\f86d";
+}
+
+#jb_template .fa-id-badge:before, .jb_template .fa-id-badge:before {
+  content: "\f2c1";
+}
+
+#jb_template .fa-id-card:before, .jb_template .fa-id-card:before {
+  content: "\f2c2";
+}
+
+#jb_template .fa-id-card-alt:before, .jb_template .fa-id-card-alt:before {
+  content: "\f47f";
+}
+
+#jb_template .fa-igloo:before, .jb_template .fa-igloo:before {
+  content: "\f7ae";
+}
+
+#jb_template .fa-image:before, .jb_template .fa-image:before {
+  content: "\f03e";
+}
+
+#jb_template .fa-images:before, .jb_template .fa-images:before {
+  content: "\f302";
+}
+
+#jb_template .fa-imdb:before, .jb_template .fa-imdb:before {
+  content: "\f2d8";
+}
+
+#jb_template .fa-inbox:before, .jb_template .fa-inbox:before {
+  content: "\f01c";
+}
+
+#jb_template .fa-indent:before, .jb_template .fa-indent:before {
+  content: "\f03c";
+}
+
+#jb_template .fa-industry:before, .jb_template .fa-industry:before {
+  content: "\f275";
+}
+
+#jb_template .fa-infinity:before, .jb_template .fa-infinity:before {
+  content: "\f534";
+}
+
+#jb_template .fa-info:before, .jb_template .fa-info:before {
+  content: "\f129";
+}
+
+#jb_template .fa-info-circle:before, .jb_template .fa-info-circle:before {
+  content: "\f05a";
+}
+
+#jb_template .fa-instagram:before, .jb_template .fa-instagram:before {
+  content: "\f16d";
+}
+
+#jb_template .fa-intercom:before, .jb_template .fa-intercom:before {
+  content: "\f7af";
+}
+
+#jb_template .fa-internet-explorer:before, .jb_template .fa-internet-explorer:before {
+  content: "\f26b";
+}
+
+#jb_template .fa-invision:before, .jb_template .fa-invision:before {
+  content: "\f7b0";
+}
+
+#jb_template .fa-ioxhost:before, .jb_template .fa-ioxhost:before {
+  content: "\f208";
+}
+
+#jb_template .fa-italic:before, .jb_template .fa-italic:before {
+  content: "\f033";
+}
+
+#jb_template .fa-itch-io:before, .jb_template .fa-itch-io:before {
+  content: "\f83a";
+}
+
+#jb_template .fa-itunes:before, .jb_template .fa-itunes:before {
+  content: "\f3b4";
+}
+
+#jb_template .fa-itunes-note:before, .jb_template .fa-itunes-note:before {
+  content: "\f3b5";
+}
+
+#jb_template .fa-java:before, .jb_template .fa-java:before {
+  content: "\f4e4";
+}
+
+#jb_template .fa-jedi:before, .jb_template .fa-jedi:before {
+  content: "\f669";
+}
+
+#jb_template .fa-jedi-order:before, .jb_template .fa-jedi-order:before {
+  content: "\f50e";
+}
+
+#jb_template .fa-jenkins:before, .jb_template .fa-jenkins:before {
+  content: "\f3b6";
+}
+
+#jb_template .fa-jira:before, .jb_template .fa-jira:before {
+  content: "\f7b1";
+}
+
+#jb_template .fa-joget:before, .jb_template .fa-joget:before {
+  content: "\f3b7";
+}
+
+#jb_template .fa-joint:before, .jb_template .fa-joint:before {
+  content: "\f595";
+}
+
+#jb_template .fa-joomla:before, .jb_template .fa-joomla:before {
+  content: "\f1aa";
+}
+
+#jb_template .fa-journal-whills:before, .jb_template .fa-journal-whills:before {
+  content: "\f66a";
+}
+
+#jb_template .fa-js:before, .jb_template .fa-js:before {
+  content: "\f3b8";
+}
+
+#jb_template .fa-js-square:before, .jb_template .fa-js-square:before {
+  content: "\f3b9";
+}
+
+#jb_template .fa-jsfiddle:before, .jb_template .fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+#jb_template .fa-kaaba:before, .jb_template .fa-kaaba:before {
+  content: "\f66b";
+}
+
+#jb_template .fa-kaggle:before, .jb_template .fa-kaggle:before {
+  content: "\f5fa";
+}
+
+#jb_template .fa-key:before, .jb_template .fa-key:before {
+  content: "\f084";
+}
+
+#jb_template .fa-keybase:before, .jb_template .fa-keybase:before {
+  content: "\f4f5";
+}
+
+#jb_template .fa-keyboard:before, .jb_template .fa-keyboard:before {
+  content: "\f11c";
+}
+
+#jb_template .fa-keycdn:before, .jb_template .fa-keycdn:before {
+  content: "\f3ba";
+}
+
+#jb_template .fa-khanda:before, .jb_template .fa-khanda:before {
+  content: "\f66d";
+}
+
+#jb_template .fa-kickstarter:before, .jb_template .fa-kickstarter:before {
+  content: "\f3bb";
+}
+
+#jb_template .fa-kickstarter-k:before, .jb_template .fa-kickstarter-k:before {
+  content: "\f3bc";
+}
+
+#jb_template .fa-kiss:before, .jb_template .fa-kiss:before {
+  content: "\f596";
+}
+
+#jb_template .fa-kiss-beam:before, .jb_template .fa-kiss-beam:before {
+  content: "\f597";
+}
+
+#jb_template .fa-kiss-wink-heart:before, .jb_template .fa-kiss-wink-heart:before {
+  content: "\f598";
+}
+
+#jb_template .fa-kiwi-bird:before, .jb_template .fa-kiwi-bird:before {
+  content: "\f535";
+}
+
+#jb_template .fa-korvue:before, .jb_template .fa-korvue:before {
+  content: "\f42f";
+}
+
+#jb_template .fa-landmark:before, .jb_template .fa-landmark:before {
+  content: "\f66f";
+}
+
+#jb_template .fa-language:before, .jb_template .fa-language:before {
+  content: "\f1ab";
+}
+
+#jb_template .fa-laptop:before, .jb_template .fa-laptop:before {
+  content: "\f109";
+}
+
+#jb_template .fa-laptop-code:before, .jb_template .fa-laptop-code:before {
+  content: "\f5fc";
+}
+
+#jb_template .fa-laptop-medical:before, .jb_template .fa-laptop-medical:before {
+  content: "\f812";
+}
+
+#jb_template .fa-laravel:before, .jb_template .fa-laravel:before {
+  content: "\f3bd";
+}
+
+#jb_template .fa-lastfm:before, .jb_template .fa-lastfm:before {
+  content: "\f202";
+}
+
+#jb_template .fa-lastfm-square:before, .jb_template .fa-lastfm-square:before {
+  content: "\f203";
+}
+
+#jb_template .fa-laugh:before, .jb_template .fa-laugh:before {
+  content: "\f599";
+}
+
+#jb_template .fa-laugh-beam:before, .jb_template .fa-laugh-beam:before {
+  content: "\f59a";
+}
+
+#jb_template .fa-laugh-squint:before, .jb_template .fa-laugh-squint:before {
+  content: "\f59b";
+}
+
+#jb_template .fa-laugh-wink:before, .jb_template .fa-laugh-wink:before {
+  content: "\f59c";
+}
+
+#jb_template .fa-layer-group:before, .jb_template .fa-layer-group:before {
+  content: "\f5fd";
+}
+
+#jb_template .fa-leaf:before, .jb_template .fa-leaf:before {
+  content: "\f06c";
+}
+
+#jb_template .fa-leanpub:before, .jb_template .fa-leanpub:before {
+  content: "\f212";
+}
+
+#jb_template .fa-lemon:before, .jb_template .fa-lemon:before {
+  content: "\f094";
+}
+
+#jb_template .fa-less:before, .jb_template .fa-less:before {
+  content: "\f41d";
+}
+
+#jb_template .fa-less-than:before, .jb_template .fa-less-than:before {
+  content: "\f536";
+}
+
+#jb_template .fa-less-than-equal:before, .jb_template .fa-less-than-equal:before {
+  content: "\f537";
+}
+
+#jb_template .fa-level-down-alt:before, .jb_template .fa-level-down-alt:before {
+  content: "\f3be";
+}
+
+#jb_template .fa-level-up-alt:before, .jb_template .fa-level-up-alt:before {
+  content: "\f3bf";
+}
+
+#jb_template .fa-life-ring:before, .jb_template .fa-life-ring:before {
+  content: "\f1cd";
+}
+
+#jb_template .fa-lightbulb:before, .jb_template .fa-lightbulb:before {
+  content: "\f0eb";
+}
+
+#jb_template .fa-line:before, .jb_template .fa-line:before {
+  content: "\f3c0";
+}
+
+#jb_template .fa-link:before, .jb_template .fa-link:before {
+  content: "\f0c1";
+}
+
+#jb_template .fa-linkedin:before, .jb_template .fa-linkedin:before {
+  content: "\f08c";
+}
+
+#jb_template .fa-linkedin-in:before, .jb_template .fa-linkedin-in:before {
+  content: "\f0e1";
+}
+
+#jb_template .fa-linode:before, .jb_template .fa-linode:before {
+  content: "\f2b8";
+}
+
+#jb_template .fa-linux:before, .jb_template .fa-linux:before {
+  content: "\f17c";
+}
+
+#jb_template .fa-lira-sign:before, .jb_template .fa-lira-sign:before {
+  content: "\f195";
+}
+
+#jb_template .fa-list:before, .jb_template .fa-list:before {
+  content: "\f03a";
+}
+
+#jb_template .fa-list-alt:before, .jb_template .fa-list-alt:before {
+  content: "\f022";
+}
+
+#jb_template .fa-list-ol:before, .jb_template .fa-list-ol:before {
+  content: "\f0cb";
+}
+
+#jb_template .fa-list-ul:before, .jb_template .fa-list-ul:before {
+  content: "\f0ca";
+}
+
+#jb_template .fa-location-arrow:before, .jb_template .fa-location-arrow:before {
+  content: "\f124";
+}
+
+#jb_template .fa-lock:before, .jb_template .fa-lock:before {
+  content: "\f023";
+}
+
+#jb_template .fa-lock-open:before, .jb_template .fa-lock-open:before {
+  content: "\f3c1";
+}
+
+#jb_template .fa-long-arrow-alt-down:before, .jb_template .fa-long-arrow-alt-down:before {
+  content: "\f309";
+}
+
+#jb_template .fa-long-arrow-alt-left:before, .jb_template .fa-long-arrow-alt-left:before {
+  content: "\f30a";
+}
+
+#jb_template .fa-long-arrow-alt-right:before, .jb_template .fa-long-arrow-alt-right:before {
+  content: "\f30b";
+}
+
+#jb_template .fa-long-arrow-alt-up:before, .jb_template .fa-long-arrow-alt-up:before {
+  content: "\f30c";
+}
+
+#jb_template .fa-low-vision:before, .jb_template .fa-low-vision:before {
+  content: "\f2a8";
+}
+
+#jb_template .fa-luggage-cart:before, .jb_template .fa-luggage-cart:before {
+  content: "\f59d";
+}
+
+#jb_template .fa-lyft:before, .jb_template .fa-lyft:before {
+  content: "\f3c3";
+}
+
+#jb_template .fa-magento:before, .jb_template .fa-magento:before {
+  content: "\f3c4";
+}
+
+#jb_template .fa-magic:before, .jb_template .fa-magic:before {
+  content: "\f0d0";
+}
+
+#jb_template .fa-magnet:before, .jb_template .fa-magnet:before {
+  content: "\f076";
+}
+
+#jb_template .fa-mail-bulk:before, .jb_template .fa-mail-bulk:before {
+  content: "\f674";
+}
+
+#jb_template .fa-mailchimp:before, .jb_template .fa-mailchimp:before {
+  content: "\f59e";
+}
+
+#jb_template .fa-male:before, .jb_template .fa-male:before {
+  content: "\f183";
+}
+
+#jb_template .fa-mandalorian:before, .jb_template .fa-mandalorian:before {
+  content: "\f50f";
+}
+
+#jb_template .fa-map:before, .jb_template .fa-map:before {
+  content: "\f279";
+}
+
+#jb_template .fa-map-marked:before, .jb_template .fa-map-marked:before {
+  content: "\f59f";
+}
+
+#jb_template .fa-map-marked-alt:before, .jb_template .fa-map-marked-alt:before {
+  content: "\f5a0";
+}
+
+#jb_template .fa-map-marker:before, .jb_template .fa-map-marker:before {
+  content: "\f041";
+}
+
+#jb_template .fa-map-marker-alt:before, .jb_template .fa-map-marker-alt:before {
+  content: "\f3c5";
+}
+
+#jb_template .fa-map-pin:before, .jb_template .fa-map-pin:before {
+  content: "\f276";
+}
+
+#jb_template .fa-map-signs:before, .jb_template .fa-map-signs:before {
+  content: "\f277";
+}
+
+#jb_template .fa-markdown:before, .jb_template .fa-markdown:before {
+  content: "\f60f";
+}
+
+#jb_template .fa-marker:before, .jb_template .fa-marker:before {
+  content: "\f5a1";
+}
+
+#jb_template .fa-mars:before, .jb_template .fa-mars:before {
+  content: "\f222";
+}
+
+#jb_template .fa-mars-double:before, .jb_template .fa-mars-double:before {
+  content: "\f227";
+}
+
+#jb_template .fa-mars-stroke:before, .jb_template .fa-mars-stroke:before {
+  content: "\f229";
+}
+
+#jb_template .fa-mars-stroke-h:before, .jb_template .fa-mars-stroke-h:before {
+  content: "\f22b";
+}
+
+#jb_template .fa-mars-stroke-v:before, .jb_template .fa-mars-stroke-v:before {
+  content: "\f22a";
+}
+
+#jb_template .fa-mask:before, .jb_template .fa-mask:before {
+  content: "\f6fa";
+}
+
+#jb_template .fa-mastodon:before, .jb_template .fa-mastodon:before {
+  content: "\f4f6";
+}
+
+#jb_template .fa-maxcdn:before, .jb_template .fa-maxcdn:before {
+  content: "\f136";
+}
+
+#jb_template .fa-mdb:before, .jb_template .fa-mdb:before {
+  content: "\f8ca";
+}
+
+#jb_template .fa-medal:before, .jb_template .fa-medal:before {
+  content: "\f5a2";
+}
+
+#jb_template .fa-medapps:before, .jb_template .fa-medapps:before {
+  content: "\f3c6";
+}
+
+#jb_template .fa-medium:before, .jb_template .fa-medium:before {
+  content: "\f23a";
+}
+
+#jb_template .fa-medium-m:before, .jb_template .fa-medium-m:before {
+  content: "\f3c7";
+}
+
+#jb_template .fa-medkit:before, .jb_template .fa-medkit:before {
+  content: "\f0fa";
+}
+
+#jb_template .fa-medrt:before, .jb_template .fa-medrt:before {
+  content: "\f3c8";
+}
+
+#jb_template .fa-meetup:before, .jb_template .fa-meetup:before {
+  content: "\f2e0";
+}
+
+#jb_template .fa-megaport:before, .jb_template .fa-megaport:before {
+  content: "\f5a3";
+}
+
+#jb_template .fa-meh:before, .jb_template .fa-meh:before {
+  content: "\f11a";
+}
+
+#jb_template .fa-meh-blank:before, .jb_template .fa-meh-blank:before {
+  content: "\f5a4";
+}
+
+#jb_template .fa-meh-rolling-eyes:before, .jb_template .fa-meh-rolling-eyes:before {
+  content: "\f5a5";
+}
+
+#jb_template .fa-memory:before, .jb_template .fa-memory:before {
+  content: "\f538";
+}
+
+#jb_template .fa-mendeley:before, .jb_template .fa-mendeley:before {
+  content: "\f7b3";
+}
+
+#jb_template .fa-menorah:before, .jb_template .fa-menorah:before {
+  content: "\f676";
+}
+
+#jb_template .fa-mercury:before, .jb_template .fa-mercury:before {
+  content: "\f223";
+}
+
+#jb_template .fa-meteor:before, .jb_template .fa-meteor:before {
+  content: "\f753";
+}
+
+#jb_template .fa-microchip:before, .jb_template .fa-microchip:before {
+  content: "\f2db";
+}
+
+#jb_template .fa-microphone:before, .jb_template .fa-microphone:before {
+  content: "\f130";
+}
+
+#jb_template .fa-microphone-alt:before, .jb_template .fa-microphone-alt:before {
+  content: "\f3c9";
+}
+
+#jb_template .fa-microphone-alt-slash:before, .jb_template .fa-microphone-alt-slash:before {
+  content: "\f539";
+}
+
+#jb_template .fa-microphone-slash:before, .jb_template .fa-microphone-slash:before {
+  content: "\f131";
+}
+
+#jb_template .fa-microscope:before, .jb_template .fa-microscope:before {
+  content: "\f610";
+}
+
+#jb_template .fa-microsoft:before, .jb_template .fa-microsoft:before {
+  content: "\f3ca";
+}
+
+#jb_template .fa-minus:before, .jb_template .fa-minus:before {
+  content: "\f068";
+}
+
+#jb_template .fa-minus-circle:before, .jb_template .fa-minus-circle:before {
+  content: "\f056";
+}
+
+#jb_template .fa-minus-square:before, .jb_template .fa-minus-square:before {
+  content: "\f146";
+}
+
+#jb_template .fa-mitten:before, .jb_template .fa-mitten:before {
+  content: "\f7b5";
+}
+
+#jb_template .fa-mix:before, .jb_template .fa-mix:before {
+  content: "\f3cb";
+}
+
+#jb_template .fa-mixcloud:before, .jb_template .fa-mixcloud:before {
+  content: "\f289";
+}
+
+#jb_template .fa-mizuni:before, .jb_template .fa-mizuni:before {
+  content: "\f3cc";
+}
+
+#jb_template .fa-mobile:before, .jb_template .fa-mobile:before {
+  content: "\f10b";
+}
+
+#jb_template .fa-mobile-alt:before, .jb_template .fa-mobile-alt:before {
+  content: "\f3cd";
+}
+
+#jb_template .fa-modx:before, .jb_template .fa-modx:before {
+  content: "\f285";
+}
+
+#jb_template .fa-monero:before, .jb_template .fa-monero:before {
+  content: "\f3d0";
+}
+
+#jb_template .fa-money-bill:before, .jb_template .fa-money-bill:before {
+  content: "\f0d6";
+}
+
+#jb_template .fa-money-bill-alt:before, .jb_template .fa-money-bill-alt:before {
+  content: "\f3d1";
+}
+
+#jb_template .fa-money-bill-wave:before, .jb_template .fa-money-bill-wave:before {
+  content: "\f53a";
+}
+
+#jb_template .fa-money-bill-wave-alt:before, .jb_template .fa-money-bill-wave-alt:before {
+  content: "\f53b";
+}
+
+#jb_template .fa-money-check:before, .jb_template .fa-money-check:before {
+  content: "\f53c";
+}
+
+#jb_template .fa-money-check-alt:before, .jb_template .fa-money-check-alt:before {
+  content: "\f53d";
+}
+
+#jb_template .fa-monument:before, .jb_template .fa-monument:before {
+  content: "\f5a6";
+}
+
+#jb_template .fa-moon:before, .jb_template .fa-moon:before {
+  content: "\f186";
+}
+
+#jb_template .fa-mortar-pestle:before, .jb_template .fa-mortar-pestle:before {
+  content: "\f5a7";
+}
+
+#jb_template .fa-mosque:before, .jb_template .fa-mosque:before {
+  content: "\f678";
+}
+
+#jb_template .fa-motorcycle:before, .jb_template .fa-motorcycle:before {
+  content: "\f21c";
+}
+
+#jb_template .fa-mountain:before, .jb_template .fa-mountain:before {
+  content: "\f6fc";
+}
+
+#jb_template .fa-mouse:before, .jb_template .fa-mouse:before {
+  content: "\f8cc";
+}
+
+#jb_template .fa-mouse-pointer:before, .jb_template .fa-mouse-pointer:before {
+  content: "\f245";
+}
+
+#jb_template .fa-mug-hot:before, .jb_template .fa-mug-hot:before {
+  content: "\f7b6";
+}
+
+#jb_template .fa-music:before, .jb_template .fa-music:before {
+  content: "\f001";
+}
+
+#jb_template .fa-napster:before, .jb_template .fa-napster:before {
+  content: "\f3d2";
+}
+
+#jb_template .fa-neos:before, .jb_template .fa-neos:before {
+  content: "\f612";
+}
+
+#jb_template .fa-network-wired:before, .jb_template .fa-network-wired:before {
+  content: "\f6ff";
+}
+
+#jb_template .fa-neuter:before, .jb_template .fa-neuter:before {
+  content: "\f22c";
+}
+
+#jb_template .fa-newspaper:before, .jb_template .fa-newspaper:before {
+  content: "\f1ea";
+}
+
+#jb_template .fa-nimblr:before, .jb_template .fa-nimblr:before {
+  content: "\f5a8";
+}
+
+#jb_template .fa-node:before, .jb_template .fa-node:before {
+  content: "\f419";
+}
+
+#jb_template .fa-node-js:before, .jb_template .fa-node-js:before {
+  content: "\f3d3";
+}
+
+#jb_template .fa-not-equal:before, .jb_template .fa-not-equal:before {
+  content: "\f53e";
+}
+
+#jb_template .fa-notes-medical:before, .jb_template .fa-notes-medical:before {
+  content: "\f481";
+}
+
+#jb_template .fa-npm:before, .jb_template .fa-npm:before {
+  content: "\f3d4";
+}
+
+#jb_template .fa-ns8:before, .jb_template .fa-ns8:before {
+  content: "\f3d5";
+}
+
+#jb_template .fa-nutritionix:before, .jb_template .fa-nutritionix:before {
+  content: "\f3d6";
+}
+
+#jb_template .fa-object-group:before, .jb_template .fa-object-group:before {
+  content: "\f247";
+}
+
+#jb_template .fa-object-ungroup:before, .jb_template .fa-object-ungroup:before {
+  content: "\f248";
+}
+
+#jb_template .fa-odnoklassniki:before, .jb_template .fa-odnoklassniki:before {
+  content: "\f263";
+}
+
+#jb_template .fa-odnoklassniki-square:before, .jb_template .fa-odnoklassniki-square:before {
+  content: "\f264";
+}
+
+#jb_template .fa-oil-can:before, .jb_template .fa-oil-can:before {
+  content: "\f613";
+}
+
+#jb_template .fa-old-republic:before, .jb_template .fa-old-republic:before {
+  content: "\f510";
+}
+
+#jb_template .fa-om:before, .jb_template .fa-om:before {
+  content: "\f679";
+}
+
+#jb_template .fa-opencart:before, .jb_template .fa-opencart:before {
+  content: "\f23d";
+}
+
+#jb_template .fa-openid:before, .jb_template .fa-openid:before {
+  content: "\f19b";
+}
+
+#jb_template .fa-opera:before, .jb_template .fa-opera:before {
+  content: "\f26a";
+}
+
+#jb_template .fa-optin-monster:before, .jb_template .fa-optin-monster:before {
+  content: "\f23c";
+}
+
+#jb_template .fa-orcid:before, .jb_template .fa-orcid:before {
+  content: "\f8d2";
+}
+
+#jb_template .fa-osi:before, .jb_template .fa-osi:before {
+  content: "\f41a";
+}
+
+#jb_template .fa-otter:before, .jb_template .fa-otter:before {
+  content: "\f700";
+}
+
+#jb_template .fa-outdent:before, .jb_template .fa-outdent:before {
+  content: "\f03b";
+}
+
+#jb_template .fa-page4:before, .jb_template .fa-page4:before {
+  content: "\f3d7";
+}
+
+#jb_template .fa-pagelines:before, .jb_template .fa-pagelines:before {
+  content: "\f18c";
+}
+
+#jb_template .fa-pager:before, .jb_template .fa-pager:before {
+  content: "\f815";
+}
+
+#jb_template .fa-paint-brush:before, .jb_template .fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+#jb_template .fa-paint-roller:before, .jb_template .fa-paint-roller:before {
+  content: "\f5aa";
+}
+
+#jb_template .fa-palette:before, .jb_template .fa-palette:before {
+  content: "\f53f";
+}
+
+#jb_template .fa-palfed:before, .jb_template .fa-palfed:before {
+  content: "\f3d8";
+}
+
+#jb_template .fa-pallet:before, .jb_template .fa-pallet:before {
+  content: "\f482";
+}
+
+#jb_template .fa-paper-plane:before, .jb_template .fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+#jb_template .fa-paperclip:before, .jb_template .fa-paperclip:before {
+  content: "\f0c6";
+}
+
+#jb_template .fa-parachute-box:before, .jb_template .fa-parachute-box:before {
+  content: "\f4cd";
+}
+
+#jb_template .fa-paragraph:before, .jb_template .fa-paragraph:before {
+  content: "\f1dd";
+}
+
+#jb_template .fa-parking:before, .jb_template .fa-parking:before {
+  content: "\f540";
+}
+
+#jb_template .fa-passport:before, .jb_template .fa-passport:before {
+  content: "\f5ab";
+}
+
+#jb_template .fa-pastafarianism:before, .jb_template .fa-pastafarianism:before {
+  content: "\f67b";
+}
+
+#jb_template .fa-paste:before, .jb_template .fa-paste:before {
+  content: "\f0ea";
+}
+
+#jb_template .fa-patreon:before, .jb_template .fa-patreon:before {
+  content: "\f3d9";
+}
+
+#jb_template .fa-pause:before, .jb_template .fa-pause:before {
+  content: "\f04c";
+}
+
+#jb_template .fa-pause-circle:before, .jb_template .fa-pause-circle:before {
+  content: "\f28b";
+}
+
+#jb_template .fa-paw:before, .jb_template .fa-paw:before {
+  content: "\f1b0";
+}
+
+#jb_template .fa-paypal:before, .jb_template .fa-paypal:before {
+  content: "\f1ed";
+}
+
+#jb_template .fa-peace:before, .jb_template .fa-peace:before {
+  content: "\f67c";
+}
+
+#jb_template .fa-pen:before, .jb_template .fa-pen:before {
+  content: "\f304";
+}
+
+#jb_template .fa-pen-alt:before, .jb_template .fa-pen-alt:before {
+  content: "\f305";
+}
+
+#jb_template .fa-pen-fancy:before, .jb_template .fa-pen-fancy:before {
+  content: "\f5ac";
+}
+
+#jb_template .fa-pen-nib:before, .jb_template .fa-pen-nib:before {
+  content: "\f5ad";
+}
+
+#jb_template .fa-pen-square:before, .jb_template .fa-pen-square:before {
+  content: "\f14b";
+}
+
+#jb_template .fa-pencil-alt:before, .jb_template .fa-pencil-alt:before {
+  content: "\f303";
+}
+
+#jb_template .fa-pencil-ruler:before, .jb_template .fa-pencil-ruler:before {
+  content: "\f5ae";
+}
+
+#jb_template .fa-penny-arcade:before, .jb_template .fa-penny-arcade:before {
+  content: "\f704";
+}
+
+#jb_template .fa-people-carry:before, .jb_template .fa-people-carry:before {
+  content: "\f4ce";
+}
+
+#jb_template .fa-pepper-hot:before, .jb_template .fa-pepper-hot:before {
+  content: "\f816";
+}
+
+#jb_template .fa-percent:before, .jb_template .fa-percent:before {
+  content: "\f295";
+}
+
+#jb_template .fa-percentage:before, .jb_template .fa-percentage:before {
+  content: "\f541";
+}
+
+#jb_template .fa-periscope:before, .jb_template .fa-periscope:before {
+  content: "\f3da";
+}
+
+#jb_template .fa-person-booth:before, .jb_template .fa-person-booth:before {
+  content: "\f756";
+}
+
+#jb_template .fa-phabricator:before, .jb_template .fa-phabricator:before {
+  content: "\f3db";
+}
+
+#jb_template .fa-phoenix-framework:before, .jb_template .fa-phoenix-framework:before {
+  content: "\f3dc";
+}
+
+#jb_template .fa-phoenix-squadron:before, .jb_template .fa-phoenix-squadron:before {
+  content: "\f511";
+}
+
+#jb_template .fa-phone:before, .jb_template .fa-phone:before {
+  content: "\f095";
+}
+
+#jb_template .fa-phone-alt:before, .jb_template .fa-phone-alt:before {
+  content: "\f879";
+}
+
+#jb_template .fa-phone-slash:before, .jb_template .fa-phone-slash:before {
+  content: "\f3dd";
+}
+
+#jb_template .fa-phone-square:before, .jb_template .fa-phone-square:before {
+  content: "\f098";
+}
+
+#jb_template .fa-phone-square-alt:before, .jb_template .fa-phone-square-alt:before {
+  content: "\f87b";
+}
+
+#jb_template .fa-phone-volume:before, .jb_template .fa-phone-volume:before {
+  content: "\f2a0";
+}
+
+#jb_template .fa-photo-video:before, .jb_template .fa-photo-video:before {
+  content: "\f87c";
+}
+
+#jb_template .fa-php:before, .jb_template .fa-php:before {
+  content: "\f457";
+}
+
+#jb_template .fa-pied-piper:before, .jb_template .fa-pied-piper:before {
+  content: "\f2ae";
+}
+
+#jb_template .fa-pied-piper-alt:before, .jb_template .fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+#jb_template .fa-pied-piper-hat:before, .jb_template .fa-pied-piper-hat:before {
+  content: "\f4e5";
+}
+
+#jb_template .fa-pied-piper-pp:before, .jb_template .fa-pied-piper-pp:before {
+  content: "\f1a7";
+}
+
+#jb_template .fa-piggy-bank:before, .jb_template .fa-piggy-bank:before {
+  content: "\f4d3";
+}
+
+#jb_template .fa-pills:before, .jb_template .fa-pills:before {
+  content: "\f484";
+}
+
+#jb_template .fa-pinterest:before, .jb_template .fa-pinterest:before {
+  content: "\f0d2";
+}
+
+#jb_template .fa-pinterest-p:before, .jb_template .fa-pinterest-p:before {
+  content: "\f231";
+}
+
+#jb_template .fa-pinterest-square:before, .jb_template .fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+#jb_template .fa-pizza-slice:before, .jb_template .fa-pizza-slice:before {
+  content: "\f818";
+}
+
+#jb_template .fa-place-of-worship:before, .jb_template .fa-place-of-worship:before {
+  content: "\f67f";
+}
+
+#jb_template .fa-plane:before, .jb_template .fa-plane:before {
+  content: "\f072";
+}
+
+#jb_template .fa-plane-arrival:before, .jb_template .fa-plane-arrival:before {
+  content: "\f5af";
+}
+
+#jb_template .fa-plane-departure:before, .jb_template .fa-plane-departure:before {
+  content: "\f5b0";
+}
+
+#jb_template .fa-play:before, .jb_template .fa-play:before {
+  content: "\f04b";
+}
+
+#jb_template .fa-play-circle:before, .jb_template .fa-play-circle:before {
+  content: "\f144";
+}
+
+#jb_template .fa-playstation:before, .jb_template .fa-playstation:before {
+  content: "\f3df";
+}
+
+#jb_template .fa-plug:before, .jb_template .fa-plug:before {
+  content: "\f1e6";
+}
+
+#jb_template .fa-plus:before, .jb_template .fa-plus:before {
+  content: "\f067";
+}
+
+#jb_template .fa-plus-circle:before, .jb_template .fa-plus-circle:before {
+  content: "\f055";
+}
+
+#jb_template .fa-plus-square:before, .jb_template .fa-plus-square:before {
+  content: "\f0fe";
+}
+
+#jb_template .fa-podcast:before, .jb_template .fa-podcast:before {
+  content: "\f2ce";
+}
+
+#jb_template .fa-poll:before, .jb_template .fa-poll:before {
+  content: "\f681";
+}
+
+#jb_template .fa-poll-h:before, .jb_template .fa-poll-h:before {
+  content: "\f682";
+}
+
+#jb_template .fa-poo:before, .jb_template .fa-poo:before {
+  content: "\f2fe";
+}
+
+#jb_template .fa-poo-storm:before, .jb_template .fa-poo-storm:before {
+  content: "\f75a";
+}
+
+#jb_template .fa-poop:before, .jb_template .fa-poop:before {
+  content: "\f619";
+}
+
+#jb_template .fa-portrait:before, .jb_template .fa-portrait:before {
+  content: "\f3e0";
+}
+
+#jb_template .fa-pound-sign:before, .jb_template .fa-pound-sign:before {
+  content: "\f154";
+}
+
+#jb_template .fa-power-off:before, .jb_template .fa-power-off:before {
+  content: "\f011";
+}
+
+#jb_template .fa-pray:before, .jb_template .fa-pray:before {
+  content: "\f683";
+}
+
+#jb_template .fa-praying-hands:before, .jb_template .fa-praying-hands:before {
+  content: "\f684";
+}
+
+#jb_template .fa-prescription:before, .jb_template .fa-prescription:before {
+  content: "\f5b1";
+}
+
+#jb_template .fa-prescription-bottle:before, .jb_template .fa-prescription-bottle:before {
+  content: "\f485";
+}
+
+#jb_template .fa-prescription-bottle-alt:before, .jb_template .fa-prescription-bottle-alt:before {
+  content: "\f486";
+}
+
+#jb_template .fa-print:before, .jb_template .fa-print:before {
+  content: "\f02f";
+}
+
+#jb_template .fa-procedures:before, .jb_template .fa-procedures:before {
+  content: "\f487";
+}
+
+#jb_template .fa-product-hunt:before, .jb_template .fa-product-hunt:before {
+  content: "\f288";
+}
+
+#jb_template .fa-project-diagram:before, .jb_template .fa-project-diagram:before {
+  content: "\f542";
+}
+
+#jb_template .fa-pushed:before, .jb_template .fa-pushed:before {
+  content: "\f3e1";
+}
+
+#jb_template .fa-puzzle-piece:before, .jb_template .fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+#jb_template .fa-python:before, .jb_template .fa-python:before {
+  content: "\f3e2";
+}
+
+#jb_template .fa-qq:before, .jb_template .fa-qq:before {
+  content: "\f1d6";
+}
+
+#jb_template .fa-qrcode:before, .jb_template .fa-qrcode:before {
+  content: "\f029";
+}
+
+#jb_template .fa-question:before, .jb_template .fa-question:before {
+  content: "\f128";
+}
+
+#jb_template .fa-question-circle:before, .jb_template .fa-question-circle:before {
+  content: "\f059";
+}
+
+#jb_template .fa-quidditch:before, .jb_template .fa-quidditch:before {
+  content: "\f458";
+}
+
+#jb_template .fa-quinscape:before, .jb_template .fa-quinscape:before {
+  content: "\f459";
+}
+
+#jb_template .fa-quora:before, .jb_template .fa-quora:before {
+  content: "\f2c4";
+}
+
+#jb_template .fa-quote-left:before, .jb_template .fa-quote-left:before {
+  content: "\f10d";
+}
+
+#jb_template .fa-quote-right:before, .jb_template .fa-quote-right:before {
+  content: "\f10e";
+}
+
+#jb_template .fa-quran:before, .jb_template .fa-quran:before {
+  content: "\f687";
+}
+
+#jb_template .fa-r-project:before, .jb_template .fa-r-project:before {
+  content: "\f4f7";
+}
+
+#jb_template .fa-radiation:before, .jb_template .fa-radiation:before {
+  content: "\f7b9";
+}
+
+#jb_template .fa-radiation-alt:before, .jb_template .fa-radiation-alt:before {
+  content: "\f7ba";
+}
+
+#jb_template .fa-rainbow:before, .jb_template .fa-rainbow:before {
+  content: "\f75b";
+}
+
+#jb_template .fa-random:before, .jb_template .fa-random:before {
+  content: "\f074";
+}
+
+#jb_template .fa-raspberry-pi:before, .jb_template .fa-raspberry-pi:before {
+  content: "\f7bb";
+}
+
+#jb_template .fa-ravelry:before, .jb_template .fa-ravelry:before {
+  content: "\f2d9";
+}
+
+#jb_template .fa-react:before, .jb_template .fa-react:before {
+  content: "\f41b";
+}
+
+#jb_template .fa-reacteurope:before, .jb_template .fa-reacteurope:before {
+  content: "\f75d";
+}
+
+#jb_template .fa-readme:before, .jb_template .fa-readme:before {
+  content: "\f4d5";
+}
+
+#jb_template .fa-rebel:before, .jb_template .fa-rebel:before {
+  content: "\f1d0";
+}
+
+#jb_template .fa-receipt:before, .jb_template .fa-receipt:before {
+  content: "\f543";
+}
+
+#jb_template .fa-record-vinyl:before, .jb_template .fa-record-vinyl:before {
+  content: "\f8d9";
+}
+
+#jb_template .fa-recycle:before, .jb_template .fa-recycle:before {
+  content: "\f1b8";
+}
+
+#jb_template .fa-red-river:before, .jb_template .fa-red-river:before {
+  content: "\f3e3";
+}
+
+#jb_template .fa-reddit:before, .jb_template .fa-reddit:before {
+  content: "\f1a1";
+}
+
+#jb_template .fa-reddit-alien:before, .jb_template .fa-reddit-alien:before {
+  content: "\f281";
+}
+
+#jb_template .fa-reddit-square:before, .jb_template .fa-reddit-square:before {
+  content: "\f1a2";
+}
+
+#jb_template .fa-redhat:before, .jb_template .fa-redhat:before {
+  content: "\f7bc";
+}
+
+#jb_template .fa-redo:before, .jb_template .fa-redo:before {
+  content: "\f01e";
+}
+
+#jb_template .fa-redo-alt:before, .jb_template .fa-redo-alt:before {
+  content: "\f2f9";
+}
+
+#jb_template .fa-registered:before, .jb_template .fa-registered:before {
+  content: "\f25d";
+}
+
+#jb_template .fa-remove-format:before, .jb_template .fa-remove-format:before {
+  content: "\f87d";
+}
+
+#jb_template .fa-renren:before, .jb_template .fa-renren:before {
+  content: "\f18b";
+}
+
+#jb_template .fa-reply:before, .jb_template .fa-reply:before {
+  content: "\f3e5";
+}
+
+#jb_template .fa-reply-all:before, .jb_template .fa-reply-all:before {
+  content: "\f122";
+}
+
+#jb_template .fa-replyd:before, .jb_template .fa-replyd:before {
+  content: "\f3e6";
+}
+
+#jb_template .fa-republican:before, .jb_template .fa-republican:before {
+  content: "\f75e";
+}
+
+#jb_template .fa-researchgate:before, .jb_template .fa-researchgate:before {
+  content: "\f4f8";
+}
+
+#jb_template .fa-resolving:before, .jb_template .fa-resolving:before {
+  content: "\f3e7";
+}
+
+#jb_template .fa-restroom:before, .jb_template .fa-restroom:before {
+  content: "\f7bd";
+}
+
+#jb_template .fa-retweet:before, .jb_template .fa-retweet:before {
+  content: "\f079";
+}
+
+#jb_template .fa-rev:before, .jb_template .fa-rev:before {
+  content: "\f5b2";
+}
+
+#jb_template .fa-ribbon:before, .jb_template .fa-ribbon:before {
+  content: "\f4d6";
+}
+
+#jb_template .fa-ring:before, .jb_template .fa-ring:before {
+  content: "\f70b";
+}
+
+#jb_template .fa-road:before, .jb_template .fa-road:before {
+  content: "\f018";
+}
+
+#jb_template .fa-robot:before, .jb_template .fa-robot:before {
+  content: "\f544";
+}
+
+#jb_template .fa-rocket:before, .jb_template .fa-rocket:before {
+  content: "\f135";
+}
+
+#jb_template .fa-rocketchat:before, .jb_template .fa-rocketchat:before {
+  content: "\f3e8";
+}
+
+#jb_template .fa-rockrms:before, .jb_template .fa-rockrms:before {
+  content: "\f3e9";
+}
+
+#jb_template .fa-route:before, .jb_template .fa-route:before {
+  content: "\f4d7";
+}
+
+#jb_template .fa-rss:before, .jb_template .fa-rss:before {
+  content: "\f09e";
+}
+
+#jb_template .fa-rss-square:before, .jb_template .fa-rss-square:before {
+  content: "\f143";
+}
+
+#jb_template .fa-ruble-sign:before, .jb_template .fa-ruble-sign:before {
+  content: "\f158";
+}
+
+#jb_template .fa-ruler:before, .jb_template .fa-ruler:before {
+  content: "\f545";
+}
+
+#jb_template .fa-ruler-combined:before, .jb_template .fa-ruler-combined:before {
+  content: "\f546";
+}
+
+#jb_template .fa-ruler-horizontal:before, .jb_template .fa-ruler-horizontal:before {
+  content: "\f547";
+}
+
+#jb_template .fa-ruler-vertical:before, .jb_template .fa-ruler-vertical:before {
+  content: "\f548";
+}
+
+#jb_template .fa-running:before, .jb_template .fa-running:before {
+  content: "\f70c";
+}
+
+#jb_template .fa-rupee-sign:before, .jb_template .fa-rupee-sign:before {
+  content: "\f156";
+}
+
+#jb_template .fa-sad-cry:before, .jb_template .fa-sad-cry:before {
+  content: "\f5b3";
+}
+
+#jb_template .fa-sad-tear:before, .jb_template .fa-sad-tear:before {
+  content: "\f5b4";
+}
+
+#jb_template .fa-safari:before, .jb_template .fa-safari:before {
+  content: "\f267";
+}
+
+#jb_template .fa-salesforce:before, .jb_template .fa-salesforce:before {
+  content: "\f83b";
+}
+
+#jb_template .fa-sass:before, .jb_template .fa-sass:before {
+  content: "\f41e";
+}
+
+#jb_template .fa-satellite:before, .jb_template .fa-satellite:before {
+  content: "\f7bf";
+}
+
+#jb_template .fa-satellite-dish:before, .jb_template .fa-satellite-dish:before {
+  content: "\f7c0";
+}
+
+#jb_template .fa-save:before, .jb_template .fa-save:before {
+  content: "\f0c7";
+}
+
+#jb_template .fa-schlix:before, .jb_template .fa-schlix:before {
+  content: "\f3ea";
+}
+
+#jb_template .fa-school:before, .jb_template .fa-school:before {
+  content: "\f549";
+}
+
+#jb_template .fa-screwdriver:before, .jb_template .fa-screwdriver:before {
+  content: "\f54a";
+}
+
+#jb_template .fa-scribd:before, .jb_template .fa-scribd:before {
+  content: "\f28a";
+}
+
+#jb_template .fa-scroll:before, .jb_template .fa-scroll:before {
+  content: "\f70e";
+}
+
+#jb_template .fa-sd-card:before, .jb_template .fa-sd-card:before {
+  content: "\f7c2";
+}
+
+#jb_template .fa-search:before, .jb_template .fa-search:before {
+  content: "\f002";
+}
+
+#jb_template .fa-search-dollar:before, .jb_template .fa-search-dollar:before {
+  content: "\f688";
+}
+
+#jb_template .fa-search-location:before, .jb_template .fa-search-location:before {
+  content: "\f689";
+}
+
+#jb_template .fa-search-minus:before, .jb_template .fa-search-minus:before {
+  content: "\f010";
+}
+
+#jb_template .fa-search-plus:before, .jb_template .fa-search-plus:before {
+  content: "\f00e";
+}
+
+#jb_template .fa-searchengin:before, .jb_template .fa-searchengin:before {
+  content: "\f3eb";
+}
+
+#jb_template .fa-seedling:before, .jb_template .fa-seedling:before {
+  content: "\f4d8";
+}
+
+#jb_template .fa-sellcast:before, .jb_template .fa-sellcast:before {
+  content: "\f2da";
+}
+
+#jb_template .fa-sellsy:before, .jb_template .fa-sellsy:before {
+  content: "\f213";
+}
+
+#jb_template .fa-server:before, .jb_template .fa-server:before {
+  content: "\f233";
+}
+
+#jb_template .fa-servicestack:before, .jb_template .fa-servicestack:before {
+  content: "\f3ec";
+}
+
+#jb_template .fa-shapes:before, .jb_template .fa-shapes:before {
+  content: "\f61f";
+}
+
+#jb_template .fa-share:before, .jb_template .fa-share:before {
+  content: "\f064";
+}
+
+#jb_template .fa-share-alt:before, .jb_template .fa-share-alt:before {
+  content: "\f1e0";
+}
+
+#jb_template .fa-share-alt-square:before, .jb_template .fa-share-alt-square:before {
+  content: "\f1e1";
+}
+
+#jb_template .fa-share-square:before, .jb_template .fa-share-square:before {
+  content: "\f14d";
+}
+
+#jb_template .fa-shekel-sign:before, .jb_template .fa-shekel-sign:before {
+  content: "\f20b";
+}
+
+#jb_template .fa-shield-alt:before, .jb_template .fa-shield-alt:before {
+  content: "\f3ed";
+}
+
+#jb_template .fa-ship:before, .jb_template .fa-ship:before {
+  content: "\f21a";
+}
+
+#jb_template .fa-shipping-fast:before, .jb_template .fa-shipping-fast:before {
+  content: "\f48b";
+}
+
+#jb_template .fa-shirtsinbulk:before, .jb_template .fa-shirtsinbulk:before {
+  content: "\f214";
+}
+
+#jb_template .fa-shoe-prints:before, .jb_template .fa-shoe-prints:before {
+  content: "\f54b";
+}
+
+#jb_template .fa-shopping-bag:before, .jb_template .fa-shopping-bag:before {
+  content: "\f290";
+}
+
+#jb_template .fa-shopping-basket:before, .jb_template .fa-shopping-basket:before {
+  content: "\f291";
+}
+
+#jb_template .fa-shopping-cart:before, .jb_template .fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+#jb_template .fa-shopware:before, .jb_template .fa-shopware:before {
+  content: "\f5b5";
+}
+
+#jb_template .fa-shower:before, .jb_template .fa-shower:before {
+  content: "\f2cc";
+}
+
+#jb_template .fa-shuttle-van:before, .jb_template .fa-shuttle-van:before {
+  content: "\f5b6";
+}
+
+#jb_template .fa-sign:before, .jb_template .fa-sign:before {
+  content: "\f4d9";
+}
+
+#jb_template .fa-sign-in-alt:before, .jb_template .fa-sign-in-alt:before {
+  content: "\f2f6";
+}
+
+#jb_template .fa-sign-language:before, .jb_template .fa-sign-language:before {
+  content: "\f2a7";
+}
+
+#jb_template .fa-sign-out-alt:before, .jb_template .fa-sign-out-alt:before {
+  content: "\f2f5";
+}
+
+#jb_template .fa-signal:before, .jb_template .fa-signal:before {
+  content: "\f012";
+}
+
+#jb_template .fa-signature:before, .jb_template .fa-signature:before {
+  content: "\f5b7";
+}
+
+#jb_template .fa-sim-card:before, .jb_template .fa-sim-card:before {
+  content: "\f7c4";
+}
+
+#jb_template .fa-simplybuilt:before, .jb_template .fa-simplybuilt:before {
+  content: "\f215";
+}
+
+#jb_template .fa-sistrix:before, .jb_template .fa-sistrix:before {
+  content: "\f3ee";
+}
+
+#jb_template .fa-sitemap:before, .jb_template .fa-sitemap:before {
+  content: "\f0e8";
+}
+
+#jb_template .fa-sith:before, .jb_template .fa-sith:before {
+  content: "\f512";
+}
+
+#jb_template .fa-skating:before, .jb_template .fa-skating:before {
+  content: "\f7c5";
+}
+
+#jb_template .fa-sketch:before, .jb_template .fa-sketch:before {
+  content: "\f7c6";
+}
+
+#jb_template .fa-skiing:before, .jb_template .fa-skiing:before {
+  content: "\f7c9";
+}
+
+#jb_template .fa-skiing-nordic:before, .jb_template .fa-skiing-nordic:before {
+  content: "\f7ca";
+}
+
+#jb_template .fa-skull:before, .jb_template .fa-skull:before {
+  content: "\f54c";
+}
+
+#jb_template .fa-skull-crossbones:before, .jb_template .fa-skull-crossbones:before {
+  content: "\f714";
+}
+
+#jb_template .fa-skyatlas:before, .jb_template .fa-skyatlas:before {
+  content: "\f216";
+}
+
+#jb_template .fa-skype:before, .jb_template .fa-skype:before {
+  content: "\f17e";
+}
+
+#jb_template .fa-slack:before, .jb_template .fa-slack:before {
+  content: "\f198";
+}
+
+#jb_template .fa-slack-hash:before, .jb_template .fa-slack-hash:before {
+  content: "\f3ef";
+}
+
+#jb_template .fa-slash:before, .jb_template .fa-slash:before {
+  content: "\f715";
+}
+
+#jb_template .fa-sleigh:before, .jb_template .fa-sleigh:before {
+  content: "\f7cc";
+}
+
+#jb_template .fa-sliders-h:before, .jb_template .fa-sliders-h:before {
+  content: "\f1de";
+}
+
+#jb_template .fa-slideshare:before, .jb_template .fa-slideshare:before {
+  content: "\f1e7";
+}
+
+#jb_template .fa-smile:before, .jb_template .fa-smile:before {
+  content: "\f118";
+}
+
+#jb_template .fa-smile-beam:before, .jb_template .fa-smile-beam:before {
+  content: "\f5b8";
+}
+
+#jb_template .fa-smile-wink:before, .jb_template .fa-smile-wink:before {
+  content: "\f4da";
+}
+
+#jb_template .fa-smog:before, .jb_template .fa-smog:before {
+  content: "\f75f";
+}
+
+#jb_template .fa-smoking:before, .jb_template .fa-smoking:before {
+  content: "\f48d";
+}
+
+#jb_template .fa-smoking-ban:before, .jb_template .fa-smoking-ban:before {
+  content: "\f54d";
+}
+
+#jb_template .fa-sms:before, .jb_template .fa-sms:before {
+  content: "\f7cd";
+}
+
+#jb_template .fa-snapchat:before, .jb_template .fa-snapchat:before {
+  content: "\f2ab";
+}
+
+#jb_template .fa-snapchat-ghost:before, .jb_template .fa-snapchat-ghost:before {
+  content: "\f2ac";
+}
+
+#jb_template .fa-snapchat-square:before, .jb_template .fa-snapchat-square:before {
+  content: "\f2ad";
+}
+
+#jb_template .fa-snowboarding:before, .jb_template .fa-snowboarding:before {
+  content: "\f7ce";
+}
+
+#jb_template .fa-snowflake:before, .jb_template .fa-snowflake:before {
+  content: "\f2dc";
+}
+
+#jb_template .fa-snowman:before, .jb_template .fa-snowman:before {
+  content: "\f7d0";
+}
+
+#jb_template .fa-snowplow:before, .jb_template .fa-snowplow:before {
+  content: "\f7d2";
+}
+
+#jb_template .fa-socks:before, .jb_template .fa-socks:before {
+  content: "\f696";
+}
+
+#jb_template .fa-solar-panel:before, .jb_template .fa-solar-panel:before {
+  content: "\f5ba";
+}
+
+#jb_template .fa-sort:before, .jb_template .fa-sort:before {
+  content: "\f0dc";
+}
+
+#jb_template .fa-sort-alpha-down:before, .jb_template .fa-sort-alpha-down:before {
+  content: "\f15d";
+}
+
+#jb_template .fa-sort-alpha-down-alt:before, .jb_template .fa-sort-alpha-down-alt:before {
+  content: "\f881";
+}
+
+#jb_template .fa-sort-alpha-up:before, .jb_template .fa-sort-alpha-up:before {
+  content: "\f15e";
+}
+
+#jb_template .fa-sort-alpha-up-alt:before, .jb_template .fa-sort-alpha-up-alt:before {
+  content: "\f882";
+}
+
+#jb_template .fa-sort-amount-down:before, .jb_template .fa-sort-amount-down:before {
+  content: "\f160";
+}
+
+#jb_template .fa-sort-amount-down-alt:before, .jb_template .fa-sort-amount-down-alt:before {
+  content: "\f884";
+}
+
+#jb_template .fa-sort-amount-up:before, .jb_template .fa-sort-amount-up:before {
+  content: "\f161";
+}
+
+#jb_template .fa-sort-amount-up-alt:before, .jb_template .fa-sort-amount-up-alt:before {
+  content: "\f885";
+}
+
+#jb_template .fa-sort-down:before, .jb_template .fa-sort-down:before {
+  content: "\f0dd";
+}
+
+#jb_template .fa-sort-numeric-down:before, .jb_template .fa-sort-numeric-down:before {
+  content: "\f162";
+}
+
+#jb_template .fa-sort-numeric-down-alt:before, .jb_template .fa-sort-numeric-down-alt:before {
+  content: "\f886";
+}
+
+#jb_template .fa-sort-numeric-up:before, .jb_template .fa-sort-numeric-up:before {
+  content: "\f163";
+}
+
+#jb_template .fa-sort-numeric-up-alt:before, .jb_template .fa-sort-numeric-up-alt:before {
+  content: "\f887";
+}
+
+#jb_template .fa-sort-up:before, .jb_template .fa-sort-up:before {
+  content: "\f0de";
+}
+
+#jb_template .fa-soundcloud:before, .jb_template .fa-soundcloud:before {
+  content: "\f1be";
+}
+
+#jb_template .fa-sourcetree:before, .jb_template .fa-sourcetree:before {
+  content: "\f7d3";
+}
+
+#jb_template .fa-spa:before, .jb_template .fa-spa:before {
+  content: "\f5bb";
+}
+
+#jb_template .fa-space-shuttle:before, .jb_template .fa-space-shuttle:before {
+  content: "\f197";
+}
+
+#jb_template .fa-speakap:before, .jb_template .fa-speakap:before {
+  content: "\f3f3";
+}
+
+#jb_template .fa-speaker-deck:before, .jb_template .fa-speaker-deck:before {
+  content: "\f83c";
+}
+
+#jb_template .fa-spell-check:before, .jb_template .fa-spell-check:before {
+  content: "\f891";
+}
+
+#jb_template .fa-spider:before, .jb_template .fa-spider:before {
+  content: "\f717";
+}
+
+#jb_template .fa-spinner:before, .jb_template .fa-spinner:before {
+  content: "\f110";
+}
+
+#jb_template .fa-splotch:before, .jb_template .fa-splotch:before {
+  content: "\f5bc";
+}
+
+#jb_template .fa-spotify:before, .jb_template .fa-spotify:before {
+  content: "\f1bc";
+}
+
+#jb_template .fa-spray-can:before, .jb_template .fa-spray-can:before {
+  content: "\f5bd";
+}
+
+#jb_template .fa-square:before, .jb_template .fa-square:before {
+  content: "\f0c8";
+}
+
+#jb_template .fa-square-full:before, .jb_template .fa-square-full:before {
+  content: "\f45c";
+}
+
+#jb_template .fa-square-root-alt:before, .jb_template .fa-square-root-alt:before {
+  content: "\f698";
+}
+
+#jb_template .fa-squarespace:before, .jb_template .fa-squarespace:before {
+  content: "\f5be";
+}
+
+#jb_template .fa-stack-exchange:before, .jb_template .fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+#jb_template .fa-stack-overflow:before, .jb_template .fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+#jb_template .fa-stackpath:before, .jb_template .fa-stackpath:before {
+  content: "\f842";
+}
+
+#jb_template .fa-stamp:before, .jb_template .fa-stamp:before {
+  content: "\f5bf";
+}
+
+#jb_template .fa-star:before, .jb_template .fa-star:before {
+  content: "\f005";
+}
+
+#jb_template .fa-star-and-crescent:before, .jb_template .fa-star-and-crescent:before {
+  content: "\f699";
+}
+
+#jb_template .fa-star-half:before, .jb_template .fa-star-half:before {
+  content: "\f089";
+}
+
+#jb_template .fa-star-half-alt:before, .jb_template .fa-star-half-alt:before {
+  content: "\f5c0";
+}
+
+#jb_template .fa-star-of-david:before, .jb_template .fa-star-of-david:before {
+  content: "\f69a";
+}
+
+#jb_template .fa-star-of-life:before, .jb_template .fa-star-of-life:before {
+  content: "\f621";
+}
+
+#jb_template .fa-staylinked:before, .jb_template .fa-staylinked:before {
+  content: "\f3f5";
+}
+
+#jb_template .fa-steam:before, .jb_template .fa-steam:before {
+  content: "\f1b6";
+}
+
+#jb_template .fa-steam-square:before, .jb_template .fa-steam-square:before {
+  content: "\f1b7";
+}
+
+#jb_template .fa-steam-symbol:before, .jb_template .fa-steam-symbol:before {
+  content: "\f3f6";
+}
+
+#jb_template .fa-step-backward:before, .jb_template .fa-step-backward:before {
+  content: "\f048";
+}
+
+#jb_template .fa-step-forward:before, .jb_template .fa-step-forward:before {
+  content: "\f051";
+}
+
+#jb_template .fa-stethoscope:before, .jb_template .fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+#jb_template .fa-sticker-mule:before, .jb_template .fa-sticker-mule:before {
+  content: "\f3f7";
+}
+
+#jb_template .fa-sticky-note:before, .jb_template .fa-sticky-note:before {
+  content: "\f249";
+}
+
+#jb_template .fa-stop:before, .jb_template .fa-stop:before {
+  content: "\f04d";
+}
+
+#jb_template .fa-stop-circle:before, .jb_template .fa-stop-circle:before {
+  content: "\f28d";
+}
+
+#jb_template .fa-stopwatch:before, .jb_template .fa-stopwatch:before {
+  content: "\f2f2";
+}
+
+#jb_template .fa-store:before, .jb_template .fa-store:before {
+  content: "\f54e";
+}
+
+#jb_template .fa-store-alt:before, .jb_template .fa-store-alt:before {
+  content: "\f54f";
+}
+
+#jb_template .fa-strava:before, .jb_template .fa-strava:before {
+  content: "\f428";
+}
+
+#jb_template .fa-stream:before, .jb_template .fa-stream:before {
+  content: "\f550";
+}
+
+#jb_template .fa-street-view:before, .jb_template .fa-street-view:before {
+  content: "\f21d";
+}
+
+#jb_template .fa-strikethrough:before, .jb_template .fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+#jb_template .fa-stripe:before, .jb_template .fa-stripe:before {
+  content: "\f429";
+}
+
+#jb_template .fa-stripe-s:before, .jb_template .fa-stripe-s:before {
+  content: "\f42a";
+}
+
+#jb_template .fa-stroopwafel:before, .jb_template .fa-stroopwafel:before {
+  content: "\f551";
+}
+
+#jb_template .fa-studiovinari:before, .jb_template .fa-studiovinari:before {
+  content: "\f3f8";
+}
+
+#jb_template .fa-stumbleupon:before, .jb_template .fa-stumbleupon:before {
+  content: "\f1a4";
+}
+
+#jb_template .fa-stumbleupon-circle:before, .jb_template .fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+#jb_template .fa-subscript:before, .jb_template .fa-subscript:before {
+  content: "\f12c";
+}
+
+#jb_template .fa-subway:before, .jb_template .fa-subway:before {
+  content: "\f239";
+}
+
+#jb_template .fa-suitcase:before, .jb_template .fa-suitcase:before {
+  content: "\f0f2";
+}
+
+#jb_template .fa-suitcase-rolling:before, .jb_template .fa-suitcase-rolling:before {
+  content: "\f5c1";
+}
+
+#jb_template .fa-sun:before, .jb_template .fa-sun:before {
+  content: "\f185";
+}
+
+#jb_template .fa-superpowers:before, .jb_template .fa-superpowers:before {
+  content: "\f2dd";
+}
+
+#jb_template .fa-superscript:before, .jb_template .fa-superscript:before {
+  content: "\f12b";
+}
+
+#jb_template .fa-supple:before, .jb_template .fa-supple:before {
+  content: "\f3f9";
+}
+
+#jb_template .fa-surprise:before, .jb_template .fa-surprise:before {
+  content: "\f5c2";
+}
+
+#jb_template .fa-suse:before, .jb_template .fa-suse:before {
+  content: "\f7d6";
+}
+
+#jb_template .fa-swatchbook:before, .jb_template .fa-swatchbook:before {
+  content: "\f5c3";
+}
+
+#jb_template .fa-swift:before, .jb_template .fa-swift:before {
+  content: "\f8e1";
+}
+
+#jb_template .fa-swimmer:before, .jb_template .fa-swimmer:before {
+  content: "\f5c4";
+}
+
+#jb_template .fa-swimming-pool:before, .jb_template .fa-swimming-pool:before {
+  content: "\f5c5";
+}
+
+#jb_template .fa-symfony:before, .jb_template .fa-symfony:before {
+  content: "\f83d";
+}
+
+#jb_template .fa-synagogue:before, .jb_template .fa-synagogue:before {
+  content: "\f69b";
+}
+
+#jb_template .fa-sync:before, .jb_template .fa-sync:before {
+  content: "\f021";
+}
+
+#jb_template .fa-sync-alt:before, .jb_template .fa-sync-alt:before {
+  content: "\f2f1";
+}
+
+#jb_template .fa-syringe:before, .jb_template .fa-syringe:before {
+  content: "\f48e";
+}
+
+#jb_template .fa-table:before, .jb_template .fa-table:before {
+  content: "\f0ce";
+}
+
+#jb_template .fa-table-tennis:before, .jb_template .fa-table-tennis:before {
+  content: "\f45d";
+}
+
+#jb_template .fa-tablet:before, .jb_template .fa-tablet:before {
+  content: "\f10a";
+}
+
+#jb_template .fa-tablet-alt:before, .jb_template .fa-tablet-alt:before {
+  content: "\f3fa";
+}
+
+#jb_template .fa-tablets:before, .jb_template .fa-tablets:before {
+  content: "\f490";
+}
+
+#jb_template .fa-tachometer-alt:before, .jb_template .fa-tachometer-alt:before {
+  content: "\f3fd";
+}
+
+#jb_template .fa-tag:before, .jb_template .fa-tag:before {
+  content: "\f02b";
+}
+
+#jb_template .fa-tags:before, .jb_template .fa-tags:before {
+  content: "\f02c";
+}
+
+#jb_template .fa-tape:before, .jb_template .fa-tape:before {
+  content: "\f4db";
+}
+
+#jb_template .fa-tasks:before, .jb_template .fa-tasks:before {
+  content: "\f0ae";
+}
+
+#jb_template .fa-taxi:before, .jb_template .fa-taxi:before {
+  content: "\f1ba";
+}
+
+#jb_template .fa-teamspeak:before, .jb_template .fa-teamspeak:before {
+  content: "\f4f9";
+}
+
+#jb_template .fa-teeth:before, .jb_template .fa-teeth:before {
+  content: "\f62e";
+}
+
+#jb_template .fa-teeth-open:before, .jb_template .fa-teeth-open:before {
+  content: "\f62f";
+}
+
+#jb_template .fa-telegram:before, .jb_template .fa-telegram:before {
+  content: "\f2c6";
+}
+
+#jb_template .fa-telegram-plane:before, .jb_template .fa-telegram-plane:before {
+  content: "\f3fe";
+}
+
+#jb_template .fa-temperature-high:before, .jb_template .fa-temperature-high:before {
+  content: "\f769";
+}
+
+#jb_template .fa-temperature-low:before, .jb_template .fa-temperature-low:before {
+  content: "\f76b";
+}
+
+#jb_template .fa-tencent-weibo:before, .jb_template .fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+#jb_template .fa-tenge:before, .jb_template .fa-tenge:before {
+  content: "\f7d7";
+}
+
+#jb_template .fa-terminal:before, .jb_template .fa-terminal:before {
+  content: "\f120";
+}
+
+#jb_template .fa-text-height:before, .jb_template .fa-text-height:before {
+  content: "\f034";
+}
+
+#jb_template .fa-text-width:before, .jb_template .fa-text-width:before {
+  content: "\f035";
+}
+
+#jb_template .fa-th:before, .jb_template .fa-th:before {
+  content: "\f00a";
+}
+
+#jb_template .fa-th-large:before, .jb_template .fa-th-large:before {
+  content: "\f009";
+}
+
+#jb_template .fa-th-list:before, .jb_template .fa-th-list:before {
+  content: "\f00b";
+}
+
+#jb_template .fa-the-red-yeti:before, .jb_template .fa-the-red-yeti:before {
+  content: "\f69d";
+}
+
+#jb_template .fa-theater-masks:before, .jb_template .fa-theater-masks:before {
+  content: "\f630";
+}
+
+#jb_template .fa-themeco:before, .jb_template .fa-themeco:before {
+  content: "\f5c6";
+}
+
+#jb_template .fa-themeisle:before, .jb_template .fa-themeisle:before {
+  content: "\f2b2";
+}
+
+#jb_template .fa-thermometer:before, .jb_template .fa-thermometer:before {
+  content: "\f491";
+}
+
+#jb_template .fa-thermometer-empty:before, .jb_template .fa-thermometer-empty:before {
+  content: "\f2cb";
+}
+
+#jb_template .fa-thermometer-full:before, .jb_template .fa-thermometer-full:before {
+  content: "\f2c7";
+}
+
+#jb_template .fa-thermometer-half:before, .jb_template .fa-thermometer-half:before {
+  content: "\f2c9";
+}
+
+#jb_template .fa-thermometer-quarter:before, .jb_template .fa-thermometer-quarter:before {
+  content: "\f2ca";
+}
+
+#jb_template .fa-thermometer-three-quarters:before, .jb_template .fa-thermometer-three-quarters:before {
+  content: "\f2c8";
+}
+
+#jb_template .fa-think-peaks:before, .jb_template .fa-think-peaks:before {
+  content: "\f731";
+}
+
+#jb_template .fa-thumbs-down:before, .jb_template .fa-thumbs-down:before {
+  content: "\f165";
+}
+
+#jb_template .fa-thumbs-up:before, .jb_template .fa-thumbs-up:before {
+  content: "\f164";
+}
+
+#jb_template .fa-thumbtack:before, .jb_template .fa-thumbtack:before {
+  content: "\f08d";
+}
+
+#jb_template .fa-ticket-alt:before, .jb_template .fa-ticket-alt:before {
+  content: "\f3ff";
+}
+
+#jb_template .fa-times:before, .jb_template .fa-times:before {
+  content: "\f00d";
+}
+
+#jb_template .fa-times-circle:before, .jb_template .fa-times-circle:before {
+  content: "\f057";
+}
+
+#jb_template .fa-tint:before, .jb_template .fa-tint:before {
+  content: "\f043";
+}
+
+#jb_template .fa-tint-slash:before, .jb_template .fa-tint-slash:before {
+  content: "\f5c7";
+}
+
+#jb_template .fa-tired:before, .jb_template .fa-tired:before {
+  content: "\f5c8";
+}
+
+#jb_template .fa-toggle-off:before, .jb_template .fa-toggle-off:before {
+  content: "\f204";
+}
+
+#jb_template .fa-toggle-on:before, .jb_template .fa-toggle-on:before {
+  content: "\f205";
+}
+
+#jb_template .fa-toilet:before, .jb_template .fa-toilet:before {
+  content: "\f7d8";
+}
+
+#jb_template .fa-toilet-paper:before, .jb_template .fa-toilet-paper:before {
+  content: "\f71e";
+}
+
+#jb_template .fa-toolbox:before, .jb_template .fa-toolbox:before {
+  content: "\f552";
+}
+
+#jb_template .fa-tools:before, .jb_template .fa-tools:before {
+  content: "\f7d9";
+}
+
+#jb_template .fa-tooth:before, .jb_template .fa-tooth:before {
+  content: "\f5c9";
+}
+
+#jb_template .fa-torah:before, .jb_template .fa-torah:before {
+  content: "\f6a0";
+}
+
+#jb_template .fa-torii-gate:before, .jb_template .fa-torii-gate:before {
+  content: "\f6a1";
+}
+
+#jb_template .fa-tractor:before, .jb_template .fa-tractor:before {
+  content: "\f722";
+}
+
+#jb_template .fa-trade-federation:before, .jb_template .fa-trade-federation:before {
+  content: "\f513";
+}
+
+#jb_template .fa-trademark:before, .jb_template .fa-trademark:before {
+  content: "\f25c";
+}
+
+#jb_template .fa-traffic-light:before, .jb_template .fa-traffic-light:before {
+  content: "\f637";
+}
+
+#jb_template .fa-train:before, .jb_template .fa-train:before {
+  content: "\f238";
+}
+
+#jb_template .fa-tram:before, .jb_template .fa-tram:before {
+  content: "\f7da";
+}
+
+#jb_template .fa-transgender:before, .jb_template .fa-transgender:before {
+  content: "\f224";
+}
+
+#jb_template .fa-transgender-alt:before, .jb_template .fa-transgender-alt:before {
+  content: "\f225";
+}
+
+#jb_template .fa-trash:before, .jb_template .fa-trash:before {
+  content: "\f1f8";
+}
+
+#jb_template .fa-trash-alt:before, .jb_template .fa-trash-alt:before {
+  content: "\f2ed";
+}
+
+#jb_template .fa-trash-restore:before, .jb_template .fa-trash-restore:before {
+  content: "\f829";
+}
+
+#jb_template .fa-trash-restore-alt:before, .jb_template .fa-trash-restore-alt:before {
+  content: "\f82a";
+}
+
+#jb_template .fa-tree:before, .jb_template .fa-tree:before {
+  content: "\f1bb";
+}
+
+#jb_template .fa-trello:before, .jb_template .fa-trello:before {
+  content: "\f181";
+}
+
+#jb_template .fa-tripadvisor:before, .jb_template .fa-tripadvisor:before {
+  content: "\f262";
+}
+
+#jb_template .fa-trophy:before, .jb_template .fa-trophy:before {
+  content: "\f091";
+}
+
+#jb_template .fa-truck:before, .jb_template .fa-truck:before {
+  content: "\f0d1";
+}
+
+#jb_template .fa-truck-loading:before, .jb_template .fa-truck-loading:before {
+  content: "\f4de";
+}
+
+#jb_template .fa-truck-monster:before, .jb_template .fa-truck-monster:before {
+  content: "\f63b";
+}
+
+#jb_template .fa-truck-moving:before, .jb_template .fa-truck-moving:before {
+  content: "\f4df";
+}
+
+#jb_template .fa-truck-pickup:before, .jb_template .fa-truck-pickup:before {
+  content: "\f63c";
+}
+
+#jb_template .fa-tshirt:before, .jb_template .fa-tshirt:before {
+  content: "\f553";
+}
+
+#jb_template .fa-tty:before, .jb_template .fa-tty:before {
+  content: "\f1e4";
+}
+
+#jb_template .fa-tumblr:before, .jb_template .fa-tumblr:before {
+  content: "\f173";
+}
+
+#jb_template .fa-tumblr-square:before, .jb_template .fa-tumblr-square:before {
+  content: "\f174";
+}
+
+#jb_template .fa-tv:before, .jb_template .fa-tv:before {
+  content: "\f26c";
+}
+
+#jb_template .fa-twitch:before, .jb_template .fa-twitch:before {
+  content: "\f1e8";
+}
+
+#jb_template .fa-twitter:before, .jb_template .fa-twitter:before {
+  content: "\f099";
+}
+
+#jb_template .fa-twitter-square:before, .jb_template .fa-twitter-square:before {
+  content: "\f081";
+}
+
+#jb_template .fa-typo3:before, .jb_template .fa-typo3:before {
+  content: "\f42b";
+}
+
+#jb_template .fa-uber:before, .jb_template .fa-uber:before {
+  content: "\f402";
+}
+
+#jb_template .fa-ubuntu:before, .jb_template .fa-ubuntu:before {
+  content: "\f7df";
+}
+
+#jb_template .fa-uikit:before, .jb_template .fa-uikit:before {
+  content: "\f403";
+}
+
+#jb_template .fa-umbraco:before, .jb_template .fa-umbraco:before {
+  content: "\f8e8";
+}
+
+#jb_template .fa-umbrella:before, .jb_template .fa-umbrella:before {
+  content: "\f0e9";
+}
+
+#jb_template .fa-umbrella-beach:before, .jb_template .fa-umbrella-beach:before {
+  content: "\f5ca";
+}
+
+#jb_template .fa-underline:before, .jb_template .fa-underline:before {
+  content: "\f0cd";
+}
+
+#jb_template .fa-undo:before, .jb_template .fa-undo:before {
+  content: "\f0e2";
+}
+
+#jb_template .fa-undo-alt:before, .jb_template .fa-undo-alt:before {
+  content: "\f2ea";
+}
+
+#jb_template .fa-uniregistry:before, .jb_template .fa-uniregistry:before {
+  content: "\f404";
+}
+
+#jb_template .fa-universal-access:before, .jb_template .fa-universal-access:before {
+  content: "\f29a";
+}
+
+#jb_template .fa-university:before, .jb_template .fa-university:before {
+  content: "\f19c";
+}
+
+#jb_template .fa-unlink:before, .jb_template .fa-unlink:before {
+  content: "\f127";
+}
+
+#jb_template .fa-unlock:before, .jb_template .fa-unlock:before {
+  content: "\f09c";
+}
+
+#jb_template .fa-unlock-alt:before, .jb_template .fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+#jb_template .fa-untappd:before, .jb_template .fa-untappd:before {
+  content: "\f405";
+}
+
+#jb_template .fa-upload:before, .jb_template .fa-upload:before {
+  content: "\f093";
+}
+
+#jb_template .fa-ups:before, .jb_template .fa-ups:before {
+  content: "\f7e0";
+}
+
+#jb_template .fa-usb:before, .jb_template .fa-usb:before {
+  content: "\f287";
+}
+
+#jb_template .fa-user:before, .jb_template .fa-user:before {
+  content: "\f007";
+}
+
+#jb_template .fa-user-alt:before, .jb_template .fa-user-alt:before {
+  content: "\f406";
+}
+
+#jb_template .fa-user-alt-slash:before, .jb_template .fa-user-alt-slash:before {
+  content: "\f4fa";
+}
+
+#jb_template .fa-user-astronaut:before, .jb_template .fa-user-astronaut:before {
+  content: "\f4fb";
+}
+
+#jb_template .fa-user-check:before, .jb_template .fa-user-check:before {
+  content: "\f4fc";
+}
+
+#jb_template .fa-user-circle:before, .jb_template .fa-user-circle:before {
+  content: "\f2bd";
+}
+
+#jb_template .fa-user-clock:before, .jb_template .fa-user-clock:before {
+  content: "\f4fd";
+}
+
+#jb_template .fa-user-cog:before, .jb_template .fa-user-cog:before {
+  content: "\f4fe";
+}
+
+#jb_template .fa-user-edit:before, .jb_template .fa-user-edit:before {
+  content: "\f4ff";
+}
+
+#jb_template .fa-user-friends:before, .jb_template .fa-user-friends:before {
+  content: "\f500";
+}
+
+#jb_template .fa-user-graduate:before, .jb_template .fa-user-graduate:before {
+  content: "\f501";
+}
+
+#jb_template .fa-user-injured:before, .jb_template .fa-user-injured:before {
+  content: "\f728";
+}
+
+#jb_template .fa-user-lock:before, .jb_template .fa-user-lock:before {
+  content: "\f502";
+}
+
+#jb_template .fa-user-md:before, .jb_template .fa-user-md:before {
+  content: "\f0f0";
+}
+
+#jb_template .fa-user-minus:before, .jb_template .fa-user-minus:before {
+  content: "\f503";
+}
+
+#jb_template .fa-user-ninja:before, .jb_template .fa-user-ninja:before {
+  content: "\f504";
+}
+
+#jb_template .fa-user-nurse:before, .jb_template .fa-user-nurse:before {
+  content: "\f82f";
+}
+
+#jb_template .fa-user-plus:before, .jb_template .fa-user-plus:before {
+  content: "\f234";
+}
+
+#jb_template .fa-user-secret:before, .jb_template .fa-user-secret:before {
+  content: "\f21b";
+}
+
+#jb_template .fa-user-shield:before, .jb_template .fa-user-shield:before {
+  content: "\f505";
+}
+
+#jb_template .fa-user-slash:before, .jb_template .fa-user-slash:before {
+  content: "\f506";
+}
+
+#jb_template .fa-user-tag:before, .jb_template .fa-user-tag:before {
+  content: "\f507";
+}
+
+#jb_template .fa-user-tie:before, .jb_template .fa-user-tie:before {
+  content: "\f508";
+}
+
+#jb_template .fa-user-times:before, .jb_template .fa-user-times:before {
+  content: "\f235";
+}
+
+#jb_template .fa-users:before, .jb_template .fa-users:before {
+  content: "\f0c0";
+}
+
+#jb_template .fa-users-cog:before, .jb_template .fa-users-cog:before {
+  content: "\f509";
+}
+
+#jb_template .fa-usps:before, .jb_template .fa-usps:before {
+  content: "\f7e1";
+}
+
+#jb_template .fa-ussunnah:before, .jb_template .fa-ussunnah:before {
+  content: "\f407";
+}
+
+#jb_template .fa-utensil-spoon:before, .jb_template .fa-utensil-spoon:before {
+  content: "\f2e5";
+}
+
+#jb_template .fa-utensils:before, .jb_template .fa-utensils:before {
+  content: "\f2e7";
+}
+
+#jb_template .fa-vaadin:before, .jb_template .fa-vaadin:before {
+  content: "\f408";
+}
+
+#jb_template .fa-vector-square:before, .jb_template .fa-vector-square:before {
+  content: "\f5cb";
+}
+
+#jb_template .fa-venus:before, .jb_template .fa-venus:before {
+  content: "\f221";
+}
+
+#jb_template .fa-venus-double:before, .jb_template .fa-venus-double:before {
+  content: "\f226";
+}
+
+#jb_template .fa-venus-mars:before, .jb_template .fa-venus-mars:before {
+  content: "\f228";
+}
+
+#jb_template .fa-viacoin:before, .jb_template .fa-viacoin:before {
+  content: "\f237";
+}
+
+#jb_template .fa-viadeo:before, .jb_template .fa-viadeo:before {
+  content: "\f2a9";
+}
+
+#jb_template .fa-viadeo-square:before, .jb_template .fa-viadeo-square:before {
+  content: "\f2aa";
+}
+
+#jb_template .fa-vial:before, .jb_template .fa-vial:before {
+  content: "\f492";
+}
+
+#jb_template .fa-vials:before, .jb_template .fa-vials:before {
+  content: "\f493";
+}
+
+#jb_template .fa-viber:before, .jb_template .fa-viber:before {
+  content: "\f409";
+}
+
+#jb_template .fa-video:before, .jb_template .fa-video:before {
+  content: "\f03d";
+}
+
+#jb_template .fa-video-slash:before, .jb_template .fa-video-slash:before {
+  content: "\f4e2";
+}
+
+#jb_template .fa-vihara:before, .jb_template .fa-vihara:before {
+  content: "\f6a7";
+}
+
+#jb_template .fa-vimeo:before, .jb_template .fa-vimeo:before {
+  content: "\f40a";
+}
+
+#jb_template .fa-vimeo-square:before, .jb_template .fa-vimeo-square:before {
+  content: "\f194";
+}
+
+#jb_template .fa-vimeo-v:before, .jb_template .fa-vimeo-v:before {
+  content: "\f27d";
+}
+
+#jb_template .fa-vine:before, .jb_template .fa-vine:before {
+  content: "\f1ca";
+}
+
+#jb_template .fa-vk:before, .jb_template .fa-vk:before {
+  content: "\f189";
+}
+
+#jb_template .fa-vnv:before, .jb_template .fa-vnv:before {
+  content: "\f40b";
+}
+
+#jb_template .fa-voicemail:before, .jb_template .fa-voicemail:before {
+  content: "\f897";
+}
+
+#jb_template .fa-volleyball-ball:before, .jb_template .fa-volleyball-ball:before {
+  content: "\f45f";
+}
+
+#jb_template .fa-volume-down:before, .jb_template .fa-volume-down:before {
+  content: "\f027";
+}
+
+#jb_template .fa-volume-mute:before, .jb_template .fa-volume-mute:before {
+  content: "\f6a9";
+}
+
+#jb_template .fa-volume-off:before, .jb_template .fa-volume-off:before {
+  content: "\f026";
+}
+
+#jb_template .fa-volume-up:before, .jb_template .fa-volume-up:before {
+  content: "\f028";
+}
+
+#jb_template .fa-vote-yea:before, .jb_template .fa-vote-yea:before {
+  content: "\f772";
+}
+
+#jb_template .fa-vr-cardboard:before, .jb_template .fa-vr-cardboard:before {
+  content: "\f729";
+}
+
+#jb_template .fa-vuejs:before, .jb_template .fa-vuejs:before {
+  content: "\f41f";
+}
+
+#jb_template .fa-walking:before, .jb_template .fa-walking:before {
+  content: "\f554";
+}
+
+#jb_template .fa-wallet:before, .jb_template .fa-wallet:before {
+  content: "\f555";
+}
+
+#jb_template .fa-warehouse:before, .jb_template .fa-warehouse:before {
+  content: "\f494";
+}
+
+#jb_template .fa-water:before, .jb_template .fa-water:before {
+  content: "\f773";
+}
+
+#jb_template .fa-wave-square:before, .jb_template .fa-wave-square:before {
+  content: "\f83e";
+}
+
+#jb_template .fa-waze:before, .jb_template .fa-waze:before {
+  content: "\f83f";
+}
+
+#jb_template .fa-weebly:before, .jb_template .fa-weebly:before {
+  content: "\f5cc";
+}
+
+#jb_template .fa-weibo:before, .jb_template .fa-weibo:before {
+  content: "\f18a";
+}
+
+#jb_template .fa-weight:before, .jb_template .fa-weight:before {
+  content: "\f496";
+}
+
+#jb_template .fa-weight-hanging:before, .jb_template .fa-weight-hanging:before {
+  content: "\f5cd";
+}
+
+#jb_template .fa-weixin:before, .jb_template .fa-weixin:before {
+  content: "\f1d7";
+}
+
+#jb_template .fa-whatsapp:before, .jb_template .fa-whatsapp:before {
+  content: "\f232";
+}
+
+#jb_template .fa-whatsapp-square:before, .jb_template .fa-whatsapp-square:before {
+  content: "\f40c";
+}
+
+#jb_template .fa-wheelchair:before, .jb_template .fa-wheelchair:before {
+  content: "\f193";
+}
+
+#jb_template .fa-whmcs:before, .jb_template .fa-whmcs:before {
+  content: "\f40d";
+}
+
+#jb_template .fa-wifi:before, .jb_template .fa-wifi:before {
+  content: "\f1eb";
+}
+
+#jb_template .fa-wikipedia-w:before, .jb_template .fa-wikipedia-w:before {
+  content: "\f266";
+}
+
+#jb_template .fa-wind:before, .jb_template .fa-wind:before {
+  content: "\f72e";
+}
+
+#jb_template .fa-window-close:before, .jb_template .fa-window-close:before {
+  content: "\f410";
+}
+
+#jb_template .fa-window-maximize:before, .jb_template .fa-window-maximize:before {
+  content: "\f2d0";
+}
+
+#jb_template .fa-window-minimize:before, .jb_template .fa-window-minimize:before {
+  content: "\f2d1";
+}
+
+#jb_template .fa-window-restore:before, .jb_template .fa-window-restore:before {
+  content: "\f2d2";
+}
+
+#jb_template .fa-windows:before, .jb_template .fa-windows:before {
+  content: "\f17a";
+}
+
+#jb_template .fa-wine-bottle:before, .jb_template .fa-wine-bottle:before {
+  content: "\f72f";
+}
+
+#jb_template .fa-wine-glass:before, .jb_template .fa-wine-glass:before {
+  content: "\f4e3";
+}
+
+#jb_template .fa-wine-glass-alt:before, .jb_template .fa-wine-glass-alt:before {
+  content: "\f5ce";
+}
+
+#jb_template .fa-wix:before, .jb_template .fa-wix:before {
+  content: "\f5cf";
+}
+
+#jb_template .fa-wizards-of-the-coast:before, .jb_template .fa-wizards-of-the-coast:before {
+  content: "\f730";
+}
+
+#jb_template .fa-wolf-pack-battalion:before, .jb_template .fa-wolf-pack-battalion:before {
+  content: "\f514";
+}
+
+#jb_template .fa-won-sign:before, .jb_template .fa-won-sign:before {
+  content: "\f159";
+}
+
+#jb_template .fa-wordpress:before, .jb_template .fa-wordpress:before {
+  content: "\f19a";
+}
+
+#jb_template .fa-wordpress-simple:before, .jb_template .fa-wordpress-simple:before {
+  content: "\f411";
+}
+
+#jb_template .fa-wpbeginner:before, .jb_template .fa-wpbeginner:before {
+  content: "\f297";
+}
+
+#jb_template .fa-wpexplorer:before, .jb_template .fa-wpexplorer:before {
+  content: "\f2de";
+}
+
+#jb_template .fa-wpforms:before, .jb_template .fa-wpforms:before {
+  content: "\f298";
+}
+
+#jb_template .fa-wpressr:before, .jb_template .fa-wpressr:before {
+  content: "\f3e4";
+}
+
+#jb_template .fa-wrench:before, .jb_template .fa-wrench:before {
+  content: "\f0ad";
+}
+
+#jb_template .fa-x-ray:before, .jb_template .fa-x-ray:before {
+  content: "\f497";
+}
+
+#jb_template .fa-xbox:before, .jb_template .fa-xbox:before {
+  content: "\f412";
+}
+
+#jb_template .fa-xing:before, .jb_template .fa-xing:before {
+  content: "\f168";
+}
+
+#jb_template .fa-xing-square:before, .jb_template .fa-xing-square:before {
+  content: "\f169";
+}
+
+#jb_template .fa-y-combinator:before, .jb_template .fa-y-combinator:before {
+  content: "\f23b";
+}
+
+#jb_template .fa-yahoo:before, .jb_template .fa-yahoo:before {
+  content: "\f19e";
+}
+
+#jb_template .fa-yammer:before, .jb_template .fa-yammer:before {
+  content: "\f840";
+}
+
+#jb_template .fa-yandex:before, .jb_template .fa-yandex:before {
+  content: "\f413";
+}
+
+#jb_template .fa-yandex-international:before, .jb_template .fa-yandex-international:before {
+  content: "\f414";
+}
+
+#jb_template .fa-yarn:before, .jb_template .fa-yarn:before {
+  content: "\f7e3";
+}
+
+#jb_template .fa-yelp:before, .jb_template .fa-yelp:before {
+  content: "\f1e9";
+}
+
+#jb_template .fa-yen-sign:before, .jb_template .fa-yen-sign:before {
+  content: "\f157";
+}
+
+#jb_template .fa-yin-yang:before, .jb_template .fa-yin-yang:before {
+  content: "\f6ad";
+}
+
+#jb_template .fa-yoast:before, .jb_template .fa-yoast:before {
+  content: "\f2b1";
+}
+
+#jb_template .fa-youtube:before, .jb_template .fa-youtube:before {
+  content: "\f167";
+}
+
+#jb_template .fa-youtube-square:before, .jb_template .fa-youtube-square:before {
+  content: "\f431";
+}
+
+#jb_template .fa-zhihu:before, .jb_template .fa-zhihu:before {
+  content: "\f63f";
+}
+
+#jb_template .sr-only, .jb_template .sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+#jb_template .sr-only-focusable:active, #jb_template .sr-only-focusable:focus, .jb_template .sr-only-focusable:active, .jb_template .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+@font-face {
+
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: normal;
+  font-display: auto;
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+
+}
+
+#jb_template .fab, .jb_template .fab {
+  font-family: 'Font Awesome 5 Brands';
+}
+
+@font-face {
+
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+
+}
+
+#jb_template .far, .jb_template .far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400;
+}
+
+@font-face {
+
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: auto;
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+
+}
+
+#jb_template .fa,
+#jb_template .fas, .jb_template .fa,
+.jb_template .fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}

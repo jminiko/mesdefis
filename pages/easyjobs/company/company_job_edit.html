@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb"><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="canonical" href="company_job_edit_fichiers/job_edit.html">
+        <!-- base href="https://demo-ejm.joomboost.com/candidate-dashboard/job_edit" -->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Easy Jobs Manager - Demo Site - Candidate Dashboard</title>
+	<link href="https://demo-ejm.joomboost.com/templates/shaper_helixultimate/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="company_job_edit_fichiers/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/bootstrapfix.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/all.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/style.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/iziModal.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/icomoon.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/calendar.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/bootstrap_002.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/fa-v4-shims.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/template.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/default.css" rel="stylesheet" type="text/css">
+	<link href="company_job_edit_fichiers/custom.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+.mce-in { padding: 5px 10px !important;}
+h1{font-family: 'Arial', sans-serif;}
+
+	</style>
+	<script type="application/json" class="joomla-script-options loaded">{
+    "csrf.token": "f90859476114712d3d883230c0f5cbb7",
+    "system.paths": {
+        "root": "",
+        "base": ""
+    },
+    "plg_editor_tinymce": {
+        "tinyMCE": {
+            "description": {
+                "joomlaMergeDefaults": true,
+                "joomlaExtButtons": {
+                    "names": [],
+                    "script": []
+                }
+            },
+            "default": {
+                "suffix": ".min",
+                "baseURL": "\/media\/editors\/tinymce",
+                "directionality": "ltr",
+                "language": "en",
+                "autosave_restore_when_empty": false,
+                "skin": "lightgray",
+                "theme": "modern",
+                "schema": "html5",
+                "menubar": "edit insert view format table tools",
+                "toolbar1": "bold italic underline strikethrough | alignleft aligncenter alignright alignjustify | formatselect | bullist numlist | outdent indent | undo redo | link unlink anchor code | hr table | subscript superscript | charmap pastetext preview",
+                "toolbar2": null,
+                "plugins": "autolink,lists,colorpicker,importcss,link,anchor,code,hr,table,charmap,paste,preview,wordcount,advlist,autosave,contextmenu",
+                "inline_styles": true,
+                "gecko_spellcheck": true,
+                "entity_encoding": "raw",
+                "verify_html": true,
+                "valid_elements": "",
+                "extended_valid_elements": "hr[id|title|alt|class|width|size|noshade]",
+                "invalid_elements": "script,applet,iframe",
+                "relative_urls": true,
+                "remove_script_host": false,
+                "content_css": "\/templates\/system\/css\/editor.css",
+                "document_base_url": "\/",
+                "paste_data_images": false,
+                "importcss_append": true,
+                "image_title": true,
+                "height": "550",
+                "width": "",
+                "resize": "both",
+                "templates": [],
+                "image_advtab": false,
+                "external_plugins": null,
+                "contextmenu": null,
+                "elementpath": true,
+                "force_br_newlines": false,
+                "force_p_newlines": true,
+                "forced_root_block": "p",
+                "rel_list": [
+                    {
+                        "title": "None",
+                        "value": ""
+                    },
+                    {
+                        "title": "Alternate",
+                        "value": "alternate"
+                    },
+                    {
+                        "title": "Author",
+                        "value": "author"
+                    },
+                    {
+                        "title": "Bookmark",
+                        "value": "bookmark"
+                    },
+                    {
+                        "title": "Help",
+                        "value": "help"
+                    },
+                    {
+                        "title": "License",
+                        "value": "license"
+                    },
+                    {
+                        "title": "Lightbox",
+                        "value": "lightbox"
+                    },
+                    {
+                        "title": "Next",
+                        "value": "next"
+                    },
+                    {
+                        "title": "No Follow",
+                        "value": "nofollow"
+                    },
+                    {
+                        "title": "No Referrer",
+                        "value": "noreferrer"
+                    },
+                    {
+                        "title": "Prefetch",
+                        "value": "prefetch"
+                    },
+                    {
+                        "title": "Prev",
+                        "value": "prev"
+                    },
+                    {
+                        "title": "Search",
+                        "value": "search"
+                    },
+                    {
+                        "title": "Tag",
+                        "value": "tag"
+                    }
+                ],
+                "toolbar_items_size": "small"
+            }
+        }
+    }
+}</script>
+	<script src="company_job_edit_fichiers/jquery.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/jquery-migrate.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/mootools-core-uncompressed.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/core-uncompressed.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/bootstrapfix.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/iziModal.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/easyjobsmanager.js" type="text/javascript"></script>
+	<!--[if lte IE 11]><script src="/media/system/js/polyfill.event-uncompressed.js?3427c0a31fb3505d87f36283d6261f22" type="text/javascript"></script><![endif]-->
+	<script src="company_job_edit_fichiers/tinymce_002.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/tinymce.js" type="text/javascript"></script>
+	<!--[if lte IE 11]><script src="/media/system/js/polyfill.classlist-uncompressed.js?3427c0a31fb3505d87f36283d6261f22" type="text/javascript"></script><![endif]-->
+	<!--[if lte IE 11]><script src="/media/system/js/polyfill.map-uncompressed.js?3427c0a31fb3505d87f36283d6261f22" type="text/javascript"></script><![endif]-->
+	<script src="company_job_edit_fichiers/en.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/date-helper.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/calendar.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/bootstrap_002.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/popper.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/bootstrap.js" type="text/javascript"></script>
+	<script src="company_job_edit_fichiers/main.js" type="text/javascript"></script>
+	<script type="text/javascript">
+template="shaper_helixultimate";
+	</script>
+    <link rel="stylesheet" type="text/css" id="u0" href="company_job_edit_fichiers/skin.css"></head>
+    <body class="site helix-ultimate com-easyjobsmanager view-job_edit layout-default task-none itemid-128 en-gb ltr sticky-header layout-fluid offcanvas-init offcanvs-position-right">
+    
+    <div class="body-wrapper">
+        <div class="body-innerwrapper">
+            <div id="sp-top-bar"><div class="container"><div class="container-inner"><div class="row"><div id="sp-top1" class="col-lg-6"><div class="sp-column text-center text-lg-left"><ul class="social-icons"><li class="social-icon-facebook"><a target="_blank" href="https://www.facebook.com/joomboost" aria-label="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a></li><li class="social-icon-twitter"><a target="_blank" href="https://twitter.com/joomboost" aria-label="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a></li><li class="social-icon-pinterest"><a target="_blank" href="https://joomtestimonials-demo.joomboost.com/#" aria-label="Pinterest"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li><li class="social-icon-linkedin"><a target="_blank" href="https://www.linkedin.com/company/joomboost" aria-label="LinkedIn"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li><li class="social-icon-custom"><a target="_blank" href="https://feeds.feedburner.com/joomboost-news"><span class="fa fa-rss" aria-hidden="true"></span></a></li></ul></div></div><div id="sp-top2" class="col-lg-6"><div class="sp-column text-center text-lg-right"><div class="sp-module "><div class="sp-module-content">
+
+<div class="custom">
+	<a class="btn btn-sm btn-success" href="https://www.joomboost.com/joomla-components/145-easy-jobs-manager.html" target="_blank">Visit product page</a></div>
+</div></div></div></div></div></div></div></div><header id="sp-header" class=""><div class="container"><div class="container-inner"><div class="row" style="position: relative;"><div id="sp-logo" class="col-8 col-lg-3"><div class="sp-column"><span class="logo"><a href="https://demo-ejm.joomboost.com/">EJB Demo</a></span></div></div><div id="sp-menu" class="col-4 col-lg-9" style="position: static;"><div class="sp-column"><nav class="sp-megamenu-wrapper" role="navigation"><a id="offcanvas-toggler" aria-label="Navigation" class="offcanvas-toggler-right d-block d-lg-none" href="#"><i class="fa fa-bars" aria-hidden="true" title="Navigation"></i></a><ul class="sp-megamenu-parent menu-animation-fade-up d-none d-lg-block"><li class="sp-menu-item sp-has-child"><a href="#">Jobs List</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/">Jobs List (Horizontal)</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/jobs/jobs-list-table">Jobs List (Table)</a></li></ul></div></div></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/single-job">Single Job</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/add-advertisement">Add Job</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/reply-to-advertisement">Apply a Job</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/company-dashboard">Company Dashboard</a></li><li class="sp-menu-item current-item active"><a href="https://demo-ejm.joomboost.com/candidate-dashboard">Candidate Dashboard</a></li><li class="sp-menu-item sp-has-child"><a href="https://demo-ejm.joomboost.com/registration">Registration</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/registration/candidate-registration">Candidate Registration</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/registration/company-registration">Company Registration</a></li></ul></div></div></li></ul></nav></div></div></div></div></div></header>            <section id="sp-section-1"><div class="row"><div id="sp-title" class="col-lg-12 "><div class="sp-column "></div></div></div></section><section id="sp-main-body"><div class="container"><div class="container-inner"><div class="row"><main id="sp-component" class="col-lg-12 " role="main"><div class="sp-column "><div id="system-message-container">
+	</div>
+    <div class="com_easyjobsmanager" id="jb_template">
+    <div class=" page-header mb-4">
+        <h1 class="contentheading">Candidate Dashboard</h1>
+    </div>
+
+	<div class="alert alert-info">Dear Partner, after inserting your Job 
+you will get instructions for the payment to the contact e-mail of your 
+company. The job will be published after payment, but after saving it 
+will be available for you to edit. The benefit you get by paying for the
+ Job is access to a complete database of candidates. We wish you good 
+luck.</div>
+	<form name="job_edit_form" id="job_edit_form" action="" method="post" autocomplete="off" class="form form-horizontal" enctype="multipart/form-data">
+		<div class="card mt-4">
+			<div class="card-header"><h4 class="m-0">Basic Data</h4></div>
+            <div class="card-body">
+                <div class="mx-0 form-group">
+                    <label class=""></label>
+                    <div class="hint">
+                        Fields marked * are required.                    </div>
+                </div>
+                <div class="mx-0 form-group required ">
+                    <label class="" for="title">Job Title</label>
+                    <input type="text" class="form-control" name="title" id="title">
+                    <span class="help-inline form-text text-muted">Enter min. 2 characters</span>
+                </div>
+                <div class="mx-0 form-group required ">
+                    <div class="form-group jr-customfields ">
+			<label id="description-lbl" for="description">
+	Description</label>
+	    <div class="js-editor-tinymce"><div id="mceu_26" class="mce-tinymce mce-container mce-panel" hidefocus="1" tabindex="-1" role="application" style="visibility: hidden; border-width: 1px;"><div id="mceu_26-body" class="mce-container-body mce-stack-layout"><div id="mceu_27" class="mce-container mce-menubar mce-toolbar mce-stack-layout-item mce-first" role="menubar" style="border-width: 0px 0px 1px;"><div id="mceu_27-body" class="mce-container-body mce-flow-layout"><div id="mceu_28" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-first mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_28" role="menuitem" aria-haspopup="true"><button id="mceu_28-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Edit</span> <i class="mce-caret"></i></button></div><div id="mceu_29" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_29" role="menuitem" aria-haspopup="true"><button id="mceu_29-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Insert</span> <i class="mce-caret"></i></button></div><div id="mceu_30" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_30" role="menuitem" aria-haspopup="true"><button id="mceu_30-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">View</span> <i class="mce-caret"></i></button></div><div id="mceu_31" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_31" role="menuitem" aria-haspopup="true"><button id="mceu_31-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Format</span> <i class="mce-caret"></i></button></div><div id="mceu_32" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_32" role="menuitem" aria-haspopup="true"><button id="mceu_32-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Table</span> <i class="mce-caret"></i></button></div><div id="mceu_33" class="mce-widget mce-btn mce-menubtn mce-flow-layout-item mce-last mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_33" role="menuitem" aria-haspopup="true"><button id="mceu_33-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Tools</span> <i class="mce-caret"></i></button></div></div></div><div id="mceu_34" class="mce-toolbar-grp mce-container mce-panel mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group"><div id="mceu_34-body" class="mce-container-body mce-stack-layout"><div id="mceu_35" class="mce-container mce-toolbar mce-stack-layout-item mce-first mce-last" role="toolbar"><div id="mceu_35-body" class="mce-container-body mce-flow-layout"><div id="mceu_36" class="mce-container mce-flow-layout-item mce-first mce-btn-group" role="group"><div id="mceu_36-body"><div id="mceu_0" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" aria-labelledby="mceu_0" role="button" aria-label="Bold"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bold"></i></button></div><div id="mceu_1" class="mce-widget mce-btn mce-btn-small" tabindex="-1" aria-labelledby="mceu_1" role="button" aria-label="Italic"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-italic"></i></button></div><div id="mceu_2" class="mce-widget mce-btn mce-btn-small" tabindex="-1" aria-labelledby="mceu_2" role="button" aria-label="Underline"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-underline"></i></button></div><div id="mceu_3" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" aria-labelledby="mceu_3" role="button" aria-label="Strikethrough"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-strikethrough"></i></button></div></div></div><div id="mceu_37" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_37-body"><div id="mceu_4" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" aria-labelledby="mceu_4" role="button" aria-label="Align left"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-alignleft"></i></button></div><div id="mceu_5" class="mce-widget mce-btn mce-btn-small" tabindex="-1" aria-labelledby="mceu_5" role="button" aria-label="Align center"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-aligncenter"></i></button></div><div id="mceu_6" class="mce-widget mce-btn mce-btn-small" tabindex="-1" aria-labelledby="mceu_6" role="button" aria-label="Align right"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-alignright"></i></button></div><div id="mceu_7" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" aria-labelledby="mceu_7" role="button" aria-label="Justify"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-alignjustify"></i></button></div></div></div><div id="mceu_38" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_38-body"><div id="mceu_8" class="mce-widget mce-btn mce-btn-small mce-menubtn mce-fixed-width mce-listbox mce-first mce-last mce-btn-has-text" tabindex="-1" aria-labelledby="mceu_8" role="button" aria-haspopup="true"><button id="mceu_8-open" role="presentation" type="button" tabindex="-1"><span class="mce-txt">Paragraph</span> <i class="mce-caret"></i></button></div></div></div><div id="mceu_39" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_39-body"><div id="mceu_9" class="mce-widget mce-btn mce-splitbtn mce-btn-small mce-menubtn mce-first" role="button" tabindex="-1" aria-label="Bullet list" aria-haspopup="true"><button type="button" hidefocus="1" tabindex="-1"><i class="mce-ico mce-i-bullist"></i></button><button type="button" class="mce-open" hidefocus="1" tabindex="-1"> <i class="mce-caret"></i></button></div><div id="mceu_10" class="mce-widget mce-btn mce-splitbtn mce-btn-small mce-menubtn mce-last" role="button" tabindex="-1" aria-label="Numbered list" aria-haspopup="true"><button type="button" hidefocus="1" tabindex="-1"><i class="mce-ico mce-i-numlist"></i></button><button type="button" class="mce-open" hidefocus="1" tabindex="-1"> <i class="mce-caret"></i></button></div></div></div><div id="mceu_40" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_40-body"><div id="mceu_11" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" aria-labelledby="mceu_11" role="button" aria-label="Decrease indent"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-outdent"></i></button></div><div id="mceu_12" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" aria-labelledby="mceu_12" role="button" aria-label="Increase indent"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-indent"></i></button></div></div></div><div id="mceu_41" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_41-body"><div id="mceu_13" class="mce-widget mce-btn mce-btn-small mce-first mce-disabled" tabindex="-1" aria-labelledby="mceu_13" role="button" aria-label="Undo" aria-disabled="true"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-undo"></i></button></div><div id="mceu_14" class="mce-widget mce-btn mce-btn-small mce-last mce-disabled" tabindex="-1" aria-labelledby="mceu_14" role="button" aria-label="Redo" aria-disabled="true"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-redo"></i></button></div></div></div><div id="mceu_42" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_42-body"><div id="mceu_15" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" aria-labelledby="mceu_15" role="button" aria-label="Insert/edit link"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-link"></i></button></div><div id="mceu_16" class="mce-widget mce-btn mce-btn-small" tabindex="-1" aria-labelledby="mceu_16" role="button" aria-label="Remove link"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-unlink"></i></button></div><div id="mceu_17" class="mce-widget mce-btn mce-btn-small" tabindex="-1" aria-labelledby="mceu_17" role="button" aria-label="Anchor"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-anchor"></i></button></div><div id="mceu_18" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" aria-labelledby="mceu_18" role="button" aria-label="Source code"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-code"></i></button></div></div></div><div id="mceu_43" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_43-body"><div id="mceu_19" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" aria-labelledby="mceu_19" role="button" aria-label="Horizontal line"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-hr"></i></button></div><div id="mceu_20" class="mce-widget mce-btn mce-btn-small mce-menubtn mce-last" tabindex="-1" aria-labelledby="mceu_20" role="button" aria-label="Table" aria-haspopup="true"><button id="mceu_20-open" role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-table"></i> <i class="mce-caret"></i></button></div></div></div><div id="mceu_44" class="mce-container mce-flow-layout-item mce-btn-group" role="group"><div id="mceu_44-body"><div id="mceu_21" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" aria-labelledby="mceu_21" role="button" aria-label="Subscript"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-subscript"></i></button></div><div id="mceu_22" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" aria-labelledby="mceu_22" role="button" aria-label="Superscript"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-superscript"></i></button></div></div></div><div id="mceu_45" class="mce-container mce-flow-layout-item mce-last mce-btn-group" role="group"><div id="mceu_45-body"><div id="mceu_23" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" aria-labelledby="mceu_23" role="button" aria-label="Special character"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-charmap"></i></button></div><div id="mceu_24" class="mce-widget mce-btn mce-btn-small" tabindex="-1" aria-labelledby="mceu_24" role="button" aria-label="Paste as text"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-pastetext"></i></button></div><div id="mceu_25" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" aria-labelledby="mceu_25" role="button" aria-label="Preview"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-preview"></i></button></div></div></div></div></div></div></div><div id="mceu_46" class="mce-edit-area mce-container mce-panel mce-stack-layout-item" hidefocus="1" tabindex="-1" role="group" style="border-width: 1px 0px 0px;"><iframe id="description_ifr" allowtransparency="true" title="Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help" style="width: 100%; height: 550px; display: block;" src='javascript:""' frameborder="0"></iframe></div><div id="mceu_47" class="mce-statusbar mce-container mce-panel mce-stack-layout-item mce-last" hidefocus="1" tabindex="-1" role="group" style="border-width: 1px 0px 0px;"><div id="mceu_47-body" class="mce-container-body mce-flow-layout"><div id="mceu_48" class="mce-path mce-flow-layout-item mce-first"><div role="button" class="mce-path-item mce-last" data-index="0" tabindex="-1" id="mceu_48-0" aria-level="1">p</div></div><span id="mceu_50" class="mce-wordcount mce-widget mce-label mce-flow-layout-item">Words: 0</span><div id="mceu_49" class="mce-flow-layout-item mce-resizehandle mce-resizehandle-both mce-last"><i class="mce-ico mce-i-resize"></i></div></div></div></div></div><textarea name="description" id="description" cols="80" rows="10" style="width: 100%; height: 500px; display: none;" class="form-control mce_editable joomla-editor-tinymce" aria-hidden="true">	</textarea>
+<div class="toggle-editor btn-toolbar float-right clearfix mt-3">
+	<div class="btn-group">
+		<a class="btn btn-secondary" href="#" onclick="tinyMCE.execCommand('mceToggleEditor', false, 'description');return false;" title="Toggle editor">
+			<span class="icon-eye" aria-hidden="true"></span> Toggle editor		</a>
+	</div>
+</div></div></div>
+                    <span class="help-inline form-text text-muted">Enter min. 2 characters</span>
+                </div>
+                <div class="mx-0 form-group required ">
+                    <label class="" for="id_field">Field</label>
+                    <select name="id_field" id="id_field" class="form-control">
+                        <option value="">- Field -</option>
+                        <option value="1">Architecture</option>
+<option value="11" selected="selected">Beauty and Fashion</option>
+<option value="15">Community Services</option>
+<option value="14">Construction and Building</option>
+<option value="7">Customer Service and Call Center</option>
+<option value="2">Engineering</option>
+<option value="12">Finance and Investment</option>
+<option value="13">Hospitality and Tourism</option>
+<option value="3">Human Resources and Recruitment</option>
+<option value="4">Information Technology </option>
+<option value="5">Management</option>
+<option value="6">Marketing and PR</option>
+<option value="8">Purchasing and Procurement</option>
+<option value="9">Quality Control</option>
+<option value="10">Teaching and Academics </option>
+                    </select>
+                    <span class="help-inline form-text text-muted">Choose from the list</span>
+                </div>
+                <div class="mx-0 form-group  ">
+                    <label class="" for="id_field2">Field 2</label>
+                    <select name="id_field2" id="id_field2" class="form-control">
+                        <option value="">- Field -</option>
+                        <option value="1">Architecture</option>
+<option value="11">Beauty and Fashion</option>
+<option value="15">Community Services</option>
+<option value="14" selected="selected">Construction and Building</option>
+<option value="7">Customer Service and Call Center</option>
+<option value="2">Engineering</option>
+<option value="12">Finance and Investment</option>
+<option value="13">Hospitality and Tourism</option>
+<option value="3">Human Resources and Recruitment</option>
+<option value="4">Information Technology </option>
+<option value="5">Management</option>
+<option value="6">Marketing and PR</option>
+<option value="8">Purchasing and Procurement</option>
+<option value="9">Quality Control</option>
+<option value="10">Teaching and Academics </option>
+                    </select>
+                    <span class="help-inline form-text text-muted">Choose from the list</span>
+                </div>
+                <div class="mx-0 form-group  ">
+                    <label class="" for="id_field3">Field 3</label>
+                    <select name="id_field3" id="id_field3" class="form-control">
+                        <option value="" selected="selected">- Field -</option>
+                        <option value="1">Architecture</option>
+<option value="11">Beauty and Fashion</option>
+<option value="15">Community Services</option>
+<option value="14">Construction and Building</option>
+<option value="7">Customer Service and Call Center</option>
+<option value="2">Engineering</option>
+<option value="12">Finance and Investment</option>
+<option value="13">Hospitality and Tourism</option>
+<option value="3">Human Resources and Recruitment</option>
+<option value="4">Information Technology </option>
+<option value="5">Management</option>
+<option value="6">Marketing and PR</option>
+<option value="8">Purchasing and Procurement</option>
+<option value="9">Quality Control</option>
+<option value="10">Teaching and Academics </option>
+                    </select>
+                    <span class="help-inline form-text text-muted">Choose from the list</span>
+                </div>
+                <div class="mx-0 form-group required ">
+                    <label class="" for="id_place">Location</label>
+                    <select name="id_place" id="id_place" class="form-control">
+                        <option value="">- Location -</option>
+                        <option value="6">Cairo</option>
+<option value="3">Casablanca</option>
+<option value="9">Dubai</option>
+<option value="8">London</option>
+<option value="7">Munich</option>
+<option value="1">New Oreanls</option>
+<option value="2">Paris</option>
+<option value="4">Shanghai</option>
+<option value="5" selected="selected">Tokyo</option>
+                    </select>
+                    <span class="help-inline form-text text-muted">Choose from the list</span>
+                </div>
+                <div class="mx-0 form-group  ">
+                    <label class="" for="id_place2">Location 2</label>
+                    <select name="id_place2" id="id_place2" class="form-control">
+                        <option value="" selected="selected">- Location -</option>
+                        <option value="6">Cairo</option>
+<option value="3">Casablanca</option>
+<option value="9">Dubai</option>
+<option value="8">London</option>
+<option value="7">Munich</option>
+<option value="1">New Oreanls</option>
+<option value="2">Paris</option>
+<option value="4">Shanghai</option>
+<option value="5">Tokyo</option>
+                    </select>
+                    <span class="help-inline form-text text-muted">Choose from the list</span>
+                </div>
+                <div class="mx-0 form-group  ">
+                    <label class="" for="id_place3">Location 3</label>
+                    <select name="id_place3" id="id_place3" class="form-control">
+                        <option value="" selected="selected">- Location -</option>
+                        <option value="6">Cairo</option>
+<option value="3">Casablanca</option>
+<option value="9">Dubai</option>
+<option value="8">London</option>
+<option value="7">Munich</option>
+<option value="1">New Oreanls</option>
+<option value="2">Paris</option>
+<option value="4">Shanghai</option>
+<option value="5">Tokyo</option>
+                    </select>
+                    <span class="help-inline form-text text-muted">Choose from the list</span>
+
+                </div>
+
+	                                <div class="mx-0 form-group mt-3">
+                        <label>Salary</label>
+                        <div class="input-group">
+				            <div class="form-row">
+    <div class="col-md-3">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">from</span>
+            </div>
+            <input class="validate form-control" placeholder="Ex: 1200" type="text" name="jform[salary][salary_min]">
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">to</span>
+            </div>
+            <input class="validate form-control" placeholder="Ex: 2000" type="text" name="jform[salary][salary_max]">
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Currency</span>
+                </div>
+			    <select id="jformsalarycurrency" name="jform[salary][currency]" class="form-control">
+	<option value="1" selected="selected">(South) Korean Won</option>
+	<option value="2">Afghanistan Afghani</option>
+	<option value="3">Albanian Lek</option>
+	<option value="4">Algerian Dinar</option>
+	<option value="5">Andorran Peseta</option>
+	<option value="6">Angolan Kwanza</option>
+	<option value="7">Argentine Peso</option>
+	<option value="8">Armenian Dram</option>
+	<option value="9">Aruban Florin</option>
+	<option value="10">Australian Dollar</option>
+	<option value="11">Bahamian Dollar</option>
+	<option value="12">Bahraini Dinar</option>
+	<option value="13">Bangladeshi Taka</option>
+	<option value="14">Barbados Dollar</option>
+	<option value="15">Belize Dollar</option>
+	<option value="16">Bermudian Dollar</option>
+	<option value="17">Bhutan Ngultrum</option>
+	<option value="18">Bolivian Boliviano</option>
+	<option value="19">Botswanian Pula</option>
+	<option value="20">Brazilian Real</option>
+	<option value="21">British Pound</option>
+	<option value="22">Brunei Dollar</option>
+	<option value="23">Bulgarian Lev</option>
+	<option value="24">Burma Kyat</option>
+	<option value="25">Burundi Franc</option>
+	<option value="26">Canadian Dollar</option>
+	<option value="27">Cape Verde Escudo</option>
+	<option value="28">Cayman Islands Dollar</option>
+	<option value="29">Chilean Peso</option>
+	<option value="30">Chilean Unidades de Fomento</option>
+	<option value="31">Colombian Peso</option>
+	<option value="32">Communauté Financière Africaine BCEAO - Francs</option>
+	<option value="33">Communauté Financière Africaine BEAC, Francs</option>
+	<option value="34">Comoros Franc</option>
+	<option value="35">Comptoirs Français du Pacifique Francs</option>
+	<option value="36">Costa Rican Colon</option>
+	<option value="37">Cuban Peso</option>
+	<option value="38">Cyprus Pound</option>
+	<option value="39">Czech Republic Koruna</option>
+	<option value="40">Danish Krone</option>
+	<option value="41">Democratic Yemeni Dinar</option>
+	<option value="42">Dominican Peso</option>
+	<option value="43">East Caribbean Dollar</option>
+	<option value="44">East Timor Escudo</option>
+	<option value="45">Ecuador Sucre</option>
+	<option value="46">Egyptian Pound</option>
+	<option value="47">El Salvador Colon</option>
+	<option value="48">Estonian Kroon (EEK)</option>
+	<option value="49">Ethiopian Birr</option>
+	<option value="50">Euro</option>
+	<option value="51">Falkland Islands Pound</option>
+	<option value="52">Fiji Dollar</option>
+	<option value="53">Gambian Dalasi</option>
+	<option value="54">Ghanaian Cedi</option>
+	<option value="55">Gibraltar Pound</option>
+	<option value="56">Gold, Ounces</option>
+	<option value="57">Guatemalan Quetzal</option>
+	<option value="58">Guinea Franc</option>
+	<option value="59">Guinea-Bissau Peso</option>
+	<option value="60">Guyanan Dollar</option>
+	<option value="61">Haitian Gourde</option>
+	<option value="62">Honduran Lempira</option>
+	<option value="63">Hong Kong Dollar</option>
+	<option value="64">Hungarian Forint</option>
+	<option value="65">Indian Rupee</option>
+	<option value="66">Indonesian Rupiah</option>
+	<option value="67">International Monetary Fund (IMF) Special Drawing Rights</option>
+	<option value="68">Iranian Rial</option>
+	<option value="69">Iraqi Dinar</option>
+	<option value="70">Irish Punt</option>
+	<option value="71">Israeli Shekel</option>
+	<option value="72">Jamaican Dollar</option>
+	<option value="73">Japanese Yen</option>
+	<option value="74">Jordanian Dinar</option>
+	<option value="75">Kampuchean (Cambodian) Riel</option>
+	<option value="76">Kenyan Schilling</option>
+	<option value="77">Kuwaiti Dinar</option>
+	<option value="78">Lao Kip</option>
+	<option value="79">Lebanese Pound</option>
+	<option value="80">Lesotho Loti</option>
+	<option value="81">Liberian Dollar</option>
+	<option value="82">Libyan Dinar</option>
+	<option value="83">Macau Pataca</option>
+	<option value="84">Malagasy Franc</option>
+	<option value="85">Malawi Kwacha</option>
+	<option value="86">Malaysian Ringgit</option>
+	<option value="87">Maldive Rufiyaa</option>
+	<option value="88">Maltese Lira</option>
+	<option value="89">Mauritanian Ouguiya</option>
+	<option value="90">Mauritius Rupee</option>
+	<option value="91">Mexican Peso</option>
+	<option value="92">Mongolian Tugrik</option>
+	<option value="93">Moroccan Dirham</option>
+	<option value="94">Mozambique Metical</option>
+	<option value="95">Namibian Dollar</option>
+	<option value="96">Nepalese Rupee</option>
+	<option value="97">Netherlands Antillian Guilder</option>
+	<option value="98">New Yugoslavia Dinar</option>
+	<option value="99">New Zealand Dollar</option>
+	<option value="100">Nicaraguan Cordoba</option>
+	<option value="101">Nigerian Naira</option>
+	<option value="102">North Korean Won</option>
+	<option value="103">Norwegian Kroner</option>
+	<option value="104">Omani Rial</option>
+	<option value="105">Pakistan Rupee</option>
+	<option value="106">Palladium Ounces</option>
+	<option value="107">Panamanian Balboa</option>
+	<option value="108">Papua New Guinea Kina</option>
+	<option value="109">Paraguay Guarani</option>
+	<option value="110">Peruvian Nuevo Sol</option>
+	<option value="111">Philippine Peso</option>
+	<option value="112">Platinum, Ounces</option>
+	<option value="113">Polish Zloty</option>
+	<option value="114">Qatari Rial</option>
+	<option value="115">Romanian Leu</option>
+	<option value="116">Russian Ruble</option>
+	<option value="117">Rwanda Franc</option>
+	<option value="118">Samoan Tala</option>
+	<option value="119">Sao Tome and Principe Dobra</option>
+	<option value="120">Saudi Arabian Riyal</option>
+	<option value="121">Seychelles Rupee</option>
+	<option value="122">Sierra Leone Leone</option>
+	<option value="123">Silver, Ounces</option>
+	<option value="124">Singapore Dollar</option>
+	<option value="125">Slovak Koruna</option>
+	<option value="126">Solomon Islands Dollar</option>
+	<option value="127">Somali Schilling</option>
+	<option value="128">South African Rand</option>
+	<option value="129">Sri Lanka Rupee</option>
+	<option value="130">St. Helena Pound</option>
+	<option value="131">Sudanese Pound</option>
+	<option value="132">Suriname Guilder</option>
+	<option value="133">Swaziland Lilangeni</option>
+	<option value="134">Swedish Krona</option>
+	<option value="135">Swiss Franc</option>
+	<option value="136">Syrian Potmd</option>
+	<option value="137">Taiwan Dollar</option>
+	<option value="138">Tanzanian Schilling</option>
+	<option value="139">Thai Baht</option>
+	<option value="140">Tongan Paanga</option>
+	<option value="141">Trinidad and Tobago Dollar</option>
+	<option value="142">Tunisian Dinar</option>
+	<option value="143">Turkish Lira</option>
+	<option value="144">Uganda Shilling</option>
+	<option value="145">United Arab Emirates Dirham</option>
+	<option value="146">Uruguayan Peso</option>
+	<option value="147">US Dollar</option>
+	<option value="148">Vanuatu Vatu</option>
+	<option value="149">Venezualan Bolivar</option>
+	<option value="150">Vietnamese Dong</option>
+	<option value="151">Yemeni Rial</option>
+	<option value="152">Yuan (Chinese) Renminbi</option>
+	<option value="153">Zaire Zaire</option>
+	<option value="154">Zambian Kwacha</option>
+	<option value="155">Zimbabwe Dollar</option>
+</select>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Period per</span>
+                </div>
+			    <select id="jformsalarytype" name="jform[salary][type]" class="form-control">
+	<option value="0" selected="selected">Hour</option>
+	<option value="1">Day</option>
+	<option value="2">Month</option>
+	<option value="3">Year</option>
+</select>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+                        </div>
+                    </div>
+	            
+                
+
+            </div>
+
+		</div>
+
+        <div class="card mt-4 rounded border shadow-sm" id="attribfields-0">
+            <div class="card-header"><h4 class="m-0">Fields</h4></div>
+             <div class="card-body"><div class="form-group jr-customfields ">
+			<label id="jform_com_fields_responsibilites-lbl" for="jform_com_fields_responsibilites">
+	</label>
+	    
+
+	
+	<input type="text" name="jform[com_fields][responsibilites]" id="jform_com_fields_responsibilites" class="form-control form-control">
+
+	
+
+</div>
+<div class="form-group jr-customfields ">
+			<label id="jform_com_fields_requirements-lbl" for="jform_com_fields_requirements">
+	Requirements</label>
+	    
+
+	
+	<input type="text" name="jform[com_fields][requirements]" id="jform_com_fields_requirements" class="form-control form-control">
+
+	
+
+</div>
+<div class="form-group jr-customfields ">
+			<label id="jform_com_fields_offer-lbl" for="jform_com_fields_offer">
+	Offer</label>
+	    
+
+	
+	<input type="text" name="jform[com_fields][offer]" id="jform_com_fields_offer" class="form-control form-control">
+
+	
+
+</div>
+</div></div>		<div class="card mt-4">
+			<div class="card-header"><h4 class="m-0">Additional Information</h4></div>
+            <div class="card-body">
+                <div class="mx-0 form-group ">
+                    <label class="" for="from">Start Date</label>
+                    <div class="field-calendar">
+		<div class="input-group">
+				<input type="text" id="from" name="from" class="form-control" data-alt-value="" autocomplete="off">
+        <div class="input-group-append">
+		<button type="button" class="btn btn-secondary" id="from_btn" data-inputfield="from" data-dayformat="%d.%m.%Y" data-button="from_btn" data-firstday="0" data-weekend="0,6" data-today-btn="1" data-week-numbers="1" data-show-time="0" data-show-others="1" data-time-24="24" data-only-months-nav="0" title="Open the calendar"><span class="fas fa-calendar" aria-hidden="true"></span></button>
+        </div>
+			</div>
+<div style="direction: ltr; position: absolute; box-shadow: rgba(0, 0, 0, 0.67) 0px 0px 70px 0px; min-width: 0px; padding: 0px; display: none; left: auto; top: auto; z-index: 1060; border-radius: 20px;" class="js-calendar"><div class="calendar-container"><table class="table" style="margin-bottom: 0px; visibility: visible;" cellspacing="0" cellpadding="0"><thead class="calendar-header"><tr class="calendar-head-row"><td colspan="1" style="text-align: center; font-size: 18px; line-height: 18px;" class=" nav"><a class="js-btn btn-prev-year" style="display:inline;padding:2px 6px;cursor:pointer;text-decoration:none;" unselectable="on">‹</a></td><td colspan="6" class="title"><div unselectable="on"><div style="text-align:center;font-size:18px"><span>2021</span></div></div></td><td colspan="1" style="text-align: center; font-size: 18px; line-height: 18px;" class=" nav"><a class="js-btn btn-next-year" style="display:inline;padding:2px 6px;cursor:pointer;text-decoration:none;" unselectable="on"> ›</a></td></tr><tr class="calendar-head-row"><td colspan="1" style="text-align: center; font-size: 2em; line-height: 1em;" class=" nav"><a class="js-btn btn-prev-month" style="display:inline;padding:2px 6px;cursor:pointer;text-decoration:none;" unselectable="on">‹</a></td><td colspan="6" style="text-align: center;" class="title"><div unselectable="on"><div style="text-align:center;font-size:1.2em"><span>October</span></div></div></td><td colspan="1" style="text-align: center; font-size: 2em; line-height: 1em;" class=" nav"><a class="js-btn btn-next-month" style="display:inline;padding:2px 6px;cursor:pointer;text-decoration:none;" unselectable="on"> ›</a></td></tr><tr class="daynames wk"><td class="day-name wn">wk</td><td class="day-name day-name-week">Sun</td><td class="day-name day-name-week">Mon</td><td class="day-name day-name-week">Tue</td><td class="day-name day-name-week">Wed</td><td class="day-name day-name-week">Thu</td><td class="day-name day-name-week">Fri</td><td class="day-name day-name-week">Sat</td></tr></thead><tbody><tr class="daysrow wk"><td class="day wn">38</td><td class="day disabled othermonth  weekend" style="text-align: center;">26</td><td class="day disabled othermonth " style="text-align: center;">27</td><td class="day disabled othermonth " style="text-align: center;">28</td><td class="day disabled othermonth " style="text-align: center;">29</td><td class="day disabled othermonth " style="text-align: center;">30</td><td class="day" style="text-align: center; cursor: pointer;">1</td><td class="day weekend" style="text-align: center; cursor: pointer;">2</td></tr><tr class="daysrow wk"><td class="day wn">39</td><td class="day weekend" style="text-align: center; cursor: pointer;">3</td><td class="day" style="text-align: center; cursor: pointer;">4</td><td class="day" style="text-align: center; cursor: pointer;">5</td><td class="day" style="text-align: center; cursor: pointer;">6</td><td class="day" style="text-align: center; cursor: pointer;">7</td><td class="day selected today" style="text-align: center; cursor: pointer;">8</td><td class="day weekend" style="text-align: center; cursor: pointer;">9</td></tr><tr class="daysrow wk"><td class="day wn">40</td><td class="day weekend" style="text-align: center; cursor: pointer;">10</td><td class="day" style="text-align: center; cursor: pointer;">11</td><td class="day" style="text-align: center; cursor: pointer;">12</td><td class="day" style="text-align: center; cursor: pointer;">13</td><td class="day" style="text-align: center; cursor: pointer;">14</td><td class="day" style="text-align: center; cursor: pointer;">15</td><td class="day weekend" style="text-align: center; cursor: pointer;">16</td></tr><tr class="daysrow wk"><td class="day wn">41</td><td class="day weekend" style="text-align: center; cursor: pointer;">17</td><td class="day" style="text-align: center; cursor: pointer;">18</td><td class="day" style="text-align: center; cursor: pointer;">19</td><td class="day" style="text-align: center; cursor: pointer;">20</td><td class="day" style="text-align: center; cursor: pointer;">21</td><td class="day" style="text-align: center; cursor: pointer;">22</td><td class="day weekend" style="text-align: center; cursor: pointer;">23</td></tr><tr class="daysrow wk"><td class="day wn">42</td><td class="day weekend" style="text-align: center; cursor: pointer;">24</td><td class="day" style="text-align: center; cursor: pointer;">25</td><td class="day" style="text-align: center; cursor: pointer;">26</td><td class="day" style="text-align: center; cursor: pointer;">27</td><td class="day" style="text-align: center; cursor: pointer;">28</td><td class="day" style="text-align: center; cursor: pointer;">29</td><td class="day weekend" style="text-align: center; cursor: pointer;">30</td></tr><tr class="daysrow wk"><td class="day wn">43</td><td class="day weekend" style="text-align: center; cursor: pointer;">31</td><td class="day disabled othermonth " style="text-align: center;">1</td><td class="day disabled othermonth " style="text-align: center;">2</td><td class="day disabled othermonth " style="text-align: center;">3</td><td class="day disabled othermonth " style="text-align: center;">4</td><td class="day disabled othermonth " style="text-align: center;">5</td><td class="day disabled othermonth  weekend" style="text-align: center;">6</td></tr></tbody></table><div class="buttons-wrapper btn-group"><button type="button" data-action="clear" class="js-btn btn btn-clear">Clear</button><button type="button" data-action="today" class="js-btn btn btn-today">Today</button><button type="button" data-action="exit" class="js-btn btn btn-exit">Close</button></div></div></div></div>
+                    <span class="help-inline form-text text-muted">Enter the date in the following format dd.mm.yyyy (or click on the icon to display the calendar)</span>
+                </div>
+                <div class="mx-0 form-group ">
+                    <label class="" for="length_type">Length of Employment</label>
+                    <select id="length_type" name="length_type" class="form-control">
+	<option value="" selected="selected">- Select length of employment -</option>
+	<option value="1">Indefinite</option>
+	<option value="2">Length C</option>
+	<option value="3">Length D</option>
+	<option value="4">Temporary</option>
+</select>
+                    <span class="help-inline form-text text-muted">Choose from the list</span>
+                </div>
+                <div class="mx-0 form-group required ">
+                    <label class="" for="contract_relation">Contract</label>
+                    <select id="contract_relation" name="contract_relation" class="form-control">
+	<option value="" selected="selected">- Select contract type -</option>
+	<option value="1">Business Licence</option>
+	<option value="2">Employment Contract</option>
+	<option value="3">Fixed-term contract</option>
+	<option value="4">Type D</option>
+</select>
+                    <span class="help-inline form-text text-muted">Choose contract type from the list</span>
+                </div>
+                <div class="mx-0 form-group required " <label="" for="contract_type">Time
+                    <select id="contract_type" name="contract_type" class="form-control">
+	<option value="" selected="selected">- Select time type -</option>
+	<option value="1">Casual workers</option>
+	<option value="2">Fixed-term contract</option>
+	<option value="3">Flexi-time</option>
+	<option value="4">Full-time</option>
+</select>
+                    <span class="help-inline form-text text-muted">Choose a time type from the list.</span>
+                </div>
+            </div>
+
+		</div>
+		<div class="card mt-4">
+			<div class="card-header"><h4 class="m-0">Contact</h4></div>
+            <div class="card-body">
+                <div class="mx-0 form-group ">
+                    <label class="" for="id_contact">Contact</label>
+                    <select name="id_contact" id="id_contact" class="form-control">
+                        <option value="" selected="selected">- Contact -</option>
+                                            </select>
+                    <span class="help-inline form-text text-muted">Choose a contact person from the list (you can add a contact person when editing the company profile)</span>
+                </div>
+            </div>
+		</div>
+		<div class="mx-0 form-group mt-4">
+            <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Save</button>
+
+			<a class="btn btn-light border float-right" href="https://demo-ejm.joomboost.com/candidate-dashboard/advertiser_dashboard"><i class="fas fa-arrow-left"></i> Back to Profile</a>
+			<input type="hidden" name="option" value="com_easyjobsmanager">
+			<input type="hidden" name="view" value="job_edit">
+			<input type="hidden" name="id" value="">
+			<input type="hidden" name="task" value="job_edit.save">
+			<input type="hidden" name="f90859476114712d3d883230c0f5cbb7" value="1">		</div>
+	</form>
+</div>
+</div></main></div></div></div></section><footer id="sp-footer"><div class="container"><div class="container-inner"><div class="row"><div id="sp-footer1" class="col-lg-12 "><div class="sp-column "><span class="sp-copyright">© 2018 Your Company. Designed by <a target="_blank" href="https://www.joomshaper.com/">JoomShaper</a></span></div></div></div></div></div></footer>        </div>
+    </div>
+
+    <!-- Off Canvas Menu -->
+    <div class="offcanvas-overlay"></div>
+    <div class="offcanvas-menu">
+        <a href="#" class="close-offcanvas"><span class="fa fa-remove"></span></a>
+        <div class="offcanvas-inner">
+                            <p class="alert alert-warning">
+                    Publish the Menu module to "offcanvas" position. Here you can publish other modules as well. <br> <a target="_blank" href="https://www.joomshaper.com/documentation/helix-framework/helixultimate#documentation-heading-5_13">Learn More.</a>                </p>
+                    </div>
+    </div>
+
+    
+    
+    
+    <!-- Go to top -->
+            <a href="#" class="sp-scroll-up" aria-label="Scroll Up" style="display: none;"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+            
+</body></html>

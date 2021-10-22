@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html dir="ltr" slick-uniqueid="3" lang="en-gb"><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="canonical" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;view=seeker_edit">
+        <!-- base href="https://demo-ejm.joomboost.com/index.php" -->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Easy Jobs Manager - Demo Site - Edit your Curriculum Vitae</title>
+	<link href="https://demo-ejm.joomboost.com/templates/shaper_helixultimate/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="candidate_cv_fichiers/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/bootstrapfix.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/all.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/style.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/iziModal.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/modal.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/bootstrap_002.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/font-awesome.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/fa-v4-shims.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/template.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/default.css" rel="stylesheet" type="text/css">
+	<link href="candidate_cv_fichiers/custom.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+h1{font-family: 'Arial', sans-serif;}
+
+	</style>
+	<script type="application/json" class="joomla-script-options new">{
+    "csrf.token": "08e41dbe83f6911a0d30a8271a9a3f38",
+    "system.paths": {
+        "root": "",
+        "base": ""
+    }
+}</script>
+	<script src="candidate_cv_fichiers/jquery.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/jquery-migrate.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/mootools-core-uncompressed.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/core-uncompressed.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/bootstrapfix.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/iziModal.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/easyjobsmanager.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/mootools-more-uncompressed.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/modal-uncompressed.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/bootstrap_002.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/popper.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/bootstrap.js" type="text/javascript"></script>
+	<script src="candidate_cv_fichiers/main.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			initSqueezeBox();
+			$(document).on('subform-row-add', initSqueezeBox);
+
+			function initSqueezeBox(event, container)
+			{
+				SqueezeBox.assign($(container || document).find('a.popup').get(), {
+					parse: 'rel'
+				});
+			}
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		
+template="shaper_helixultimate";
+	</script>
+    </head>
+    <body class="site helix-ultimate com-easyjobsmanager view-seeker_edit layout-default task-none itemid-0 en-gb ltr sticky-header layout-fluid offcanvas-init offcanvs-position-right">
+    
+    <div class="body-wrapper">
+        <div class="body-innerwrapper">
+            <div id="sp-top-bar"><div class="container"><div class="container-inner"><div class="row"><div id="sp-top1" class="col-lg-6"><div class="sp-column text-center text-lg-left"><ul class="social-icons"><li class="social-icon-facebook"><a target="_blank" href="https://www.facebook.com/joomboost" aria-label="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a></li><li class="social-icon-twitter"><a target="_blank" href="https://twitter.com/joomboost" aria-label="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a></li><li class="social-icon-pinterest"><a target="_blank" href="https://joomtestimonials-demo.joomboost.com/#" aria-label="Pinterest"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li><li class="social-icon-linkedin"><a target="_blank" href="https://www.linkedin.com/company/joomboost" aria-label="LinkedIn"><span class="fa fa-linkedin" aria-hidden="true"></span></a></li><li class="social-icon-custom"><a target="_blank" href="https://feeds.feedburner.com/joomboost-news"><span class="fa fa-rss" aria-hidden="true"></span></a></li></ul></div></div><div id="sp-top2" class="col-lg-6"><div class="sp-column text-center text-lg-right"><div class="sp-module "><div class="sp-module-content">
+
+<div class="custom">
+	<a class="btn btn-sm btn-success" href="https://www.joomboost.com/joomla-components/145-easy-jobs-manager.html" target="_blank">Visit product page</a></div>
+</div></div></div></div></div></div></div></div><header id="sp-header" class=""><div class="container"><div class="container-inner"><div class="row" style="position: relative;"><div id="sp-logo" class="col-8 col-lg-3"><div class="sp-column"><span class="logo"><a href="https://demo-ejm.joomboost.com/">EJB Demo</a></span></div></div><div id="sp-menu" class="col-4 col-lg-9" style="position: static;"><div class="sp-column"><nav class="sp-megamenu-wrapper" role="navigation"><a id="offcanvas-toggler" aria-label="Navigation" class="offcanvas-toggler-right d-block d-lg-none" href="#"><i class="fa fa-bars" aria-hidden="true" title="Navigation"></i></a><ul class="sp-megamenu-parent menu-animation-fade-up d-none d-lg-block"><li class="sp-menu-item sp-has-child active"><a href="#">Jobs List</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item current-item active"><a href="https://demo-ejm.joomboost.com/">Jobs List (Horizontal)</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/jobs/jobs-list-table">Jobs List (Table)</a></li></ul></div></div></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/single-job">Single Job</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/add-advertisement">Add Job</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/reply-to-advertisement">Apply a Job</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/company-dashboard">Company Dashboard</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/candidate-dashboard">Candidate Dashboard</a></li><li class="sp-menu-item sp-has-child"><a href="https://demo-ejm.joomboost.com/registration">Registration</a><div class="sp-dropdown sp-dropdown-main sp-menu-right" style="width: 240px;"><div class="sp-dropdown-inner"><ul class="sp-dropdown-items"><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/registration/candidate-registration">Candidate Registration</a></li><li class="sp-menu-item"><a href="https://demo-ejm.joomboost.com/registration/company-registration">Company Registration</a></li></ul></div></div></li></ul></nav></div></div></div></div></div></header>            <section id="sp-section-1"><div class="row"><div id="sp-title" class="col-lg-12 "><div class="sp-column "></div></div></div></section><section id="sp-main-body"><div class="container"><div class="container-inner"><div class="row"><main id="sp-component" class="col-lg-12 " role="main"><div class="sp-column "><div id="system-message-container">
+			<div id="system-message">
+							<div class="alert alert-danger">
+										<a class="close" data-dismiss="alert" aria-label="">×</a>
+
+											<h4 class="alert-heading">Warning</h4>
+						<div>
+															<div>You are currently logged-in, fill the necessary data
+ to get your candidate profile ready. To register new account you have 
+to log-out first.</div>
+													</div>
+									</div>
+					</div>
+	</div>
+<div class="com_easyjobsmanager" id="jb_template">
+
+    <form name="seeker_edit_form" id="seeker_edit_form" action="" method="post" autocomplete="off" class="form form-horizontal" enctype="multipart/form-data">
+
+        <div>
+            <div style="display: inline-block;" class="float-right btn-group">
+                <button type="submit" class="btn-sm btn btn-primary">
+                    <i class="fas fa-check"></i> Save                </button>
+                <a class="btn btn-secondary btn-sm" href="https://demo-ejm.joomboost.com/component/easyjobsmanager/?view=seeker_dashboard"><i class="fas fa-arrow-right"></i> Back to Profile                </a>
+            </div>
+            <div class="page-header mb-4">
+                <h1 class="contentheading">Edit your Curriculum Vitae</h1>
+            </div>
+        </div>
+
+	    <div class="progress">    <div class="progress-bar  bg-info progress-bar-striped" style="width:67%;" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">67%</div></div>        <div class="card mt-4">
+            <div class="card-body">
+			    You can create a professional CV on this job portal, get more 
+benefits for yourselves. The professional CV can also be downloaded in 
+PDF format for your further use. To delete your profile, please contact 
+us.            </div>
+        </div>
+
+        <div class="card mt-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="m-0">
+					<i class="fas fa-user"></i> Personal Info                </h4>
+            </div>
+            <div class="card-body">
+                <div class="mx-0 form-group">
+					Fields marked * are required.                </div>
+				                    <div class="mx-0 form-group success">
+                        <label class="" for="title_before">Title before your name</label>
+                        <input type="text" class="form-control" name="title_before" id="title_before" value="Sir.">
+                        <span class="form-text text-muted help-inline" id="">Enter min. 2 characters</span>
+                    </div>
+				                <div class="mx-0 form-group required success">
+                    <label class="" for="first_name">First Name</label>
+                    <input type="text" class="form-control" name="first_name" id="first_name" value="Juan culin ">
+                    <span class="form-text text-muted help-inline" id="">Enter min. 2 characters</span>
+                </div>
+                <div class="mx-0 form-group required success">
+                    <label class="" for="last_name">Last Name</label>
+                    <input type="text" class="form-control" name="last_name" id="last_name" value="Hediondo ">
+                    <span class="form-text text-muted help-inline" id="">Enter min. 2 characters</span>
+                </div>
+				                    <div class="mx-0 form-group ">
+                        <label class="" for="title_after">Title after your name</label>
+                        <input type="text" class="form-control" name="title_after" id="title_after">
+                        <span class="form-text text-muted help-inline" id="">Enter min. 2 characters</span>
+                    </div>
+				
+                <div class="mx-0 form-group required ">
+                    <label class="" for="phone">Phone</label>
+                    <input class="form-control" type="text" name="phone" id="phone">
+
+                </div>
+
+                <div class="mx-0 form-group ">
+                    <label class="" for="avatar">Photo</label>
+					                    <input type="file" name="avatar_new" id="avatar_new">
+                    <span class="form-text text-muted help-inline">Choose a new image file (type jpg / png / gif). To delete the current one check Delete Image</span>
+                </div>
+            </div>
+        </div>
+
+	    
+		            <div class="card mt-4 shadow-sm">
+                <div class="card-header ">
+                    <a title=" Add Experience" data-modal-icon="fas fa-plus" class="ejmModal_experience btn float-right btn-success btn-sm" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_experience&amp;id=0&amp;tmpl=component">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                    <h4 class="m-0">
+						<i class="fas fa-briefcase text-muted"></i> Experience                    </h4>
+                </div>
+                <div class="card-body p-0">
+                    <div id="experience_container"><div id="experience_list_container_inner">
+
+	        <div class="experience alert alert-warning overflow-h">No items to show</div>
+	
+</div>
+</div>
+                </div>
+            </div>
+            <div class="card mt-4 shadow-sm">
+                <div class="card-header">
+                    <a title=" Add Education" data-modal-icon="fas fa-plus" class="ejmModal_education btn float-right btn-success btn-sm" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_education&amp;id=0&amp;tmpl=component"><i class="fas fa-plus"></i>
+                    </a>
+                    <h4 class="m-0">
+						<i class="fas fa-graduation-cap text-muted"></i> Education                    </h4>
+                </div>
+                <div class="card-body p-0">
+                    <div id="education_container">
+<div id="education_list_container_inner">
+
+			<div class="education alert alert-warning overflow-h">No items to show</div>
+	</div>
+</div>
+                </div>
+            </div>
+            <div class="card mt-4 shadow-sm">
+                <div class="card-header">
+                    <a title=" Add Certificate or Training" data-modal-icon="fas fa-plus" class="ejmModal_certifications btn float-right btn-success btn-sm" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_certification&amp;id=0&amp;tmpl=component">
+                       <i class="fas fa-plus"></i>
+                    </a>
+                    <h4 class="m-0">
+						<i class="fas fa-certificate text-muted"></i> Certifications &amp; Trainings                    </h4>
+                </div>
+                <div class="card-body p-0">
+                    <div id="certifications_container">
+<div id="languages_list_container_inner">
+
+	        <table class="table table-condensed m-0">
+            <thead>
+            <tr>
+                <th class="border-top-0">Description</th>
+                <th class="border-top-0">&nbsp;</th>
+            </tr>
+            </thead>
+            <tbody>
+                            <tr>
+                <td>U'altra cosa</td>
+                <td class="text-right">
+                    <a title="Edit Certificate or Training" data-modal-icon="fas fa-edit" class="ejmModal_certifications_8 btn btn-link btn-sm text-primary p-1" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_certification&amp;id=8&amp;tmpl=component">
+                        <i class="fas fa-edit"></i>
+                    </a>
+                     <a title="Delete" class="btn btn-link btn-sm text-danger p-1" href="javascript:void(0);" onclick="delete_certification(8);">
+                        <i class="fas fa-trash"></i>
+                     </a>
+                </td>
+                </tr>
+                        </tbody>
+            </table>
+
+	</div>
+</div>
+                </div>
+            </div>
+            <div class="card mt-4 shadow-sm">
+                <div class="card-header">
+                    <a title=" Add Language" data-modal-icon="fas fa-plus" class="ejmModal_languages btn float-right btn-success btn-sm" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_language&amp;id=0&amp;tmpl=component">
+                       <i class="fas fa-plus"></i>
+                    </a>
+                    <h4 class="m-0">
+						<i class="text-muted fas fa-language"></i> Languages                    </h4>
+                </div>
+                <div class="card-body p-0">
+                    <div id="languages_container">
+                        
+<div id="languages_list_container_inner">
+
+			<table class="table table-condensed m-0">
+			<thead>
+			<tr>
+				<th class=" border-top-0">Title</th>
+				<th class=" border-top-0">Language Level</th>
+				<th class=" border-top-0">&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+						<tr>
+				<td>
+                    Albanian                </td>
+				<td>
+                    advanced                </td>
+				<td class="text-right">
+					<a title="Edit Language" data-modal-icon="fas fa-edit" class="ejmModal_languages_9 btn btn-link btn-sm  text-primary p-1" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_language&amp;id=9&amp;tmpl=component">
+						<i class="fas fa-edit"></i>
+                    </a>
+					 <a title="Delete" class="btn btn-link btn-sm text-danger p-1" href="javascript:void(0);" onclick="delete_language(9);">
+                         <i class="fas fa-trash"></i>
+                     </a>
+                </td>
+				</tr>
+						<tr>
+				<td>
+                    English                </td>
+				<td>
+                    Intermediate                </td>
+				<td class="text-right">
+					<a title="Edit Language" data-modal-icon="fas fa-edit" class="ejmModal_languages_8 btn btn-link btn-sm  text-primary p-1" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_language&amp;id=8&amp;tmpl=component">
+						<i class="fas fa-edit"></i>
+                    </a>
+					 <a title="Delete" class="btn btn-link btn-sm text-danger p-1" href="javascript:void(0);" onclick="delete_language(8);">
+                         <i class="fas fa-trash"></i>
+                     </a>
+                </td>
+				</tr>
+						</tbody>
+			</table>
+
+
+	</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-4 shadow-sm">
+                <div class="card-header">
+                    <a title=" Add File" data-modal-icon="fas fa-plus" class="ejmModal_files btn float-right btn-success btn-sm" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_file&amp;id=0&amp;tmpl=component"><i class="fas fa-plus"></i>
+                    </a>
+                    <h4 class="m-0">
+						<i class="text-muted fas fa-file"></i> Files                    </h4>
+                </div>
+                <div class="card-body p-0">
+                    <div id="files_container"><div id="experience_list_container_inner">
+
+	
+		<table class="table table-condensed m-0">
+			<thead>
+				<tr>
+					<th class="border-top-0">Title</th>
+					<th class="border-top-0">&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody>
+			
+			<tr>
+				<td><a target="_blank" href="https://demo-ejm.joomboost.com/images/stories/com_easyjobsmanager/files/file_613c969726ca5.jpg">89888</a></td>
+				<td class="text-right">
+					<a title="Edit File" data-modal-icon="fas fa-edit" class="ejmModal_files_5 btn btn-link btn-sm text-primary p-1" href="https://demo-ejm.joomboost.com/index.php?option=com_easyjobsmanager&amp;task=seeker_edit.show_edit_form_file&amp;id=5&amp;tmpl=component">
+						<i class="fas fa-edit"></i>
+					</a>
+
+					<a title="Delete" class=" btn btn-link btn-sm text-danger p-1" href="javascript:void(0);" onclick="delete_file(5);">
+						<i class="fas fa-trash"></i>
+					</a>
+				</td>
+				</tr>
+						</tbody>
+			</table>
+		
+
+	
+</div>
+</div>
+                </div>
+            </div>
+		        <div class="card mt-4">
+            <div class="card-header">
+                <h4 class="m-0">
+					<i class="fas fa-bell text-muted"></i> Preferred Jobs                </h4>
+            </div>
+
+            <div class="card-body">
+	                            <div class="mx-0 form-group required success">
+                    <label class="" for="fields0">Fields</label>
+                    <div id="fields_container" class="overflow-h">
+						                            <select name="fields[]" class="form-control" id="fields0">
+                                <option value="">- Field -</option>
+								<option value="1">Architecture</option>
+<option value="11" selected="selected">Beauty and Fashion</option>
+<option value="15">Community Services</option>
+<option value="14">Construction and Building</option>
+<option value="7">Customer Service and Call Center</option>
+<option value="2">Engineering</option>
+<option value="12">Finance and Investment</option>
+<option value="13">Hospitality and Tourism</option>
+<option value="3">Human Resources and Recruitment</option>
+<option value="4">Information Technology </option>
+<option value="5">Management</option>
+<option value="6">Marketing and PR</option>
+<option value="8">Purchasing and Procurement</option>
+<option value="9">Quality Control</option>
+<option value="10">Teaching and Academics </option>
+                            </select>
+						                            <select name="fields[]" class="form-control" id="fields1">
+                                <option value="">- Field -</option>
+								<option value="1">Architecture</option>
+<option value="11">Beauty and Fashion</option>
+<option value="15" selected="selected">Community Services</option>
+<option value="14">Construction and Building</option>
+<option value="7">Customer Service and Call Center</option>
+<option value="2">Engineering</option>
+<option value="12">Finance and Investment</option>
+<option value="13">Hospitality and Tourism</option>
+<option value="3">Human Resources and Recruitment</option>
+<option value="4">Information Technology </option>
+<option value="5">Management</option>
+<option value="6">Marketing and PR</option>
+<option value="8">Purchasing and Procurement</option>
+<option value="9">Quality Control</option>
+<option value="10">Teaching and Academics </option>
+                            </select>
+						                            <select name="fields[]" class="form-control" id="fields2">
+                                <option value="">- Field -</option>
+								<option value="1">Architecture</option>
+<option value="11">Beauty and Fashion</option>
+<option value="15">Community Services</option>
+<option value="14">Construction and Building</option>
+<option value="7">Customer Service and Call Center</option>
+<option value="2">Engineering</option>
+<option value="12" selected="selected">Finance and Investment</option>
+<option value="13">Hospitality and Tourism</option>
+<option value="3">Human Resources and Recruitment</option>
+<option value="4">Information Technology </option>
+<option value="5">Management</option>
+<option value="6">Marketing and PR</option>
+<option value="8">Purchasing and Procurement</option>
+<option value="9">Quality Control</option>
+<option value="10">Teaching and Academics </option>
+                            </select>
+						                    </div>
+                    <span class="help-inline form-text text-muted mb-3">Choose at least one field, the button ads a choice of another field</span>
+                    <button class="btn btn-primary btn-sm" type="button" onclick="clone_field('fields');"><i class="fas fa-plus"></i> Another Field                    </button>
+
+                </div>
+                <div class="mx-0 form-group required success">
+                    <label class="" for="places0">Locations</label>
+                    <div id="places_container" class="overflow-h">
+						                            <select name="places[]" class="form-control" id="places0">
+                                <option value="">- Location -</option>
+								<option value="6">Cairo</option>
+<option value="3">Casablanca</option>
+<option value="9">Dubai</option>
+<option value="8">London</option>
+<option value="7">Munich</option>
+<option value="1">New Oreanls</option>
+<option value="2" selected="selected">Paris</option>
+<option value="4">Shanghai</option>
+<option value="5">Tokyo</option>
+                            </select>
+						                    </div>
+                    <span class="form-text text-muted help-inline mb-3">Choose at least one location, the button ads a choice of another location</span>
+                    <button class="btn btn-primary btn-sm" type="button" onclick="clone_field('places');"><i class="fas fa-plus"></i> Another Location                    </button>
+                </div>
+                <div class="mx-0 form-group required success">
+                    <label class="" for="preferred_contract_type">Time</label>
+
+                    <select class="form-control custom-select" name="preferred_contract_type" id="preferred_contract_type">
+						<option value="">- Select time type -</option>
+<option value="4">Casual workers</option>
+<option value="3">Fixed-term contract</option>
+<option value="2" selected="selected">Flexi-time</option>
+<option value="1">Full-time</option>
+                    </select>
+
+                    <span class="form-text text-muted help-inline" id="">Choose the time type from the list.</span>
+                </div>
+                <div class="mx-0 form-group required success">
+                    <label class="" for="preferred_contract_type">Contract Relation</label>
+
+                    <select class="form-control custom-select" name="preferred_contract_relation" id="preferred_contract_relation">
+			            <option value="" selected="selected">- Select contract type -</option>
+<option value="2">Business Licence</option>
+<option value="1">Employment Contract</option>
+<option value="3">Fixed-term contract</option>
+<option value="4">Type D</option>
+                    </select>
+
+                    <span class="form-text text-muted help-inline" id="">Choose the contract type from the list.</span>
+                </div>
+            </div>
+        </div>
+        <div class="card mt-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="m-0">
+					<i class="text-muted fas fa-lock"></i> Login Information                </h4>
+            </div>
+            <div class="card-body">
+                <div class="mx-0 form-group required success">
+                    <label class="" for="email">E-mail</label>
+                    <input class="form-control" type="text" name="email" id="email" value="candidate@test.com">
+                    <span class="form-text text-muted help-inline" id="">When changing the e-mail or password, enter the current password</span>
+
+                </div>
+                <div class="mx-0 form-group ">
+                    <label class="" for="password_old">Old Password</label>
+                    <input class="form-control" type="password" name="password_old" id="password_old" value="">
+                    <span class="form-text text-muted help-inline" id="">Enter the old password if you want to change the email or password</span>
+
+                </div>
+                <div class="mx-0 form-group ">
+                    <label class="" for="password">New Password</label>
+                    <input class="form-control" type="password" name="password" id="password" value="">
+                    <span class="form-text text-muted help-inline" id="">Leave it blank to keep the current password</span>
+                </div>
+                <div class="mx-0 form-group ">
+                    <label class="" for="password2">New Password Again</label>
+                    <input class="form-control" type="password" name="password2" id="password2" value="">
+                    <span class="form-text text-muted help-inline" id="">New password again (check spelling)</span>
+
+                </div>
+            </div>
+        </div>
+        <div class="card mt-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="m-0">
+					<i class="text-muted fas fa-cog"></i> Account Settings                </h4>
+            </div>
+            <div class="card-body">
+                                                <div class="form-check mb-3 ">
+                    <input type="hidden" name="notifications" value="0">
+                    <input type="checkbox" class="form-check-input" name="notifications" id="notifications" value="1">
+                    <label class="form-check-label" for="notifications">Receive alerts about new job offers</label>
+
+                    <span class="form-text text-muted help-inline">Check this box to receive notifications of events related to your candidate</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="mx-0 form-group mt-4">
+            <input type="submit" class="btn btn-sm btn-primary" value="Save">
+            <a class="btn btn-secondary btn-sm" href="https://demo-ejm.joomboost.com/component/easyjobsmanager/?view=seeker_dashboard">Back to Profile</a>
+            <input type="hidden" name="option" value="com_easyjobsmanager">
+            <input type="hidden" name="view" value="seeker_edit">
+            <input type="hidden" name="task" value="seeker_edit.save">
+            <input type="hidden" name="firstvisit" value="">
+			<input type="hidden" name="08e41dbe83f6911a0d30a8271a9a3f38" value="1">        </div>
+    </form>
+</div>
+<script type="text/javascript">
+
+    var field_counts = new Array();
+    field_counts['fields'] = 3;
+    field_counts['places'] = 1;
+    field_counts['languages'] = 2;
+
+    function clone_field(name) {
+        let copy = document.querySelector('#' + name + '0').cloneNode(true);
+        copy.setAttribute('id', '' + name + field_counts[name]);
+        copy.classList.add('mt-3')
+        copy.value = '';
+        copy.id = '' + name + field_counts[name];
+
+        document.querySelector('#' + name + '_container').appendChild(copy);
+
+        field_counts[name]++;
+    }
+
+    function delete_experience(id) {
+
+        if (confirm('Are you sure you want to DELETE the experience?')) {
+
+            var datastring = 'option=com_easyjobsmanager&view=seeker_edit&task=seeker_edit.delete_experience';
+            datastring += '&id=' + encodeURIComponent(id);
+            datastring += '&08e41dbe83f6911a0d30a8271a9a3f38=1';
+
+            var ajax = new Request.HTML({
+                url: 'https://demo-ejm.joomboost.com/',
+                method: 'POST',
+                data: datastring,
+                update: 'experience_container'
+            }).send();
+        }
+    }
+
+    function delete_education(id) {
+
+        if (confirm('Are you sure you want to DELETE the education?')) {
+
+            var datastring = 'option=com_easyjobsmanager&view=seeker_edit&task=seeker_edit.delete_education';
+            datastring += '&id=' + encodeURIComponent(id);
+            datastring += '&08e41dbe83f6911a0d30a8271a9a3f38=1';
+
+            var ajax = new Request.HTML({
+                url: 'https://demo-ejm.joomboost.com/',
+                method: 'POST',
+                data: datastring,
+                update: 'education_container'
+            }).send();
+        }
+    }
+
+    function delete_language(id) {
+
+        if (confirm('Are you sure you want to DELETE the language?')) {
+
+            var datastring = 'option=com_easyjobsmanager&view=seeker_edit&task=seeker_edit.delete_language';
+            datastring += '&id=' + encodeURIComponent(id);
+            datastring += '&08e41dbe83f6911a0d30a8271a9a3f38=1';
+
+            var ajax = new Request.HTML({
+                url: 'https://demo-ejm.joomboost.com/',
+                method: 'POST',
+                data: datastring,
+                update: 'languages_container'
+            }).send();
+        }
+    }
+
+    function delete_certification(id) {
+
+        if (confirm('Are you sure you want to DELETE the Certificate/Training?')) {
+
+            var datastring = 'option=com_easyjobsmanager&view=seeker_edit&task=seeker_edit.delete_certification';
+            datastring += '&id=' + encodeURIComponent(id);
+            datastring += '&08e41dbe83f6911a0d30a8271a9a3f38=1';
+
+            var ajax = new Request.HTML({
+                url: 'https://demo-ejm.joomboost.com/',
+                method: 'POST',
+                data: datastring,
+                update: 'certifications_container'
+            }).send();
+        }
+    }
+
+    function delete_file(id) {
+
+        if (confirm('Are you sure you want to DELETE the file?')) {
+
+            var datastring = 'option=com_easyjobsmanager&view=seeker_edit&task=seeker_edit.delete_file';
+            datastring += '&id=' + encodeURIComponent(id);
+            datastring += '&08e41dbe83f6911a0d30a8271a9a3f38=1';
+
+            var ajax = new Request.HTML({
+                url: 'https://demo-ejm.joomboost.com/',
+                method: 'POST',
+                data: datastring,
+                update: 'files_container'
+            }).send();
+        }
+    }
+</script>
+
+</div></main></div></div></div></section><footer id="sp-footer"><div class="container"><div class="container-inner"><div class="row"><div id="sp-footer1" class="col-lg-12 "><div class="sp-column "><span class="sp-copyright">© 2018 Your Company. Designed by <a target="_blank" href="https://www.joomshaper.com/">JoomShaper</a></span></div></div></div></div></div></footer>        </div>
+    </div>
+
+    <!-- Off Canvas Menu -->
+    <div class="offcanvas-overlay"></div>
+    <div class="offcanvas-menu">
+        <a href="#" class="close-offcanvas"><span class="fa fa-remove"></span></a>
+        <div class="offcanvas-inner">
+                            <p class="alert alert-warning">
+                    Publish the Menu module to "offcanvas" position. Here you can publish other modules as well. <br> <a target="_blank" href="https://www.joomshaper.com/documentation/helix-framework/helixultimate#documentation-heading-5_13">Learn More.</a>                </p>
+                    </div>
+    </div>
+
+    
+    
+    
+    <!-- Go to top -->
+            <a href="#" class="sp-scroll-up" aria-label="Scroll Up" style="display: none;"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+            
+<div id="sbox-overlay" aria-hidden="true" style="z-index: 65555; opacity: 0;" tabindex="-1"></div><div id="sbox-window" role="dialog" aria-hidden="true" style="z-index: 65557;" class="shadow"><div id="sbox-content" style="opacity: 0;"></div><a id="sbox-btn-close" href="#" role="button" aria-controls="sbox-window"></a></div></body></html>

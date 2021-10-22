@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="canonical" href="https://demo-ejm.joomboost.com/">
+        <!-- base href="https://demo-ejm.joomboost.com/" -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Easy Jobs Manager - Demo Site - Jobs List (Horizontal)</title>
+        <link href="https://demo-ejm.joomboost.com/templates/shaper_helixultimate/images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+        <link href="candidate_jobs_listing_fichiers/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/bootstrapfix.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/all.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/style.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/iziModal.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/chosen.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/bootstrap_002.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/font-awesome.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/fa-v4-shims.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/template.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/default.css" rel="stylesheet" type="text/css">
+        <link href="candidate_jobs_listing_fichiers/custom.css" rel="stylesheet" type="text/css">
+        <style type="text/css">h1 { font-family: 'Arial', sans-serif; }</style>
+        <script type="application/json" class="joomla-script-options loaded">{
+    "csrf.token": "3ab9a0107cf409035f9cf49bd45776fc",
+    "system.paths": {
+        "root": "",
+        "base": ""
+    },
+    "joomla.jtext": {
+        "JLIB_FORM_FIELD_INVALID": "Invalid field:&#160",
+        "COM_EASYJOBSMANAGER_FAVORITE_0": "Add to Favourites",
+        "COM_EASYJOBSMANAGER_FAVORITE_1": "Remove from Favourites"
+    },
+    "system.keepalive": {
+        "interval": 300000,
+        "uri": "\/component\/ajax\/?format=json"
+    }
+}</script>
+        <script src="candidate_jobs_listing_fichiers/jquery.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/jquery-noconflict.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/jquery-migrate.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/mootools-core-uncompressed.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/core-uncompressed.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/bootstrapfix.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/iziModal.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/easyjobsmanager.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/punycode-uncompressed.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/validate-uncompressed.js" type="text/javascript"></script>
+        <!--[if lt IE 9]><script src="/media/system/js/polyfill.event-uncompressed.js?cdb4a713cb8b893011ce035d2a395804" type="text/javascript"></script><![endif]-->
+        <script src="candidate_jobs_listing_fichiers/keepalive-uncompressed.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/chosen.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/jobs-filter.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/favoritetoggler.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/bootstrap_002.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/popper.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/bootstrap.js" type="text/javascript"></script>
+        <script src="candidate_jobs_listing_fichiers/main.js" type="text/javascript"></script>
+        <script type="text/javascript">
+
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find("#filter_advertiser").chosen({
+    "disable_search_threshold": 10,
+    "search_contains": true,
+    "allow_single_deselect": true,
+    "placeholder_text_multiple": "Type or select some options",
+    "placeholder_text_single": "Select an option",
+    "no_results_text": "No results match"
+});
+		}
+	});
+	
+template="shaper_helixultimate";
+	</script>
+    </head>
+    <body class="site helix-ultimate com-easyjobsmanager view-jobs layout-default task-none itemid-224 en-gb ltr sticky-header layout-fluid offcanvas-init offcanvs-position-right">
+        <div class="body-wrapper">
+            <div class="body-innerwrapper">
+                <div id="sp-top-bar">
+                    <div class="container">
+                        <div class="container-inner">
+                            <div class="row">
+                                <div id="sp-top1" class="col-lg-6">
+                                    <div class="sp-column text-center text-lg-left">
+                                        <ul class="social-icons">
+                                            <li class="social-icon-facebook">
+                                                <a target="_blank" href="https://www.facebook.com/joomboost" aria-label="facebook"><span class="fa fa-facebook" aria-hidden="true"></span></a>
+                                            </li>
+                                            <li class="social-icon-twitter">
+                                                <a target="_blank" href="https://twitter.com/joomboost" aria-label="twitter"><span class="fa fa-twitter" aria-hidden="true"></span></a>
+                                            </li>
+                                            <li class="social-icon-pinterest">
+                                                <a target="_blank" href="https://joomtestimonials-demo.joomboost.com/#" aria-label="Pinterest"><span class="fa fa-pinterest" aria-hidden="true"></span></a>
+                                            </li>
+                                            <li class="social-icon-linkedin">
+                                                <a target="_blank" href="https://www.linkedin.com/company/joomboost" aria-label="LinkedIn"><span class="fa fa-linkedin" aria-hidden="true"></span></a>
+                                            </li>
+                                            <li class="social-icon-custom">
+                                                <a target="_blank" href="https://feeds.feedburner.com/joomboost-news"><span class="fa fa-rss" aria-hidden="true"></span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div id="sp-top2" class="col-lg-6">
+                                    <div class="sp-column text-center text-lg-right">
+                                        <div class="sp-module ">
+                                            <div class="sp-module-content">
+                                                <div class="custom">
+                                                    <a class="btn btn-sm btn-success" href="https://www.joomboost.com/joomla-components/145-easy-jobs-manager.html" target="_blank">Visit product page</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <header id="sp-header">
+                    <div class="container">
+                        <div class="container-inner">
+                            <div class="row" style="position: relative;">
+                                <div id="sp-menu" class="col-4 col-lg-9" style="position: static;">
+                                    <div class="sp-column">
+                                        <nav class="sp-megamenu-wrapper" role="navigation">
+                                            <a id="offcanvas-toggler" aria-label="Navigation" class="offcanvas-toggler-right d-block d-lg-none" href="#"><i class="fa fa-bars" aria-hidden="true" title="Navigation"></i></a>
+                                            <ul class="sp-megamenu-parent menu-animation-fade-up d-none d-lg-block">
+                                                <li class="sp-menu-item">
+                                                    <a href="https://demo-ejm.joomboost.com/reply-to-advertisement">Apply a Job</a>
+                                                </li>
+                                                <li class="sp-menu-item">
+                                                    <a href="https://demo-ejm.joomboost.com/candidate-dashboard">Candidate Dashboard</a>
+                                                </li>
+                                                <li class="sp-menu-item">
+                                                    <a href="#">Logout</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>                 
+
+                <section id="sp-section-1">
+                    <div class="row">
+                        <div id="sp-title" class="col-lg-12 ">
+                            <div class="sp-column "></div>
+                        </div>
+                    </div>
+                </section>
+                <section id="sp-main-body">
+                    <div class="container">
+                        <div class="container-inner">
+                            <div class="row">
+                                <main id="sp-component" class="col-lg-12 " role="main">
+                                    <div class="sp-column ">
+                                        <div id="system-message-container">
+</div>
+                                        <div class="com_easyjobsmanager" id="jb_template">
+                                            <div class="page-header mb-4">
+                                                <h1>Jobs List (Horizontal)</h1>
+                                            </div>
+                                            <form class="form jobsFilterForm" id="adminForm" action="/" method="post">
+                                                <input type="hidden" name="option" value="com_easyjobsmanager">
+                                                <input type="hidden" name="view" value="jobs">
+                                                <input type="hidden" name="task" value="">
+                                                <input type="hidden" name="filter_advertiser" value="">
+                                                <input type="hidden" name="filter_order" id="filter_order" value="j.publish_up">
+                                                <input type="hidden" name="filter_order_Dir" id="filter_order_Dir" value="DESC">
+                                                <input type="hidden" name="reset_filters" value="0">
+                                                <div class="filters jobs-filters mb-4 card">
+                                                    <div class="card-body">
+                                                        <div class="form-row">
+                                                            <div class="col mb-3">
+                                                                <input class="filter_search form-control" type="text" name="filter_search" id="filter_search" placeholder="Keyword...">
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-row">
+                                                            <div class="col-md-3 mb-3 mb-md-0">
+                                                                <select id="filter_place" name="filter_place" class="form-control custom-select">
+                                                                    <option value="0" data-latitude="0.000000" data-longitude="0.000000" selected="selected">- Location -</option>
+                                                                    <option value="6" data-latitude="0.000000" data-longitude="0.000000">Cairo</option>
+                                                                    <option value="3" data-latitude="0.000000" data-longitude="0.000000">Casablanca</option>
+                                                                    <option value="9" data-latitude="0.000000" data-longitude="0.000000">Dubai</option>
+                                                                    <option value="8" data-latitude="0.000000" data-longitude="0.000000">London</option>
+                                                                    <option value="7" data-latitude="0.000000" data-longitude="0.000000">Munich</option>
+                                                                    <option value="1" data-latitude="0.000000" data-longitude="0.000000">New Oreanls</option>
+                                                                    <option value="2" data-latitude="0.000000" data-longitude="0.000000">Paris</option>
+                                                                    <option value="4" data-latitude="0.000000" data-longitude="0.000000">Shanghai</option>
+                                                                    <option value="5" data-latitude="0.000000" data-longitude="0.000000">Tokyo</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3 mb-md-0">
+                                                                <select class="form-control custom-select" name="filter_field" id="filter_field">
+                                                                    <option value="" selected="selected">- Field -</option>
+                                                                    <option value="1">Architecture</option>
+                                                                    <option value="11">Beauty and Fashion</option>
+                                                                    <option value="15">Community Services</option>
+                                                                    <option value="14">Construction and Building</option>
+                                                                    <option value="7">Customer Service and Call Center</option>
+                                                                    <option value="2">Engineering</option>
+                                                                    <option value="12">Finance and Investment</option>
+                                                                    <option value="13">Hospitality and Tourism</option>
+                                                                    <option value="3">Human Resources and Recruitment</option>
+                                                                    <option value="4">Information Technology </option>
+                                                                    <option value="5">Management</option>
+                                                                    <option value="6">Marketing and PR</option>
+                                                                    <option value="8">Purchasing and Procurement</option>
+                                                                    <option value="9">Quality Control</option>
+                                                                    <option value="10">Teaching and Academics </option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3 mb-md-0">
+                                                                <select class="form-control custom-select" name="filter_contract_type" id="filter_contract_type">
+                                                                    <option value="" selected="selected">- Time -</option>
+                                                                    <option value="4">Casual workers</option>
+                                                                    <option value="3">Fixed-term contract</option>
+                                                                    <option value="2">Flexi-time</option>
+                                                                    <option value="1">Full-time</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-md-3 mb-3 mb-md-0">
+                                                                <select class="form-control custom-select" name="filter_advertiser" id="filter_advertiser" style="display: none;">
+                                                                    <option value="" selected="selected">- Company -</option>
+                                                                    <option value="512">Alpha Co.</option>
+                                                                    <option value="513">Trendy</option>
+                                                                    <option value="514">Lock and chill</option>
+                                                                    <option value="515">Decor'in</option>
+                                                                    <option value="516">Electro Industry</option>
+                                                                    <option value="517">Circles Co</option>
+                                                                    <option value="518">Computer Cool</option>
+                                                                    <option value="519">Nexus Co.</option>
+                                                                    <option value="520">Plumes co.</option>
+                                                                    <option value="521">ICAS</option>
+                                                                    <option value="524">GZ</option>
+                                                                    <option value="528">test</option>
+                                                                    <option value="529">Joomboost</option>
+                                                                    <option value="531">Iridium Partners</option>
+                                                                    <option value="533">MD</option>
+                                                                    <option value="541">GELUSA</option>
+                                                                    <option value="543">Kalimati Digital</option>
+                                                                    <option value="547">XX</option>
+                                                                    <option value="549">LEDot</option>
+                                                                    <option value="550">Smartly Yours</option>
+                                                                    <option value="554">Elmas</option>
+                                                                    <option value="555">Elmas</option>
+                                                                    <option value="559">test 12346</option>
+                                                                    <option value="561">test</option>
+                                                                    <option value="562">Ranger PR</option>
+                                                                    <option value="563">PAO</option>
+                                                                    <option value="569">Farixa Empresa</option>
+                                                                    <option value="570">Thirdshifter</option>
+                                                                    <option value="523"></option>
+                                                                    <option value="694">steptosell</option>
+                                                                    <option value="702">Church of Christ</option>
+                                                                    <option value="701"></option>
+                                                                    <option value="703">ABC Co., Ltd.</option>
+                                                                    <option value="704">Demo</option>
+                                                                </select>
+                                                                <div class="chzn-container chzn-container-single" style="width: 260px;" title="" id="filter_advertiser_chzn">
+                                                                    <a class="chzn-single"><span>- Company -</span><div>
+                                                                            <b></b>
+                                                                        </div></a>
+                                                                    <div class="chzn-drop">
+                                                                        <div class="chzn-search">
+                                                                            <input type="text" autocomplete="off">
+                                                                        </div>
+                                                                        <ul class="chzn-results"></ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer">
+                                                        <div class="row">
+                                                            <div class="col-6 col-md-8">
+                                                                <button id="filterJobs" class="btn btn-sm btn-primary" type="submit">
+                                                                    <i class="fas fa-filter"></i> Filter                    
+                                                                </button>
+                                                                <button id="ejm-clear-filter" class="clear-filter btn btn-sm btn-danger" type="button">
+                                                                    <i class="fas fa-times"></i> Reset                    
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                            <div class="card mb-4 contract-type-1">
+                                                <div class="card-body d-block d-md-flex">
+                                                    <div class="d-sm-block flex-md-shrink-1 pr-md-3 mb-3 mb-md-0">
+                                                        <a href="https://demo-ejm.joomboost.com/job/7-accommodation-director"> <img src="candidate_jobs_listing_fichiers/logo_5b59bd111768e.jpg" alt="logo"> </a>
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="card-title">
+                                                            <div id="ejm-toggle-favorite-7" class="d-inline-block float-right">
+                                                                <button class="btn btn-sm btn-warning" data-ejm-toggle="favorite" data-ejm-newstate="0" data-ejm-item-id="7" data-ejm-item-type="job" data-toggle="tooltip" title="" data-original-title="Remove from Favourites	">
+                                                                    <i class="far fa-star"></i>
+                                                                </button>
+                                                            </div>
+                                                            <h5 class="m-0"> <a href="https://demo-ejm.joomboost.com/job/7-accommodation-director">
+				            Accommodation Director                        </a> </h5>
+                                                        </div>
+                                                        <p class="jb-description m-0">
+		            &nbsp;Work with budgets, planning, creating schedules and 
+manage day-to-day operations. &nbsp;Deal with maintenance issues, 
+shortages in equipment, renovations and all logistic procedures. 
+&nbsp;Ensure that...                </p>
+                                                        <p class="m-0 pt-3 text-muted">
+			            By company <strong><a href="https://demo-ejm.joomboost.com/advertiser/520-plumes-co">Plumes co.</a></strong> </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer bg-white">
+                                                    <ul class="list-inline m-0 p-0">
+                                                        <li class="list-inline-item bg-light py-1 px-2 mr-0 mr-md-2 d-block d-sm-block d-md-inline-block">
+                                                            <i class="fas fa-calendar mr-2"></i>25 July 2019                
+                                                        </li>
+                                                        <li class="list-inline-item bg-light py-1 px-2 mt-1 mt-md-0 mr-0 mr-md-2 d-block d-sm-block d-md-inline-block">
+                                                            <i class="fas fa-info-circle  mr-2"></i>
+                                                            Hospitality and Tourism                    
+                                                        </li>
+                                                        <li class="list-inline-item bg-light py-1 px-2 mt-1 mt-md-0 mr-0 mr-md-2 d-block d-sm-block d-md-inline-block">
+                                                            <i class="fas fa-map-marker mr-2"></i>London                    
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="card mb-4 contract-type-2">
+                                                <div class="card-body d-block d-md-flex">
+                                                    <div class="d-sm-block flex-md-shrink-1 pr-md-3 mb-3 mb-md-0">
+                                                        <a href="https://demo-ejm.joomboost.com/job/6-nurse-dental-experience"> <img src="candidate_jobs_listing_fichiers/logo_5b5798fd3b5e6.png" alt="logo"> </a>
+                                                    </div>
+                                                    <div class="w-100">
+                                                        <div class="card-title">
+                                                            <div id="ejm-toggle-favorite-6" class="d-inline-block float-right">
+                                                                <button class="btn btn-sm btn-light" data-ejm-toggle="favorite" data-ejm-newstate="1" data-ejm-item-id="6" data-ejm-item-type="job" data-toggle="tooltip" title="" data-original-title="Add to Favourites	">
+                                                                    <i class="far fa-star"></i>
+                                                                </button>
+                                                            </div>
+                                                            <h5 class="m-0"> <a href="https://demo-ejm.joomboost.com/job/6-nurse-dental-experience">
+				            Nurse - Dental Experience                        </a> </h5>
+                                                        </div>
+                                                        <p class="jb-description m-0">
+		            Assist doctors (Cosmetic Dentistry/Orthodontist) Prepares 
+treatment room for patient by following prescribed procedures and 
+protocols. Prepares patient for dental treatment by welcoming, 
+comforting,...                </p>
+                                                        <p class="m-0 pt-3 text-muted">
+			            By company <strong><a href="https://demo-ejm.joomboost.com/advertiser/521-icas">ICAS</a></strong> </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card-footer bg-white">
+                                                    <ul class="list-inline m-0 p-0">
+                                                        <li class="list-inline-item bg-light py-1 px-2 mr-0 mr-md-2 d-block d-sm-block d-md-inline-block">
+                                                            <i class="fas fa-calendar mr-2"></i>25 July 2019                
+                                                        </li>
+                                                        <li class="list-inline-item bg-light py-1 px-2 mt-1 mt-md-0 mr-0 mr-md-2 d-block d-sm-block d-md-inline-block">
+                                                            <i class="fas fa-info-circle  mr-2"></i>
+                                                            Beauty and Fashion                    
+                                                        </li>
+                                                        <li class="list-inline-item bg-light py-1 px-2 mt-1 mt-md-0 mr-0 mr-md-2 d-block d-sm-block d-md-inline-block">
+                                                            <i class="fas fa-map-marker mr-2"></i>Casablanca                    
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="pagination d-flex mt-3">
+                                                <div class="flex-grow-1">
+                                                    <ul class="pagination">
+                                                        <li class="page-item active">
+                                                            <a class="page-link">1</a>
+                                                        </li>
+                                                        <li class="page-item">
+                                                            <a class="page-link " href="https://demo-ejm.joomboost.com/?start=6" title="2">2</a>
+                                                        </li>
+                                                        <li class="page-item">
+                                                            <a class="page-link next" href="https://demo-ejm.joomboost.com/?start=6" title="»">»</a>
+                                                        </li>
+                                                        <li class="page-item">
+                                                            <a class="page-link " href="https://demo-ejm.joomboost.com/?start=6" title="End">End</a>
+                                                        </li>
+                                                    </ul>                                                     
+                                                </div>
+                                                <div class="item-s align-self-center"> Page 1 of 2 </div>
+                                            </div>
+                                        </div>
+                                        <script type="text/javascript">
+        function toogle_favorite_job( id, state ){
+
+            $ = jQuery;
+
+            if( state == 1 ){
+                var datastring = 'option=com_easyjobsmanager&task=misc.add_favorite_job';
+            }else{
+                var datastring = 'option=com_easyjobsmanager&task=misc.remove_favorite_job';
+            }
+            datastring += '&id_job=' + id;
+            datastring += '&ajax=1';
+            datastring += '&3ab9a0107cf409035f9cf49bd45776fc=1';
+
+            var ajax = new Request.HTML({
+                url: 'https://demo-ejm.joomboost.com/',
+                method: 'POST',
+                data: datastring,
+                onComplete: function(){
+
+                    var toogle = $('fav_toogle_'+id);
+
+					                    var icon = $('fav_toogle_icon_'+id);
+                    var icoclass = 'text-warning fas fa-2x fa-star';
+
+                    if(!state){
+                        icoclass = 'text-warning far fa-2x fa-star';
+                    }
+                    icon.className = icoclass;
+					
+                    if( state == 1 ){
+                        toogle.onclick = function(){toogle_favorite_job(id, 0);};
+                        toogle.title = 'Remove from Favourites';
+                    }else{
+                        toogle.onclick = function(){toogle_favorite_job(id, 1);};
+                        toogle.title = 'Add to Favourites';
+                    }
+                }
+            }).send();
+
+            return true;
+        }
+	</script>
+                                    </div>
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer id="sp-footer">
+                    <div class="container">
+                        <div class="container-inner">
+                            <div class="row">
+                                <div id="sp-footer1" class="col-lg-12 ">
+                                    <div class="sp-column ">
+                                        <span class="sp-copyright">© 2018 Your Company. Designed by <a target="_blank" href="https://www.joomshaper.com/">JoomShaper</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>                 
+            </div>
+        </div>
+        <!-- Off Canvas Menu -->
+        <div class="offcanvas-overlay"></div>
+        <div class="offcanvas-menu">
+            <a href="#" class="close-offcanvas"><span class="fa fa-remove"></span></a>
+            <div class="offcanvas-inner">
+                <p class="alert alert-warning">
+                    Publish the Menu module to "offcanvas" position. Here you can publish other modules as well. <br> <a target="_blank" href="https://www.joomshaper.com/documentation/helix-framework/helixultimate#documentation-heading-5_13">Learn More.</a> </p>
+            </div>
+        </div>
+        <!-- Go to top -->
+        <a href="#" class="sp-scroll-up" aria-label="Scroll Up"><span class="fa fa-chevron-up" aria-hidden="true"></span></a>
+    </body>
+</html>

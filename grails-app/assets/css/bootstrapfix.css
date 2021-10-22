@@ -1,0 +1,121 @@
+#jb_template .form-control {
+    height: initial;
+}
+
+#jb_template .multiple-select .form-control > select{
+    border: none;
+    width: 100%;
+}
+
+#jb_template .btn-warning, #jb_template .btn-warning:hover{
+    color: white;
+}
+
+#jb_template .close-button{
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    padding: 0px;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+}
+
+#jb_template ul.list-group{
+    margin: 0px;
+}
+
+/* Small Devices */
+@media only screen and (max-width: 576px){
+    #jb_template h3{
+        font-size: 1.2rem;
+    }
+
+    #jb_template select .mt-sm-2{
+        margin-top: 0.5rem !important;
+    }
+
+    #jb_template select{
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    #jb_template .edit-button{
+        bottom: 10px;
+    }
+}
+
+#jb_template .btn-disable:hover{
+    pointer: initial !important;
+}
+
+/* fix modal in some templates */
+#jb_template .modal {
+    margin: initial;
+    width: 100%;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+#jb_template .overflow-hidden{
+    overflow: hidden;
+}
+#jb_template .chzn-container-multi .chzn-choices,#jb_template .chzn-container-single .chzn-single {
+    padding: 0.375rem 0.75rem;
+    height: initial;
+
+}
+#jb_template.joomrecipe_search .chzn-container.chzn-container-single{
+    width: 77% !important;;
+}
+
+#jb_template input {
+    height: initial;
+}
+
+#jb_template .radio,#jb_template  .checkbox{
+ /*   margin:initial;
+    padding:initial; */
+}
+/*
+#jb_template .card .btn-group{
+    display: initial !important;
+}
+#jb_template .YesNo{
+    display: block !important;
+}*/
+
+#jb_template .fade{
+     opacity:  initial !important;
+}
+
+
+#jb_template .nav-tabs > .active > a, #jb_template .nav-tabs > .active > a:hover, #jb_template .nav-tabs > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+#jb_template .nav-tabs .nav-link{
+    display: block !important;
+}
+
+#jb_template .calendar-container{
+    max-width: 350px;
+}
+
+#jb_template .calendar-container .title{
+    padding-bottom: 0px !important;
+}
+#jb_template .media, .jb_template .media {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
